@@ -1,10 +1,30 @@
 # sky130_cds
+<pre>
+James E. Stine, Jr.
+james.stine@okstate.edu 
+Oklahoma State University
+School of Electrical and Computer Engineering
+VLSI Computer Architecture Research Group
+
+Rachana Erra
+rachana.erra@okstate.edu
+Oklahoma State University
+School of Electrical and Computer Engineering
+VLSI Computer Architecture Research Group
+</pre>
+
+
+
+
+
 Repository for SKY130 Process Design Kit and Cadence Design System tools. 
 
 **Sample Designs:**<br/>
 Right now there are two sample designs in the repository. One repository has a purely combinational design (mult.sv) and the other is a combination of combinational and sequential (mult_seq.sv). Right now, the mult_seq design is set up but can be easily modified and changed, if needed.
 
 ![mult_seq](Images/mult_seq.png)
+
+**Steps to run synthesis and pnr:**
 
 1. git clone git@github.com:stineje/sky130_cds.git
 
