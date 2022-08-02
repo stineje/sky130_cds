@@ -20,7 +20,7 @@ VLSI Computer Architecture Research Group
 Repository for SKY130 Process Design Kit and Cadence Design System tools. 
 
 **Sample Designs:**<br/>
-Right now there are two sample designs in the repository. One repository has a purely combinational design (mult.sv) and the other is a combination of combinational and sequential (mult_seq.sv). Right now, the mult_seq design is set up but can be easily modified and changed, if needed.
+Right now there are two sample designs in the repository. One is a purely combinational design (mult.sv) and the other is a combination of combinational and sequential (mult_seq.sv). Right now, the mult_seq design is set up but can be easily modified and changed, if needed.
 
 ![mult_seq](Images/mult_seq.png)
 
