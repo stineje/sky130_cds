@@ -4,9 +4,7 @@ Repository for SKY130 Process Design Kit and Cadence Design System tools
 1. git clone git@github.com:stineje/sky130_cds.git
 
 2. Set up PDK:
-
    a. cd sky130_cds
-
    b. git submodule update --init --recursive 
 
 3. Run synthesis:
