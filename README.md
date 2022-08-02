@@ -1,4 +1,22 @@
 # sky130_cds
+<pre>
+James E. Stine, Jr.
+james.stine@okstate.edu 
+Oklahoma State University
+School of Electrical and Computer Engineering
+VLSI Computer Architecture Research Group
+
+Rachana Erra
+rachana.erra@okstate.edu
+Oklahoma State University
+School of Electrical and Computer Engineering
+VLSI Computer Architecture Research Group
+</pre>
+
+
+
+
+
 Repository for SKY130 Process Design Kit and Cadence Design System tools. 
 
 **Sample Designs:**<br/>
