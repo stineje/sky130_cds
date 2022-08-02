@@ -24,7 +24,7 @@ Right now there are two sample designs in the repository. One is a purely combin
 
 ![mult_seq](Images/mult_seq.png)
 
-**Steps to run synthesis and pnr:**
+**Instructions to run synthesis and pnr:**
 
 1. git clone git@github.com:stineje/sky130_cds.git
 
