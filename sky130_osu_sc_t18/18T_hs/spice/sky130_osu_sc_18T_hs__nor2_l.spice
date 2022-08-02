@@ -1,0 +1,35 @@
+* File: sky130_osu_sc_18T_hs__nor2_l.spice
+* Created: Thu Oct 29 17:09:17 2020
+* Program "Calibre xRC"
+* Version "v2020.2_35.23"
+* 
+.include "sky130_osu_sc_18T_hs__nor2_l.pex.spice"
+.subckt sky130_osu_sc_18T_hs__nor2_l  GND VDD B A Y
+* 
+* Y	Y
+* A	A
+* B	B
+* VDD	VDD
+* GND	GND
+MM1001 N_Y_M1001_d N_B_M1001_g N_GND_M1001_s N_GND_M1001_b NLOWVT L=0.15 W=0.74
++ AD=0.1036 AS=0.1961 PD=1.02 PS=2.01 NRD=0 NRS=0 M=1 R=4.93333 SA=75000.2
++ SB=75000.6 A=0.111 P=1.78 MULT=1
+MM1000 N_GND_M1000_d N_A_M1000_g N_Y_M1001_d N_GND_M1001_b NLOWVT L=0.15 W=0.74
++ AD=0.1961 AS=0.1036 PD=2.01 PS=1.02 NRD=0 NRS=0 M=1 R=4.93333 SA=75000.6
++ SB=75000.2 A=0.111 P=1.78 MULT=1
+MM1003 A_110_817# N_B_M1003_g N_Y_M1003_s N_VDD_M1003_b PSHORT L=0.15 W=2
++ AD=0.21 AS=0.53 PD=2.21 PS=4.53 NRD=4.9053 NRS=0 M=1 R=13.3333 SA=75000.2
++ SB=75000.5 A=0.3 P=4.3 MULT=1
+MM1002 N_VDD_M1002_d N_A_M1002_g A_110_817# N_VDD_M1003_b PSHORT L=0.15 W=2
++ AD=0.53 AS=0.21 PD=4.53 PS=2.21 NRD=0 NRS=4.9053 M=1 R=13.3333 SA=75000.5
++ SB=75000.2 A=0.3 P=4.3 MULT=1
+DX4_noxref N_GND_M1001_b N_VDD_M1003_b NWDIODE A=5.605 P=10.55
+pX5_noxref noxref_7 B B PROBETYPE=1
+pX6_noxref noxref_8 Y Y PROBETYPE=1
+pX7_noxref noxref_9 A A PROBETYPE=1
+*
+.include "sky130_osu_sc_18T_hs__nor2_l.pxi.spice"
+*
+.ends
+*
+*

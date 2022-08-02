@@ -1,0 +1,423 @@
+<HTML><BODY TEXT="#000000"  LINK="#0000FF" VLINK="#0000FF" ALINK="#00FFFF"><TABLE BORDER=0 CELLSPACING=0 CELLPADDING=5 WIDTH=100%>
+<TR align=center><th align=left><H1><font size=+3>SKY130_OSU_SC_18T_LS__MUX2</font></H1></th>
+<TR align=center><th align=left></th><th align=right><h5><em><A>sky130_osu_sc_18T_ls_ff_1P95_-40C.ccs Cell Library: Process , Voltage 1.95, Temp -40.00 </A></em></h5></th></TR>
+</TABLE>
+<HR>
+<BR>
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=100%>
+<TR ALIGN=LEFT VALIGN=TOP><TH><FONT SIZE=+2><B>Truth Table</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4>
+<TR valign=middle><TH colspan=3><font size=3>INPUT</font></TH>
+<TH colspan=1><font size=3>OUTPUT</font></TH>
+<TR><Th>A0</Th><Th>A1</Th><Th>S0</Th><Th>Y</Th></TR>
+<TR><Th><font size=2>0</font></Th><Th><font size=2>0</font></Th><Th><font size=2>x</font></Th><Th><font size=2>0</font></Th></TR>
+<TR><Th><font size=2>0</font></Th><Th><font size=2>1</font></Th><Th><font size=2>0</font></Th><Th><font size=2>0</font></Th></TR>
+<TR><Th><font size=2>x</font></Th><Th><font size=2>1</font></Th><Th><font size=2>1</font></Th><Th><font size=2>1</font></Th></TR>
+<TR><Th><font size=2>1</font></Th><Th><font size=2>x</font></Th><Th><font size=2>0</font></Th><Th><font size=2>1</font></Th></TR>
+<TR><Th><font size=2>1</font></Th><Th><font size=2>0</font></Th><Th><font size=2>1</font></Th><Th><font size=2>0</font></Th></TR>
+</TABLE>
+</TR></TABLE>
+<BR>
+<FONT SIZE=+2><B>Footprint</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=60%>
+<TR valign=middle><TH>Cell Name</TH><TH>Area</TH></TR>
+<TR><TH><FONT>sky130_osu_sc_18T_ls__mux2_1</FONT></TH>
+<TD align=center>18.31500</TD></TR>
+</TABLE>
+<BR>
+<BR>
+<FONT SIZE=+2><B>Pin Capacitance Information</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH>
+<TH colspan=3>Pin Cap(pf) </TH>
+<TH colspan=1>Max Cap(pf) </TH>
+</TR>
+<TR>
+<TH>A0</TH>
+<TH>A1</TH>
+<TH>S0</TH>
+<TH>Y</TH>
+</TR>
+<TR><Th><font>sky130_osu_sc_18T_ls__mux2_1</font></Th>
+<TD align=center>0.88061</TD>
+<TD align=center>0.88167</TD>
+<TD align=center>0.01086</TD>
+<TD align=center>0.90548</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+<FONT SIZE=+2><B>Leakage Information</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH><TH colspan=3>Leakage(nW)</TH>
+</TR><TR><TH>Min.</TH><TH>Avg</TH><TH>Max.</TH></TR>
+<TR><Th><font>sky130_osu_sc_18T_ls__mux2_1</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00606</TD>
+<TD align=center>0.01171</TD>
+</TABLE>
+<BR>
+<!--NewPage-->
+<BR>
+<FONT SIZE=+2><B>Delay Information</B></FONT>
+<BR>
+<BR>
+<FONT><B>Delay(ns) to Y rising (conditional):</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH><TH rowspan=2>Timing Arc(Dir)</TH>
+<TH rowspan=2>When</TH>
+<TH colspan=3>Delay(ns)</TH></TR><TR><TH>First</TH><TH>Mid</TH><TH>Last</TH></TR>
+<BR>
+<TR><TH rowspan=4>sky130_osu_sc_18T_ls__mux2_1</TH>
+<Th><font>A0->Y (RR)</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>0.01061</TD>
+<TD align=center>0.21771</TD>
+<TD align=center>2.46446</TD>
+</TR>
+<TR>
+<Th><font>A1->Y (RR)</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>0.01158</TD>
+<TD align=center>0.21870</TD>
+<TD align=center>2.46484</TD>
+</TR>
+<TR>
+<Th><font>S0->Y (RR)</font></Th>
+<Th><font>(!A0 * A1)</font></Th>
+<TD align=center>0.03509</TD>
+<TD align=center>0.20103</TD>
+<TD align=center>0.99633</TD>
+</TR>
+<TR>
+<Th><font>S0->Y (FR)</font></Th>
+<Th><font>(A0 * !A1)</font></Th>
+<TD align=center>0.03763</TD>
+<TD align=center>0.37473</TD>
+<TD align=center>3.89456</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+<FONT><B>Delay(ns) to Y falling (conditional):</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH><TH rowspan=2>Timing Arc(Dir)</TH>
+<TH rowspan=2>When</TH>
+<TH colspan=3>Delay(ns)</TH></TR><TR><TH>First</TH><TH>Mid</TH><TH>Last</TH></TR>
+<BR>
+<TR><TH rowspan=4>sky130_osu_sc_18T_ls__mux2_1</TH>
+<Th><font>A0->Y (FF)</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>0.00990</TD>
+<TD align=center>0.23445</TD>
+<TD align=center>2.71023</TD>
+</TR>
+<TR>
+<Th><font>A1->Y (FF)</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>0.01011</TD>
+<TD align=center>0.23290</TD>
+<TD align=center>2.69536</TD>
+</TR>
+<TR>
+<Th><font>S0->Y (FF)</font></Th>
+<Th><font>(!A0 * A1)</font></Th>
+<TD align=center>0.05136</TD>
+<TD align=center>0.35831</TD>
+<TD align=center>3.17982</TD>
+</TR>
+<TR>
+<Th><font>S0->Y (RF)</font></Th>
+<Th><font>(A0 * !A1)</font></Th>
+<TD align=center>0.02131</TD>
+<TD align=center>0.24115</TD>
+<TD align=center>2.18044</TD>
+</TR>
+</TABLE>
+<BR>
+<!--NewPage-->
+<BR>
+<FONT SIZE=+2><B>Power Information</B></FONT>
+<BR>
+<BR>
+<FONT><B>Internal switching power(pJ) to Y rising (conditional):</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH><TH rowspan=2>Input</TH>
+<TH rowspan=2>When</TH>
+<TH colspan=3>Power(pJ)</TH></TR><TR><TH>first</TH><TH>mid</TH><TH>last</TH></TR>
+<TR><TH rowspan=8>sky130_osu_sc_18T_ls__mux2_1</TH>
+<Th><font>A0</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>A0</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>-0.00910</TD>
+<TD align=center>-0.00911</TD>
+<TD align=center>-0.00912</TD>
+</TR>
+<TR>
+<Th><font>A1</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>A1</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>-0.00616</TD>
+<TD align=center>-0.00617</TD>
+<TD align=center>-0.00617</TD>
+</TR>
+<TR>
+<Th><font>S0</font></Th>
+<Th><font>(A0 * !A1)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>S0</font></Th>
+<Th><font>(A0 * !A1)</font></Th>
+<TD align=center>0.00991</TD>
+<TD align=center>0.01311</TD>
+<TD align=center>0.08391</TD>
+</TR>
+<TR>
+<Th><font>S0</font></Th>
+<Th><font>(!A0 * A1)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>S0</font></Th>
+<Th><font>(!A0 * A1)</font></Th>
+<TD align=center>-0.00622</TD>
+<TD align=center>-0.00402</TD>
+<TD align=center>0.06573</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+<FONT><B>Internal switching power(pJ) to Y falling (conditional):</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH><TH rowspan=2>Input</TH>
+<TH rowspan=2>When</TH>
+<TH colspan=3>Power(pJ)</TH></TR><TR><TH>first</TH><TH>mid</TH><TH>last</TH></TR>
+<TR><TH rowspan=8>sky130_osu_sc_18T_ls__mux2_1</TH>
+<Th><font>A0</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>A0</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>0.00910</TD>
+<TD align=center>0.00911</TD>
+<TD align=center>0.00912</TD>
+</TR>
+<TR>
+<Th><font>A1</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>A1</font></Th>
+<Th><font>-</font></Th>
+<TD align=center>0.00616</TD>
+<TD align=center>0.00617</TD>
+<TD align=center>0.00617</TD>
+</TR>
+<TR>
+<Th><font>S0</font></Th>
+<Th><font>(A0 * !A1)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>S0</font></Th>
+<Th><font>(A0 * !A1)</font></Th>
+<TD align=center>0.00160</TD>
+<TD align=center>0.00363</TD>
+<TD align=center>0.07497</TD>
+</TR>
+<TR>
+<Th><font>S0</font></Th>
+<Th><font>(!A0 * A1)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>S0</font></Th>
+<Th><font>(!A0 * A1)</font></Th>
+<TD align=center>0.02334</TD>
+<TD align=center>0.02581</TD>
+<TD align=center>0.09519</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+<FONT><B>Passive power(pJ) for A0 rising (conditional):</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH>
+<TH rowspan=2>When</TH>
+</TH><TH colspan=3>Power(pJ)</TH></TR><TR><TH>first</TH><TH>mid</TH><TH>last</TH></TR>
+<TR><TH rowspan=2>sky130_osu_sc_18T_ls__mux2_1</TH>
+<Th><font>(A1 * S0 * Y) + (!A1 * S0 * !Y)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>(A1 * S0 * Y) + (!A1 * S0 * !Y)</font></Th>
+<TD align=center>-0.00227</TD>
+<TD align=center>-0.00225</TD>
+<TD align=center>-0.00226</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+<FONT><B>Passive power(pJ) for A0 falling (conditional):</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH>
+<TH rowspan=2>When</TH>
+</TH><TH colspan=3>Power(pJ)</TH></TR><TR><TH>first</TH><TH>mid</TH><TH>last</TH></TR>
+<TR><TH rowspan=2>sky130_osu_sc_18T_ls__mux2_1</TH>
+<Th><font>(A1 * S0 * Y) + (!A1 * S0 * !Y)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>(A1 * S0 * Y) + (!A1 * S0 * !Y)</font></Th>
+<TD align=center>0.00227</TD>
+<TD align=center>0.00225</TD>
+<TD align=center>0.00226</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+<FONT><B>Passive power(pJ) for A1 rising (conditional):</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH>
+<TH rowspan=2>When</TH>
+</TH><TH colspan=3>Power(pJ)</TH></TR><TR><TH>first</TH><TH>mid</TH><TH>last</TH></TR>
+<TR><TH rowspan=2>sky130_osu_sc_18T_ls__mux2_1</TH>
+<Th><font>(A0 * !S0 * Y) + (!A0 * !S0 * !Y)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>(A0 * !S0 * Y) + (!A0 * !S0 * !Y)</font></Th>
+<TD align=center>-0.00272</TD>
+<TD align=center>-0.00270</TD>
+<TD align=center>-0.00271</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+<FONT><B>Passive power(pJ) for A1 falling (conditional):</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH>
+<TH rowspan=2>When</TH>
+</TH><TH colspan=3>Power(pJ)</TH></TR><TR><TH>first</TH><TH>mid</TH><TH>last</TH></TR>
+<TR><TH rowspan=2>sky130_osu_sc_18T_ls__mux2_1</TH>
+<Th><font>(A0 * !S0 * Y) + (!A0 * !S0 * !Y)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>(A0 * !S0 * Y) + (!A0 * !S0 * !Y)</font></Th>
+<TD align=center>0.00272</TD>
+<TD align=center>0.00270</TD>
+<TD align=center>0.00271</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+<FONT><B>Passive power(pJ) for S0 rising (conditional):</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH>
+<TH rowspan=2>When</TH>
+</TH><TH colspan=3>Power(pJ)</TH></TR><TR><TH>first</TH><TH>mid</TH><TH>last</TH></TR>
+<TR><TH rowspan=4>sky130_osu_sc_18T_ls__mux2_1</TH>
+<Th><font>(A0 * A1 * Y)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>(A0 * A1 * Y)</font></Th>
+<TD align=center>-0.00233</TD>
+<TD align=center>-0.00036</TD>
+<TD align=center>0.07019</TD>
+</TR>
+<TR>
+<Th><font>(!A0 * !A1 * !Y)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>(!A0 * !A1 * !Y)</font></Th>
+<TD align=center>-0.00230</TD>
+<TD align=center>-0.00049</TD>
+<TD align=center>0.07031</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+<FONT><B>Passive power(pJ) for S0 falling (conditional):</B></FONT>
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=4 WIDTH=100%>
+<TR valign=middle><TH rowspan=2>Cell Name</TH>
+<TH rowspan=2>When</TH>
+</TH><TH colspan=3>Power(pJ)</TH></TR><TR><TH>first</TH><TH>mid</TH><TH>last</TH></TR>
+<TR><TH rowspan=4>sky130_osu_sc_18T_ls__mux2_1</TH>
+<Th><font>(A0 * A1 * Y)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>(A0 * A1 * Y)</font></Th>
+<TD align=center>0.01755</TD>
+<TD align=center>0.02001</TD>
+<TD align=center>0.08959</TD>
+</TR>
+<TR>
+<Th><font>(!A0 * !A1 * !Y)</font></Th>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+<TD align=center>0.00000</TD>
+</TR>
+<TR>
+<Th><font>(!A0 * !A1 * !Y)</font></Th>
+<TD align=center>0.01569</TD>
+<TD align=center>0.01859</TD>
+<TD align=center>0.08925</TD>
+</TR>
+</TABLE>
+<BR>
+<DIV class=NOPRINT>
+<HR>
+<TABLE BORDER=0 WIDTH=100%>
+<TR>
+<TD ALIGN=LEFT><TABLE BORDER=5><TD><em><A hREF="SKY130_OSU_SC_18T_LS__INVx.html">Prev (SKY130_OSU_SC_18T_LS__INVx)</A></em></TD></TABLE>
+<TD ALIGN=RIGHT><TABLE BORDER=5><TD><em><A hREF="SKY130_OSU_SC_18T_LS__NAND2x.html">Next (SKY130_OSU_SC_18T_LS__NAND2x)</A></em></TD></TABLE>
+</TR></TABLE>
+</DIV>
+</BODY>
+</HTML>

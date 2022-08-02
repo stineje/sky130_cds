@@ -1,0 +1,1827 @@
+(DELAYFILE
+  (SDFVERSION  "OVI 3.0")
+  (DESIGN      "mult_seq")
+  (DATE        "Mon Aug 01 15:34:50 CDT 2022")
+  (VENDOR      "Cadence, Inc.")
+  (PROGRAM     "Genus(TM) Synthesis Solution")
+  (VERSION     "19.12-s121_1")
+  (DIVIDER     .)
+  (VOLTAGE     ::1.8)
+  (PROCESS     "::1.0")
+  (TEMPERATURE ::25.0)
+  (TIMESCALE   1ns)
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__dff_1")
+     (INSTANCE reg1.q_reg\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH CK Q (::0.164) (::0.233))
+          (IOPATH QN Q (::0.033) (::0.032))
+          (IOPATH CK QN (::0.224) (::0.153))
+        )
+     )
+     (TIMINGCHECK
+        (HOLD (negedge D) (posedge CK) (::0.000))
+        (HOLD (posedge D) (posedge CK) (::0.000))
+        (SETUP (negedge D) (posedge CK) (::0.125))
+        (SETUP (posedge D) (posedge CK) (::0.139))
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__dff_1")
+     (INSTANCE reg1.q_reg\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH CK Q (::0.350) (::0.423))
+          (IOPATH QN Q (::0.110) (::0.104))
+          (IOPATH CK QN (::0.210) (::0.139))
+        )
+     )
+     (TIMINGCHECK
+        (HOLD (negedge D) (posedge CK) (::0.000))
+        (HOLD (posedge D) (posedge CK) (::0.000))
+        (SETUP (negedge D) (posedge CK) (::0.125))
+        (SETUP (posedge D) (posedge CK) (::0.139))
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__dff_1")
+     (INSTANCE reg1.q_reg\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH CK Q (::0.164) (::0.233))
+          (IOPATH QN Q (::0.033) (::0.032))
+          (IOPATH CK QN (::0.224) (::0.153))
+        )
+     )
+     (TIMINGCHECK
+        (HOLD (negedge D) (posedge CK) (::0.000))
+        (HOLD (posedge D) (posedge CK) (::0.000))
+        (SETUP (negedge D) (posedge CK) (::0.125))
+        (SETUP (posedge D) (posedge CK) (::0.139))
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__dff_1")
+     (INSTANCE reg1.q_reg\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH CK Q (::0.164) (::0.233))
+          (IOPATH QN Q (::0.033) (::0.032))
+          (IOPATH CK QN (::0.224) (::0.153))
+        )
+     )
+     (TIMINGCHECK
+        (HOLD (negedge D) (posedge CK) (::0.000))
+        (HOLD (posedge D) (posedge CK) (::0.000))
+        (SETUP (negedge D) (posedge CK) (::0.129))
+        (SETUP (posedge D) (posedge CK) (::0.147))
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__dff_1")
+     (INSTANCE reg1.q_reg\[6\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH CK Q (::0.324) (::0.397))
+          (IOPATH QN Q (::0.099) (::0.093))
+          (IOPATH CK QN (::0.210) (::0.139))
+        )
+     )
+     (TIMINGCHECK
+        (HOLD (negedge D) (posedge CK) (::0.000))
+        (HOLD (posedge D) (posedge CK) (::0.000))
+        (SETUP (negedge D) (posedge CK) (::0.125))
+        (SETUP (posedge D) (posedge CK) (::0.139))
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__dff_1")
+     (INSTANCE reg1.q_reg\[5\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH CK Q (::0.350) (::0.423))
+          (IOPATH QN Q (::0.110) (::0.104))
+          (IOPATH CK QN (::0.210) (::0.139))
+        )
+     )
+     (TIMINGCHECK
+        (HOLD (negedge D) (posedge CK) (::0.000))
+        (HOLD (posedge D) (posedge CK) (::0.000))
+        (SETUP (negedge D) (posedge CK) (::0.125))
+        (SETUP (posedge D) (posedge CK) (::0.139))
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__dff_1")
+     (INSTANCE reg1.q_reg\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH CK Q (::0.350) (::0.423))
+          (IOPATH QN Q (::0.110) (::0.104))
+          (IOPATH CK QN (::0.210) (::0.139))
+        )
+     )
+     (TIMINGCHECK
+        (HOLD (negedge D) (posedge CK) (::0.000))
+        (HOLD (posedge D) (posedge CK) (::0.000))
+        (SETUP (negedge D) (posedge CK) (::0.125))
+        (SETUP (posedge D) (posedge CK) (::0.139))
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__dff_1")
+     (INSTANCE reg1.q_reg\[7\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH CK Q (::0.290) (::0.362))
+          (IOPATH QN Q (::0.083) (::0.079))
+          (IOPATH CK QN (::0.210) (::0.139))
+        )
+     )
+     (TIMINGCHECK
+        (HOLD (negedge D) (posedge CK) (::0.000))
+        (HOLD (posedge D) (posedge CK) (::0.000))
+        (SETUP (negedge D) (posedge CK) (::0.125))
+        (SETUP (posedge D) (posedge CK) (::0.139))
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_1")
+     (INSTANCE reg1.g27__2398)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.112) (::0.080))
+          (IOPATH B Y (::0.073) (::0.053))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_1")
+     (INSTANCE reg1.g28__5107)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.112) (::0.080))
+          (IOPATH B Y (::0.128) (::0.074))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_1")
+     (INSTANCE reg1.g29__6260)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.112) (::0.080))
+          (IOPATH B Y (::0.073) (::0.053))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_1")
+     (INSTANCE reg1.g30__4319)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.112) (::0.080))
+          (IOPATH B Y (::0.073) (::0.053))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_1")
+     (INSTANCE reg1.g31__8428)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.112) (::0.080))
+          (IOPATH B Y (::0.073) (::0.053))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_1")
+     (INSTANCE reg1.g32__5526)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.112) (::0.080))
+          (IOPATH B Y (::0.073) (::0.053))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_1")
+     (INSTANCE reg1.g33__6783)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.112) (::0.080))
+          (IOPATH B Y (::0.073) (::0.053))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_1")
+     (INSTANCE reg1.g34__3680)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.112) (::0.080))
+          (IOPATH B Y (::0.073) (::0.053))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__aoi22_l")
+     (INSTANCE reg1.g35__1617)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.149) (::0.119))
+          (COND (A1&~B0&~B1) (IOPATH A0 Y (::0.127) (::0.119)))
+          (COND (A0&~B0&~B1) (IOPATH A1 Y (::0.105) (::0.107)))
+          (IOPATH B0 Y (::0.087) (::0.063))
+          (COND (A0&~A1&B0) (IOPATH B1 Y (::0.119) (::0.088)))
+          (COND (~A0&A1&B1) (IOPATH B0 Y (::0.087) (::0.063)))
+          (COND (~A0&~A1&B0) (IOPATH B1 Y (::0.108) (::0.087)))
+          (COND (~A0&~A1&B1) (IOPATH B0 Y (::0.066) (::0.062)))
+          (IOPATH A1 Y (::0.125) (::0.107))
+          (COND (~A0&A1&B0) (IOPATH B1 Y (::0.134) (::0.088)))
+          (IOPATH B1 Y (::0.134) (::0.088))
+          (COND (A1&B0&~B1) (IOPATH A0 Y (::0.149) (::0.107)))
+          (COND (A1&~B0&B1) (IOPATH A0 Y (::0.136) (::0.106)))
+          (COND (A0&B0&~B1) (IOPATH A1 Y (::0.125) (::0.094)))
+          (COND (A0&~B0&B1) (IOPATH A1 Y (::0.111) (::0.094)))
+          (COND (A0&~A1&B1) (IOPATH B0 Y (::0.073) (::0.062)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__aoi22_l")
+     (INSTANCE reg1.g36__2802)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.149) (::0.119))
+          (COND (A1&~B0&~B1) (IOPATH A0 Y (::0.127) (::0.119)))
+          (COND (A0&~B0&~B1) (IOPATH A1 Y (::0.090) (::0.090)))
+          (IOPATH B0 Y (::0.082) (::0.062))
+          (COND (A0&~A1&B0) (IOPATH B1 Y (::0.119) (::0.088)))
+          (COND (~A0&A1&B1) (IOPATH B0 Y (::0.082) (::0.062)))
+          (COND (~A0&~A1&B0) (IOPATH B1 Y (::0.108) (::0.087)))
+          (COND (~A0&~A1&B1) (IOPATH B0 Y (::0.061) (::0.060)))
+          (IOPATH A1 Y (::0.112) (::0.090))
+          (COND (~A0&A1&B0) (IOPATH B1 Y (::0.134) (::0.088)))
+          (IOPATH B1 Y (::0.134) (::0.088))
+          (COND (A1&B0&~B1) (IOPATH A0 Y (::0.149) (::0.107)))
+          (COND (A1&~B0&B1) (IOPATH A0 Y (::0.136) (::0.106)))
+          (COND (A0&B0&~B1) (IOPATH A1 Y (::0.112) (::0.078)))
+          (COND (A0&~B0&B1) (IOPATH A1 Y (::0.098) (::0.078)))
+          (COND (A0&~A1&B1) (IOPATH B0 Y (::0.068) (::0.061)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__aoi22_l")
+     (INSTANCE reg1.g37__1705)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.149) (::0.119))
+          (COND (A1&~B0&~B1) (IOPATH A0 Y (::0.127) (::0.119)))
+          (COND (A0&~B0&~B1) (IOPATH A1 Y (::0.113) (::0.112)))
+          (IOPATH B0 Y (::0.088) (::0.063))
+          (COND (A0&~A1&B0) (IOPATH B1 Y (::0.119) (::0.088)))
+          (COND (~A0&A1&B1) (IOPATH B0 Y (::0.088) (::0.063)))
+          (COND (~A0&~A1&B0) (IOPATH B1 Y (::0.108) (::0.087)))
+          (COND (~A0&~A1&B1) (IOPATH B0 Y (::0.066) (::0.062)))
+          (IOPATH A1 Y (::0.133) (::0.112))
+          (COND (~A0&A1&B0) (IOPATH B1 Y (::0.134) (::0.088)))
+          (IOPATH B1 Y (::0.134) (::0.088))
+          (COND (A1&B0&~B1) (IOPATH A0 Y (::0.149) (::0.107)))
+          (COND (A1&~B0&B1) (IOPATH A0 Y (::0.136) (::0.106)))
+          (COND (A0&B0&~B1) (IOPATH A1 Y (::0.133) (::0.099)))
+          (COND (A0&~B0&B1) (IOPATH A1 Y (::0.119) (::0.098)))
+          (COND (A0&~A1&B1) (IOPATH B0 Y (::0.073) (::0.062)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__aoi22_l")
+     (INSTANCE reg1.g38__5122)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.149) (::0.119))
+          (COND (A1&~B0&~B1) (IOPATH A0 Y (::0.127) (::0.119)))
+          (COND (A0&~B0&~B1) (IOPATH A1 Y (::0.363) (::0.278)))
+          (IOPATH B0 Y (::0.088) (::0.064))
+          (COND (A0&~A1&B0) (IOPATH B1 Y (::0.119) (::0.088)))
+          (COND (~A0&A1&B1) (IOPATH B0 Y (::0.088) (::0.064)))
+          (COND (~A0&~A1&B0) (IOPATH B1 Y (::0.108) (::0.087)))
+          (COND (~A0&~A1&B1) (IOPATH B0 Y (::0.067) (::0.062)))
+          (IOPATH A1 Y (::0.409) (::0.278))
+          (COND (~A0&A1&B0) (IOPATH B1 Y (::0.134) (::0.088)))
+          (IOPATH B1 Y (::0.134) (::0.088))
+          (COND (A1&B0&~B1) (IOPATH A0 Y (::0.149) (::0.107)))
+          (COND (A1&~B0&B1) (IOPATH A0 Y (::0.136) (::0.106)))
+          (COND (A0&B0&~B1) (IOPATH A1 Y (::0.409) (::0.234)))
+          (COND (A0&~B0&B1) (IOPATH A1 Y (::0.373) (::0.229)))
+          (COND (A0&~A1&B1) (IOPATH B0 Y (::0.074) (::0.063)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__aoi22_l")
+     (INSTANCE reg1.g39__8246)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.149) (::0.119))
+          (COND (A1&~B0&~B1) (IOPATH A0 Y (::0.127) (::0.119)))
+          (COND (A0&~B0&~B1) (IOPATH A1 Y (::0.113) (::0.112)))
+          (IOPATH B0 Y (::0.086) (::0.062))
+          (COND (A0&~A1&B0) (IOPATH B1 Y (::0.119) (::0.088)))
+          (COND (~A0&A1&B1) (IOPATH B0 Y (::0.086) (::0.062)))
+          (COND (~A0&~A1&B0) (IOPATH B1 Y (::0.108) (::0.087)))
+          (COND (~A0&~A1&B1) (IOPATH B0 Y (::0.065) (::0.061)))
+          (IOPATH A1 Y (::0.133) (::0.112))
+          (COND (~A0&A1&B0) (IOPATH B1 Y (::0.134) (::0.088)))
+          (IOPATH B1 Y (::0.134) (::0.088))
+          (COND (A1&B0&~B1) (IOPATH A0 Y (::0.149) (::0.107)))
+          (COND (A1&~B0&B1) (IOPATH A0 Y (::0.136) (::0.106)))
+          (COND (A0&B0&~B1) (IOPATH A1 Y (::0.133) (::0.099)))
+          (COND (A0&~B0&B1) (IOPATH A1 Y (::0.119) (::0.098)))
+          (COND (A0&~A1&B1) (IOPATH B0 Y (::0.072) (::0.062)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__aoi22_l")
+     (INSTANCE reg1.g40__7098)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.149) (::0.119))
+          (COND (A1&~B0&~B1) (IOPATH A0 Y (::0.127) (::0.119)))
+          (COND (A0&~B0&~B1) (IOPATH A1 Y (::0.107) (::0.106)))
+          (IOPATH B0 Y (::0.092) (::0.063))
+          (COND (A0&~A1&B0) (IOPATH B1 Y (::0.119) (::0.088)))
+          (COND (~A0&A1&B1) (IOPATH B0 Y (::0.092) (::0.063)))
+          (COND (~A0&~A1&B0) (IOPATH B1 Y (::0.108) (::0.087)))
+          (COND (~A0&~A1&B1) (IOPATH B0 Y (::0.070) (::0.062)))
+          (IOPATH A1 Y (::0.128) (::0.106))
+          (COND (~A0&A1&B0) (IOPATH B1 Y (::0.134) (::0.088)))
+          (IOPATH B1 Y (::0.134) (::0.088))
+          (COND (A1&B0&~B1) (IOPATH A0 Y (::0.149) (::0.107)))
+          (COND (A1&~B0&B1) (IOPATH A0 Y (::0.136) (::0.106)))
+          (COND (A0&B0&~B1) (IOPATH A1 Y (::0.128) (::0.094)))
+          (COND (A0&~B0&B1) (IOPATH A1 Y (::0.114) (::0.093)))
+          (COND (A0&~A1&B1) (IOPATH B0 Y (::0.078) (::0.062)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__aoi22_l")
+     (INSTANCE reg1.g41__6131)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.149) (::0.119))
+          (COND (A1&~B0&~B1) (IOPATH A0 Y (::0.127) (::0.119)))
+          (COND (A0&~B0&~B1) (IOPATH A1 Y (::0.113) (::0.112)))
+          (IOPATH B0 Y (::0.092) (::0.064))
+          (COND (A0&~A1&B0) (IOPATH B1 Y (::0.119) (::0.088)))
+          (COND (~A0&A1&B1) (IOPATH B0 Y (::0.092) (::0.064)))
+          (COND (~A0&~A1&B0) (IOPATH B1 Y (::0.108) (::0.087)))
+          (COND (~A0&~A1&B1) (IOPATH B0 Y (::0.070) (::0.063)))
+          (IOPATH A1 Y (::0.133) (::0.112))
+          (COND (~A0&A1&B0) (IOPATH B1 Y (::0.134) (::0.088)))
+          (IOPATH B1 Y (::0.134) (::0.088))
+          (COND (A1&B0&~B1) (IOPATH A0 Y (::0.149) (::0.107)))
+          (COND (A1&~B0&B1) (IOPATH A0 Y (::0.136) (::0.106)))
+          (COND (A0&B0&~B1) (IOPATH A1 Y (::0.133) (::0.099)))
+          (COND (A0&~B0&B1) (IOPATH A1 Y (::0.119) (::0.098)))
+          (COND (A0&~A1&B1) (IOPATH B0 Y (::0.078) (::0.063)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__aoi22_l")
+     (INSTANCE reg1.g42__1881)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.149) (::0.119))
+          (COND (A1&~B0&~B1) (IOPATH A0 Y (::0.127) (::0.119)))
+          (COND (A0&~B0&~B1) (IOPATH A1 Y (::0.100) (::0.099)))
+          (IOPATH B0 Y (::0.088) (::0.063))
+          (COND (A0&~A1&B0) (IOPATH B1 Y (::0.119) (::0.088)))
+          (COND (~A0&A1&B1) (IOPATH B0 Y (::0.088) (::0.063)))
+          (COND (~A0&~A1&B0) (IOPATH B1 Y (::0.108) (::0.087)))
+          (COND (~A0&~A1&B1) (IOPATH B0 Y (::0.066) (::0.062)))
+          (IOPATH A1 Y (::0.121) (::0.099))
+          (COND (~A0&A1&B0) (IOPATH B1 Y (::0.134) (::0.088)))
+          (IOPATH B1 Y (::0.134) (::0.088))
+          (COND (A1&B0&~B1) (IOPATH A0 Y (::0.149) (::0.107)))
+          (COND (A1&~B0&B1) (IOPATH A0 Y (::0.136) (::0.106)))
+          (COND (A0&B0&~B1) (IOPATH A1 Y (::0.121) (::0.086)))
+          (COND (A0&~B0&B1) (IOPATH A1 Y (::0.107) (::0.086)))
+          (COND (A0&~A1&B1) (IOPATH B0 Y (::0.074) (::0.062)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__inv_1")
+     (INSTANCE reg1.g43)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (IOPATH A Y (::0.106) (::0.097))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__inv_1")
+     (INSTANCE reg1.g44)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (IOPATH A Y (::1.635) (::1.544))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__inv_1")
+     (INSTANCE reg1.g45)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (IOPATH A Y (::0.071) (::0.065))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__inv_1")
+     (INSTANCE reg1.g46)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (IOPATH A Y (::0.178) (::0.166))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g417__5115)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.116) (::0.109)))
+          (COND ~B (IOPATH A Y (::0.135) (::0.123)))
+          (COND A (IOPATH B Y (::0.108) (::0.090)))
+          (COND B (IOPATH A Y (::0.110) (::0.095)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__oai22_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g418__7482)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (COND (A0&~A1&~B0) (IOPATH B1 Y (::0.136) (::0.160)))
+          (IOPATH A0 Y (::0.125) (::0.124))
+          (COND (~A1&B0&~B1) (IOPATH A0 Y (::0.120) (::0.102)))
+          (COND (~A1&~B0&B1) (IOPATH A0 Y (::0.121) (::0.124)))
+          (COND (A0&~A1&~B1) (IOPATH B0 Y (::0.125) (::0.138)))
+          (IOPATH B0 Y (::0.125) (::0.138))
+          (COND (A0&A1&~B0) (IOPATH B1 Y (::0.134) (::0.126)))
+          (COND (~A0&B0&B1) (IOPATH A1 Y (::0.152) (::0.122)))
+          (COND (~A0&A1&~B0) (IOPATH B1 Y (::0.134) (::0.137)))
+          (COND (~A0&A1&~B1) (IOPATH B0 Y (::0.124) (::0.109)))
+          (COND (~A0&B0&~B1) (IOPATH A1 Y (::0.147) (::0.127)))
+          (COND (~A0&~B0&B1) (IOPATH A1 Y (::0.148) (::0.151)))
+          (IOPATH A1 Y (::0.152) (::0.151))
+          (IOPATH B1 Y (::0.136) (::0.160))
+          (COND (~A1&B0&B1) (IOPATH A0 Y (::0.125) (::0.086)))
+          (COND (A0&A1&~B1) (IOPATH B0 Y (::0.123) (::0.102)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g419__4733)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.117) (::0.111)))
+          (COND ~B (IOPATH A Y (::0.148) (::0.135)))
+          (COND A (IOPATH B Y (::0.110) (::0.092)))
+          (COND B (IOPATH A Y (::0.122) (::0.114)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__aoi22_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g420__6161)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.173) (::0.122))
+          (COND (A1&~B0&~B1) (IOPATH A0 Y (::0.137) (::0.122)))
+          (COND (A0&~B0&~B1) (IOPATH A1 Y (::0.172) (::0.178)))
+          (IOPATH B0 Y (::0.165) (::0.130))
+          (COND (A0&~A1&B0) (IOPATH B1 Y (::0.255) (::0.182)))
+          (COND (~A0&A1&B1) (IOPATH B0 Y (::0.165) (::0.130)))
+          (COND (~A0&~A1&B0) (IOPATH B1 Y (::0.230) (::0.181)))
+          (COND (~A0&~A1&B1) (IOPATH B0 Y (::0.128) (::0.129)))
+          (IOPATH A1 Y (::0.204) (::0.178))
+          (COND (~A0&A1&B0) (IOPATH B1 Y (::0.275) (::0.183)))
+          (IOPATH B1 Y (::0.275) (::0.183))
+          (COND (A1&B0&~B1) (IOPATH A0 Y (::0.173) (::0.110)))
+          (COND (A1&~B0&B1) (IOPATH A0 Y (::0.158) (::0.110)))
+          (COND (A0&B0&~B1) (IOPATH A1 Y (::0.204) (::0.165)))
+          (COND (A0&~B0&B1) (IOPATH A1 Y (::0.186) (::0.165)))
+          (COND (A0&~A1&B1) (IOPATH B0 Y (::0.146) (::0.129)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g421__9315)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.126) (::0.125)))
+          (COND ~B (IOPATH A Y (::0.148) (::0.137)))
+          (COND A (IOPATH B Y (::0.125) (::0.103)))
+          (COND B (IOPATH A Y (::0.124) (::0.114)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__oai22_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g422__9945)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (COND (A0&~A1&~B0) (IOPATH B1 Y (::0.164) (::0.191)))
+          (IOPATH A0 Y (::0.150) (::0.144))
+          (COND (~A1&B0&~B1) (IOPATH A0 Y (::0.144) (::0.121)))
+          (COND (~A1&~B0&B1) (IOPATH A0 Y (::0.146) (::0.144)))
+          (COND (A0&~A1&~B1) (IOPATH B0 Y (::0.235) (::0.206)))
+          (IOPATH B0 Y (::0.235) (::0.206))
+          (COND (A0&A1&~B0) (IOPATH B1 Y (::0.163) (::0.153)))
+          (COND (~A0&B0&B1) (IOPATH A1 Y (::0.161) (::0.121)))
+          (COND (~A0&A1&~B0) (IOPATH B1 Y (::0.163) (::0.166)))
+          (COND (~A0&A1&~B1) (IOPATH B0 Y (::0.233) (::0.167)))
+          (COND (~A0&B0&~B1) (IOPATH A1 Y (::0.155) (::0.130)))
+          (COND (~A0&~B0&B1) (IOPATH A1 Y (::0.157) (::0.155)))
+          (IOPATH A1 Y (::0.161) (::0.155))
+          (IOPATH B1 Y (::0.164) (::0.191))
+          (COND (~A1&B0&B1) (IOPATH A0 Y (::0.150) (::0.100)))
+          (COND (A0&A1&~B1) (IOPATH B0 Y (::0.233) (::0.155)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g423__2883)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.130) (::0.116)))
+          (COND ~B (IOPATH A Y (::0.136) (::0.122)))
+          (COND A (IOPATH B Y (::0.115) (::0.107)))
+          (COND B (IOPATH A Y (::0.109) (::0.097)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__aoi21_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g424__2346)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (COND (~A0&~A1) (IOPATH B0 Y (::0.096) (::0.088)))
+          (IOPATH A0 Y (::0.182) (::0.144))
+          (COND (~A0&A1) (IOPATH B0 Y (::0.133) (::0.090)))
+          (COND (A0&~A1) (IOPATH B0 Y (::0.115) (::0.089)))
+          (IOPATH B0 Y (::0.133) (::0.090))
+          (IOPATH A1 Y (::0.168) (::0.147))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xnor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g425__1666)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.115) (::0.103)))
+          (COND ~B (IOPATH A Y (::0.092) (::0.081)))
+          (COND A (IOPATH B Y (::0.122) (::0.119)))
+          (COND B (IOPATH A Y (::0.136) (::0.131)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g426__7410)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.095) (::0.074))
+          (IOPATH B Y (::0.066) (::0.047))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g427__6417)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.182) (::0.202)))
+          (COND ~B (IOPATH A Y (::0.164) (::0.144)))
+          (COND A (IOPATH B Y (::0.229) (::0.183)))
+          (COND B (IOPATH A Y (::0.140) (::0.126)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g428__5477)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.117) (::0.110)))
+          (COND ~B (IOPATH A Y (::0.135) (::0.119)))
+          (COND A (IOPATH B Y (::0.109) (::0.091)))
+          (COND B (IOPATH A Y (::0.106) (::0.095)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__or2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g429__2398)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.164) (::0.221))
+          (IOPATH B Y (::0.106) (::0.130))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__aoi21_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g430__5107)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (COND (~A0&~A1) (IOPATH B0 Y (::0.093) (::0.092)))
+          (IOPATH A0 Y (::0.175) (::0.138))
+          (COND (~A0&A1) (IOPATH B0 Y (::0.128) (::0.093)))
+          (COND (A0&~A1) (IOPATH B0 Y (::0.110) (::0.092)))
+          (IOPATH B0 Y (::0.128) (::0.093))
+          (IOPATH A1 Y (::0.158) (::0.128))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xnor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g431__6260)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.143) (::0.130)))
+          (COND ~B (IOPATH A Y (::0.127) (::0.114)))
+          (COND A (IOPATH B Y (::0.150) (::0.140)))
+          (COND B (IOPATH A Y (::0.169) (::0.157)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xnor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g432__4319)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.147) (::0.138)))
+          (COND ~B (IOPATH A Y (::0.207) (::0.144)))
+          (COND A (IOPATH B Y (::0.156) (::0.144)))
+          (COND B (IOPATH A Y (::0.192) (::0.220)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__and2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g433__8428)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.133) (::0.118))
+          (IOPATH B Y (::0.135) (::0.119))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__and2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g434__5526)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.146) (::0.167))
+          (IOPATH B Y (::0.128) (::0.112))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g435__6783)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.093) (::0.062))
+          (IOPATH B Y (::0.094) (::0.068))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g436__3680)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.202) (::0.169)))
+          (COND ~B (IOPATH A Y (::0.202) (::0.170)))
+          (COND A (IOPATH B Y (::0.191) (::0.160)))
+          (COND B (IOPATH A Y (::0.181) (::0.144)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g437__1617)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.156) (::0.140)))
+          (COND ~B (IOPATH A Y (::0.167) (::0.147)))
+          (COND A (IOPATH B Y (::0.148) (::0.128)))
+          (COND B (IOPATH A Y (::0.143) (::0.128)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xnor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g438__2802)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.144) (::0.127)))
+          (COND ~B (IOPATH A Y (::0.121) (::0.103)))
+          (COND A (IOPATH B Y (::0.148) (::0.141)))
+          (COND B (IOPATH A Y (::0.160) (::0.152)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g439__1705)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.105) (::0.081))
+          (IOPATH B Y (::0.091) (::0.060))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g440__5122)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.105) (::0.083))
+          (IOPATH B Y (::0.091) (::0.067))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__oai22_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g441__8246)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (COND (A0&~A1&~B0) (IOPATH B1 Y (::0.186) (::0.207)))
+          (IOPATH A0 Y (::0.197) (::0.190))
+          (COND (~A1&B0&~B1) (IOPATH A0 Y (::0.192) (::0.166)))
+          (COND (~A1&~B0&B1) (IOPATH A0 Y (::0.193) (::0.190)))
+          (COND (A0&~A1&~B1) (IOPATH B0 Y (::0.517) (::0.417)))
+          (IOPATH B0 Y (::0.517) (::0.417))
+          (COND (A0&A1&~B0) (IOPATH B1 Y (::0.184) (::0.167)))
+          (COND (~A0&B0&B1) (IOPATH A1 Y (::0.168) (::0.114)))
+          (COND (~A0&A1&~B0) (IOPATH B1 Y (::0.184) (::0.182)))
+          (COND (~A0&A1&~B1) (IOPATH B0 Y (::0.515) (::0.326)))
+          (COND (~A0&B0&~B1) (IOPATH A1 Y (::0.163) (::0.128)))
+          (COND (~A0&~B0&B1) (IOPATH A1 Y (::0.164) (::0.155)))
+          (IOPATH A1 Y (::0.168) (::0.155))
+          (IOPATH B1 Y (::0.186) (::0.207))
+          (COND (~A1&B0&B1) (IOPATH A0 Y (::0.197) (::0.148)))
+          (COND (A0&A1&~B1) (IOPATH B0 Y (::0.517) (::0.300)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__aoi21_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g442__7098)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (COND (~A0&~A1) (IOPATH B0 Y (::0.111) (::0.105)))
+          (IOPATH A0 Y (::0.198) (::0.154))
+          (COND (~A0&A1) (IOPATH B0 Y (::0.153) (::0.106)))
+          (COND (A0&~A1) (IOPATH B0 Y (::0.133) (::0.105)))
+          (IOPATH B0 Y (::0.153) (::0.106))
+          (IOPATH A1 Y (::0.179) (::0.142))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g443__6131)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.200) (::0.170)))
+          (COND ~B (IOPATH A Y (::0.284) (::0.412)))
+          (COND A (IOPATH B Y (::0.193) (::0.156)))
+          (COND B (IOPATH A Y (::0.581) (::0.394)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g445__5115)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.109) (::0.083))
+          (IOPATH B Y (::0.080) (::0.054))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__aoi22_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g446__7482)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.205) (::0.144))
+          (COND (A1&~B0&~B1) (IOPATH A0 Y (::0.164) (::0.144)))
+          (COND (A0&~B0&~B1) (IOPATH A1 Y (::0.144) (::0.134)))
+          (IOPATH B0 Y (::0.175) (::0.126))
+          (COND (A0&~A1&B0) (IOPATH B1 Y (::0.181) (::0.142)))
+          (COND (~A0&A1&B1) (IOPATH B0 Y (::0.175) (::0.126)))
+          (COND (~A0&~A1&B0) (IOPATH B1 Y (::0.155) (::0.142)))
+          (COND (~A0&~A1&B1) (IOPATH B0 Y (::0.132) (::0.125)))
+          (IOPATH A1 Y (::0.185) (::0.134))
+          (COND (~A0&A1&B0) (IOPATH B1 Y (::0.197) (::0.143)))
+          (IOPATH B1 Y (::0.197) (::0.143))
+          (COND (A1&B0&~B1) (IOPATH A0 Y (::0.205) (::0.133)))
+          (COND (A1&~B0&B1) (IOPATH A0 Y (::0.189) (::0.132)))
+          (COND (A0&B0&~B1) (IOPATH A1 Y (::0.185) (::0.122)))
+          (COND (A0&~B0&B1) (IOPATH A1 Y (::0.165) (::0.122)))
+          (COND (A0&~A1&B1) (IOPATH B0 Y (::0.154) (::0.126)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g447__4733)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.183) (::0.154)))
+          (COND ~B (IOPATH A Y (::0.202) (::0.169)))
+          (COND A (IOPATH B Y (::0.174) (::0.133)))
+          (COND B (IOPATH A Y (::0.180) (::0.144)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g448__6161)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.183) (::0.147)))
+          (COND ~B (IOPATH A Y (::0.190) (::0.161)))
+          (COND A (IOPATH B Y (::0.163) (::0.143)))
+          (COND B (IOPATH A Y (::0.168) (::0.134)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xnor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g449__9315)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.148) (::0.130)))
+          (COND ~B (IOPATH A Y (::0.125) (::0.106)))
+          (COND A (IOPATH B Y (::0.152) (::0.145)))
+          (COND B (IOPATH A Y (::0.164) (::0.155)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g450__9945)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.106) (::0.100)))
+          (COND ~B (IOPATH A Y (::0.129) (::0.117)))
+          (COND A (IOPATH B Y (::0.098) (::0.078)))
+          (COND B (IOPATH A Y (::0.104) (::0.086)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g451__2883)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.109) (::0.082))
+          (IOPATH B Y (::0.094) (::0.061))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__aoi21_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g452__2346)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (COND (~A0&~A1) (IOPATH B0 Y (::0.090) (::0.089)))
+          (IOPATH A0 Y (::0.173) (::0.138))
+          (COND (~A0&A1) (IOPATH B0 Y (::0.126) (::0.090)))
+          (COND (A0&~A1) (IOPATH B0 Y (::0.108) (::0.089)))
+          (IOPATH B0 Y (::0.126) (::0.090))
+          (IOPATH A1 Y (::0.158) (::0.127))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g454__7410)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.162) (::0.142)))
+          (COND ~B (IOPATH A Y (::0.179) (::0.153)))
+          (COND A (IOPATH B Y (::0.154) (::0.124)))
+          (COND B (IOPATH A Y (::0.155) (::0.132)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__mux2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g455__6417)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT S0 (::0.000))
+          (IOPATH A0 Y (::0.124) (::0.136))
+          (IOPATH A1 Y (::0.124) (::0.133))
+          (COND (A0&~A1) (IOPATH S0 Y (::0.095) (::0.094)))
+          (COND (~A0&A1) (IOPATH S0 Y (::0.116) (::0.113)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xnor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g456__5477)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.184) (::0.158)))
+          (COND ~B (IOPATH A Y (::0.159) (::0.135)))
+          (COND A (IOPATH B Y (::0.191) (::0.170)))
+          (COND B (IOPATH A Y (::0.204) (::0.178)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__and2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g457__2398)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.228) (::0.341))
+          (IOPATH B Y (::0.141) (::0.123))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g458__5107)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.093) (::0.062))
+          (IOPATH B Y (::0.080) (::0.050))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__aoi22_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g459__6260)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.186) (::0.147))
+          (COND (A1&~B0&~B1) (IOPATH A0 Y (::0.154) (::0.147)))
+          (COND (A0&~B0&~B1) (IOPATH A1 Y (::0.118) (::0.111)))
+          (IOPATH B0 Y (::0.133) (::0.114))
+          (COND (A0&~A1&B0) (IOPATH B1 Y (::0.127) (::0.095)))
+          (COND (~A0&A1&B1) (IOPATH B0 Y (::0.133) (::0.114)))
+          (COND (~A0&~A1&B0) (IOPATH B1 Y (::0.108) (::0.094)))
+          (COND (~A0&~A1&B1) (IOPATH B0 Y (::0.100) (::0.113)))
+          (IOPATH A1 Y (::0.150) (::0.111))
+          (COND (~A0&A1&B0) (IOPATH B1 Y (::0.142) (::0.096)))
+          (IOPATH B1 Y (::0.142) (::0.096))
+          (COND (A1&B0&~B1) (IOPATH A0 Y (::0.186) (::0.135)))
+          (COND (A1&~B0&B1) (IOPATH A0 Y (::0.172) (::0.134)))
+          (COND (A0&B0&~B1) (IOPATH A1 Y (::0.150) (::0.100)))
+          (COND (A0&~B0&B1) (IOPATH A1 Y (::0.132) (::0.099)))
+          (COND (A0&~A1&B1) (IOPATH B0 Y (::0.115) (::0.113)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g461__8428)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.155) (::0.138)))
+          (COND ~B (IOPATH A Y (::0.154) (::0.135)))
+          (COND A (IOPATH B Y (::0.146) (::0.127)))
+          (COND B (IOPATH A Y (::0.131) (::0.108)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g462__5526)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.135) (::0.128)))
+          (COND ~B (IOPATH A Y (::0.160) (::0.141)))
+          (COND A (IOPATH B Y (::0.134) (::0.100)))
+          (COND B (IOPATH A Y (::0.137) (::0.117)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g463__6783)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.180) (::0.153)))
+          (COND ~B (IOPATH A Y (::0.192) (::0.151)))
+          (COND A (IOPATH B Y (::0.170) (::0.138)))
+          (COND B (IOPATH A Y (::0.158) (::0.138)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xnor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g464__3680)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.146) (::0.130)))
+          (COND ~B (IOPATH A Y (::0.125) (::0.106)))
+          (COND A (IOPATH B Y (::0.152) (::0.143)))
+          (COND B (IOPATH A Y (::0.164) (::0.155)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g465__1617)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.189) (::0.151)))
+          (COND ~B (IOPATH A Y (::0.195) (::0.162)))
+          (COND A (IOPATH B Y (::0.169) (::0.146)))
+          (COND B (IOPATH A Y (::0.170) (::0.138)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g466__2802)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.104) (::0.081))
+          (IOPATH B Y (::0.091) (::0.060))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__or2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g467__1705)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.131) (::0.159))
+          (IOPATH B Y (::0.103) (::0.133))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__aoi22_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g468__5122)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.203) (::0.160))
+          (COND (A1&~B0&~B1) (IOPATH A0 Y (::0.162) (::0.160)))
+          (COND (A0&~B0&~B1) (IOPATH A1 Y (::0.141) (::0.131)))
+          (IOPATH B0 Y (::0.162) (::0.114))
+          (COND (A0&~A1&B0) (IOPATH B1 Y (::0.159) (::0.115)))
+          (COND (~A0&A1&B1) (IOPATH B0 Y (::0.162) (::0.114)))
+          (COND (~A0&~A1&B0) (IOPATH B1 Y (::0.133) (::0.115)))
+          (COND (~A0&~A1&B1) (IOPATH B0 Y (::0.119) (::0.113)))
+          (IOPATH A1 Y (::0.181) (::0.131))
+          (COND (~A0&A1&B0) (IOPATH B1 Y (::0.174) (::0.116)))
+          (IOPATH B1 Y (::0.174) (::0.116))
+          (COND (A1&B0&~B1) (IOPATH A0 Y (::0.203) (::0.149)))
+          (COND (A1&~B0&B1) (IOPATH A0 Y (::0.187) (::0.148)))
+          (COND (A0&B0&~B1) (IOPATH A1 Y (::0.181) (::0.120)))
+          (COND (A0&~B0&B1) (IOPATH A1 Y (::0.161) (::0.120)))
+          (COND (A0&~A1&B1) (IOPATH B0 Y (::0.142) (::0.113)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__oai21_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g469__8246)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (COND (A0&A1) (IOPATH B0 Y (::0.097) (::0.074)))
+          (IOPATH A0 Y (::0.144) (::0.113))
+          (COND (~A0&A1) (IOPATH B0 Y (::0.098) (::0.099)))
+          (COND (A0&~A1) (IOPATH B0 Y (::0.097) (::0.090)))
+          (IOPATH B0 Y (::0.098) (::0.090))
+          (IOPATH A1 Y (::0.162) (::0.120))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xnor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g470__7098)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.124) (::0.103)))
+          (COND ~B (IOPATH A Y (::0.107) (::0.109)))
+          (COND A (IOPATH B Y (::0.130) (::0.125)))
+          (COND B (IOPATH A Y (::0.166) (::0.140)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nand2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g471__6131)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.055) (::0.075))
+          (IOPATH B Y (::0.057) (::0.060))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__or2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g472__1881)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.105) (::0.142))
+          (IOPATH B Y (::0.113) (::0.127))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__aoi21_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g474__5115)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (COND (~A0&~A1) (IOPATH B0 Y (::0.056) (::0.061)))
+          (IOPATH A0 Y (::0.106) (::0.074))
+          (COND (~A0&A1) (IOPATH B0 Y (::0.077) (::0.062)))
+          (COND (A0&~A1) (IOPATH B0 Y (::0.064) (::0.062)))
+          (IOPATH B0 Y (::0.077) (::0.062))
+          (IOPATH A1 Y (::0.086) (::0.068))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g475__7482)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.134) (::0.118)))
+          (COND ~B (IOPATH A Y (::0.153) (::0.138)))
+          (COND A (IOPATH B Y (::0.123) (::0.098)))
+          (COND B (IOPATH A Y (::0.134) (::0.107)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g476__4733)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.136) (::0.122)))
+          (COND ~B (IOPATH A Y (::0.146) (::0.127)))
+          (COND A (IOPATH B Y (::0.127) (::0.102)))
+          (COND B (IOPATH A Y (::0.122) (::0.097)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g477__6161)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.134) (::0.130)))
+          (COND ~B (IOPATH A Y (::0.144) (::0.135)))
+          (COND A (IOPATH B Y (::0.135) (::0.101)))
+          (COND B (IOPATH A Y (::0.130) (::0.096)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xnor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g478__9315)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.159) (::0.123)))
+          (COND ~B (IOPATH A Y (::0.138) (::0.110)))
+          (COND A (IOPATH B Y (::0.156) (::0.151)))
+          (COND B (IOPATH A Y (::0.175) (::0.164)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g479__9945)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.158) (::0.144)))
+          (COND ~B (IOPATH A Y (::0.173) (::0.159)))
+          (COND A (IOPATH B Y (::0.157) (::0.116)))
+          (COND B (IOPATH A Y (::0.163) (::0.120)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g480__2883)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.172) (::0.154)))
+          (COND ~B (IOPATH A Y (::0.181) (::0.160)))
+          (COND A (IOPATH B Y (::0.171) (::0.127)))
+          (COND B (IOPATH A Y (::0.167) (::0.122)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xor2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g481__2346)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.175) (::0.156)))
+          (COND ~B (IOPATH A Y (::0.183) (::0.161)))
+          (COND A (IOPATH B Y (::0.174) (::0.129)))
+          (COND B (IOPATH A Y (::0.169) (::0.123)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__inv_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g483)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (IOPATH A Y (::0.067) (::0.072))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g484__1666)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.109) (::0.064))
+          (IOPATH B Y (::0.086) (::0.053))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g485__7410)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.136) (::0.079))
+          (IOPATH B Y (::0.133) (::0.078))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nand2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g486__6417)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.064) (::0.063))
+          (IOPATH B Y (::0.073) (::0.066))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g487__5477)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.139) (::0.080))
+          (IOPATH B Y (::0.122) (::0.071))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g488__2398)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.163) (::0.092))
+          (IOPATH B Y (::0.147) (::0.083))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g490__5107)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.139) (::0.080))
+          (IOPATH B Y (::0.125) (::0.072))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__or2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g491__6260)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.105) (::0.142))
+          (IOPATH B Y (::0.096) (::0.124))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nand2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g492__4319)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.071) (::0.080))
+          (IOPATH B Y (::0.076) (::0.082))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nand2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g493__8428)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.083) (::0.097))
+          (IOPATH B Y (::0.088) (::0.099))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nand2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g494__5526)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.083) (::0.096))
+          (IOPATH B Y (::0.086) (::0.098))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nand2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g495__6783)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.086) (::0.100))
+          (IOPATH B Y (::0.090) (::0.102))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nand2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g496__3680)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.094) (::0.110))
+          (IOPATH B Y (::0.096) (::0.111))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__and2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g497__1617)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.138) (::0.127))
+          (IOPATH B Y (::0.141) (::0.131))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__and2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g498__2802)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.136) (::0.126))
+          (IOPATH B Y (::0.139) (::0.129))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nand2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g499__1705)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.096) (::0.113))
+          (IOPATH B Y (::0.100) (::0.115))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nand2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g500__5122)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.084) (::0.098))
+          (IOPATH B Y (::0.089) (::0.100))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nand2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g501__8246)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.086) (::0.100))
+          (IOPATH B Y (::0.090) (::0.102))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nand2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g502__7098)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.086) (::0.100))
+          (IOPATH B Y (::0.091) (::0.103))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nand2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g503__6131)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.084) (::0.098))
+          (IOPATH B Y (::0.087) (::0.099))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nand2_l")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g504__1881)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.105) (::0.123))
+          (IOPATH B Y (::0.110) (::0.126))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__and2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g505__5115)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.135) (::0.124))
+          (IOPATH B Y (::0.139) (::0.129))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__and2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g506__7482)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.126) (::0.116))
+          (IOPATH B Y (::0.128) (::0.119))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nand2_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g507__4733)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.083) (::0.096))
+          (IOPATH B Y (::0.088) (::0.100))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__inv_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g510)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (IOPATH A Y (::2.433) (::2.389))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__inv_1")
+     (INSTANCE csa_tree_add1_add_30_16_groupi_g513)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (IOPATH A Y (::0.062) (::0.058))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__xnor2_l")
+     (INSTANCE g2)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (COND ~A (IOPATH B Y (::0.130) (::0.107)))
+          (COND ~B (IOPATH A Y (::0.108) (::0.099)))
+          (COND A (IOPATH B Y (::0.132) (::0.130)))
+          (COND B (IOPATH A Y (::0.156) (::0.141)))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__aoi21_l")
+     (INSTANCE g3)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (COND (~A0&~A1) (IOPATH B0 Y (::0.093) (::0.095)))
+          (IOPATH A0 Y (::0.147) (::0.109))
+          (COND (~A0&A1) (IOPATH B0 Y (::0.123) (::0.096)))
+          (COND (A0&~A1) (IOPATH B0 Y (::0.106) (::0.096)))
+          (IOPATH B0 Y (::0.123) (::0.096))
+          (IOPATH A1 Y (::0.116) (::0.092))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__or2_1")
+     (INSTANCE g515)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.115) (::0.149))
+          (IOPATH B Y (::0.119) (::0.134))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "sky130_osu_sc_18T_ms__nor2_1")
+     (INSTANCE g516)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.101) (::0.076))
+          (IOPATH B Y (::0.077) (::0.048))
+        )
+     )
+  )
+)

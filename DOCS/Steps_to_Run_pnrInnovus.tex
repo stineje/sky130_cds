@@ -1,0 +1,54 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\title{Steps to Run pnrInnovus}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-2cm}
+
+\begin{enumerate}
+    %\item git clone git@github.com:stineje/book\textunderscore flow.git
+    \item git clone git@github.com:stineje/SKY130\textunderscore Cadence.git
+    \item Set up PDK: 
+    \begin{enumerate}
+        \item Configure git by signing into \url{https://foss-eda-tools.googlesource.com/new-password}
+        \item  git submodule update --init sky130\textunderscore osu\textunderscore sc\textunderscore t18
+    \end{enumerate}
+   \item Run synthesis using Cadence Genus 
+   \begin{itemize}
+         \item Synthesis for CDS Genus
+            \begin{enumerate}
+            \item cd synthGenus
+            \item Add HDL to hdl subdirectory
+            \item Edit genus\textunderscore script.tcl to load in correct SV files
+            \item  Also modify genus\textunderscore script.tcl to add the timing needed any loading or input/output delays. There are also options for loading that can be changed. Right now, a FF is assumed to be at the beginning and end of the timing to constrain the timing properly. Constraint settings are found within the constraints\textunderscore top.sdc file
+            \item make synth
+            \item All output is logged to synth.out that should be checked on completion. Reports are found within the reports directory and any mapped HDL is found in the top directory.
+        \end{enumerate}
+ 
+      % \item Synthesis for SNPS DC
+        %  \begin{enumerate}
+          %    \item cd synthDC 
+           %   \item  Add HDL to hdl subdirectory
+           %   \item  Edit synth.tcl in scripts directory to load in correct SV files
+          %    \item Also modify synth.tcl to add the timing needed any loading or input/output delays. There are also options for loading that can be changed. Right now, a FF is assumed to be at the beginning and end of the timing to constrain the timing properly.
+          %    \item  make synth
+          %    \item  All output is logged to synth.out that should be checked on completion. Reports are found within the reports directory and any mapped HDL is found in the mapped directory.
+        %  \end{enumerate}
+   \end{itemize}
+   \item Place-and-Route with Cadence Innovus 
+   \begin{enumerate}
+       \item Edit setup.tcl and change the design, netlist, and sdc location. These can be found by searching for mult\textunderscore seq in a text editor. These items should match the files done through synthesis.
+       \item innovus\textunderscore config.tcl has plugins that allow commands to be run when needed. Right now, some plugins are enabled and some are not. This file would have be edited if one would want to do an additional command. These commands can be done before or after a step -- e.g., pre\textunderscore init or post\textunderscore init. 
+       \item To start the process, a Makefile is used. Type the following in this order: init, place, cts, postcts\textunderscore hold, route, postroute, signoff. For example, you could type, make init to run through a design for the init phase. If one would want to just run through route, just type make route and the scripts should run through all the scripts until the end of route provided the other steps have not been initiated. This, of course, is provided there are no errors. 
+       \item Any commands run through the pnr are in the LOG subdirectory. There is one file that lists the commands (i.e., cmd) and the other that lists output from the command or the log files (i.e., .log). Reports are found in the RPT subdirectory. 
+       \item To pull up a placed-and-routed design from the route stage , start innovus and type: restoreDesign DBS/route.enc.dat/ mult\textunderscore seq. It is important that the last argument be the top-level design indicated during the synthesis stage. 
+   \end{enumerate}
+\end{enumerate}
+
+
+\end{document}
