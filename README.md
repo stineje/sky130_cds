@@ -6,6 +6,8 @@ Right now there are two sample designs in the repository. One repository has a p
 
 ![mult_seq](Images/mult_seq.png)
 
+**Steps to run synthesis and pnr:**
+
 1. git clone git@github.com:stineje/sky130_cds.git
 
 2. **Set up PDK:**<br/>
