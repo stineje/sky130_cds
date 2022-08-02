@@ -38,7 +38,7 @@ global vars
 # Define some variables to point to data, libraries, and scripts
 ###############################################################################
 set vars(design_root)  [pwd]/../..
-set vars(data_root) "../synthGenus/"
+set vars(data_root) "../synth/"
 set vars(library_root) "../sky130_osu_sc_t18/18T_ms/"
 set vars(script_root)  [pwd]/SCRIPTS
 #set init_io_file encounter.io
@@ -118,7 +118,7 @@ set vars(lef_files) "../sky130_osu_sc_t18/sky130_osu_sc_18T.tlef \
 ###############################################################################
 set vars(rc_corners)          "rc_typ"
 set vars(rc_typ,T)            25
-set vars(rc_typ,qx_tech_file) "./qrcTechFile"
+#set vars(rc_typ,qx_tech_file) "./qrcTechFile"
 #set vars(rc_max,cap_table)    $vars(design_root)/LIBS/N45/capTbl/cln45lp_edram_1p08m_cworst.capTbl
 #set vars(rc_min,cap_table)    $vars(design_root)/LIBS/N45/capTbl/cln45lp_edram_1p08m_cbest.capTbl
 #set vars(rc_max,qx_tech_file) $vars(design_root)/LIBS/N45/qrc/cln45lp_edram_1p08m_cworst/icecaps.tch

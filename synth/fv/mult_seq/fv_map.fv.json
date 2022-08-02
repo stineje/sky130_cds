@@ -211,7 +211,7 @@
 "object":"/designs/mult_seq/subdesigns/flopenr_WIDTH8",
 "type":"subdesign"},
 
-{"files":"/home/rerra/sky130_cds/synthGenus/../sky130_osu_sc_t18/18T_ms/lib/sky130_osu_sc_18T_ms_TT_1P8_25C.ccs.lib",
+{"files":"/home/rerra/sky130_cds/synth/../sky130_osu_sc_t18/18T_ms/lib/sky130_osu_sc_18T_ms_TT_1P8_25C.ccs.lib",
 "object":"/libraries/sky130_osu_sc_18T_ms_TT_1P8_25C.ccs",
 "type":"library"},
 
@@ -264,14 +264,14 @@
 "type":"instance"},
 
 {"index": "1", 
- "date": "Mon Aug 01 15:34:49 CDT 2022",
- "seconds": 1659386089.6540709,
+ "date": "Tue Aug 02 13:33:28 CDT 2022",
+ "seconds": 1659465208.599784,
  "netlist": "fv/mult_seq/fv_map.v.gz", 
  "design_name": "mult_seq", 
- "synth_workdir": "/home/rerra/sky130_cds/synthGenus", 
+ "synth_workdir": "/home/rerra/sky130_cds/synth", 
  "synthesis_command":"",
  "current_label": "fv_map", 
  "previous_label": "rtl", 
- "write_verif_file_runtime": 1.1382729999999999 
+ "write_verif_file_runtime": 1.115593 
  }
 ]

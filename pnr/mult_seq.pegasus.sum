@@ -1,25 +1,25 @@
 ********************************************************************************
 *** Pegasus DRC SUMMARY
 ***
-Execute on Date/Time    : Fri Jul 29 12:54:53 2022
+Execute on Date/Time    : Tue Aug  2 14:03:46 2022
 Pegasus VERSION         : 20.40-p018 Fri Mar 12 21:11:23 PST 2021
-Rule Deck Path          : /home/rerra/SKY130_Cadence/pnrInnovus/sky130_drcRules.pvl
+Rule Deck Path          : /home/rerra/sky130_cds/pnr/sky130_drcRules.pvl
 Rule Deck Title         :
 Layout System           : GDSII
-Layout Path             : /home/rerra/SKY130_Cadence/pnrInnovus/.pegasus_7039/mult_seq.gds.gz
-Current Directory       : /home/rerra/SKY130_Cadence/pnrInnovus/.pegasus_7039
+Layout Path             : /home/rerra/sky130_cds/pnr/.pegasus_39261/mult_seq.gds.gz
+Current Directory       : /home/rerra/sky130_cds/pnr/.pegasus_39261
 User Name               : rerra
 Maximum Results         : 1000
 Maximum Result Vertices : 4096
 Layout Depth            : ALL
 Text Depth              : 0
-Summary File            : /home/rerra/SKY130_Cadence/pnrInnovus/mult_seq.pegasus.sum
+Summary File            : /home/rerra/sky130_cds/pnr/mult_seq.pegasus.sum
 Geometry Flagging       : ACUTE = NO  ANGLED = NO  SKEW = NO  OFFGRID = NO
                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
 Keep Empty Checks       : YES
 Excluded Cells          : 
 Layout Primary Cell     : mult_seq
-ASCII DRC Error Report  : /home/rerra/SKY130_Cadence/pnrInnovus/mult_seq.pegasus.ascii
+ASCII DRC Error Report  : /home/rerra/sky130_cds/pnr/mult_seq.pegasus.ascii
 DRC Results Database    :
 --------------------------------------------------------------------------------
 --- RUNNING TIME WARNINGS
@@ -27,18 +27,18 @@ DRC Results Database    :
 --------------------------------------------------------------------------------
 --- ORIGINAL LAYER STATISTICS
 ---
-LAYER nwell ................................ Total Original Geometry:         25 (       315)
-LAYER diff ................................. Total Original Geometry:         48 (       359)
-LAYER poly ................................. Total Original Geometry:        299 (      2602)
-LAYER li1 .................................. Total Original Geometry:        376 (      3369)
-LAYER mcon ................................. Total Original Geometry:        218 (      1865)
-LAYER met1 ................................. Total Original Geometry:        986 (      3843)
+LAYER nwell ................................ Total Original Geometry:         25 (       306)
+LAYER diff ................................. Total Original Geometry:         48 (       361)
+LAYER poly ................................. Total Original Geometry:        299 (      2589)
+LAYER li1 .................................. Total Original Geometry:        376 (      3337)
+LAYER mcon ................................. Total Original Geometry:        218 (      1860)
+LAYER met1 ................................. Total Original Geometry:       1028 (      3845)
 LAYER via .................................. Total Original Geometry:          0 (         0)
-LAYER met2 ................................. Total Original Geometry:        700 (      1221)
-LAYER via2 ................................. Total Original Geometry:          2 (       105)
-LAYER met3 ................................. Total Original Geometry:        129 (       248)
-LAYER via3 ................................. Total Original Geometry:          1 (        17)
-LAYER met4 ................................. Total Original Geometry:         21 (        42)
+LAYER met2 ................................. Total Original Geometry:        698 (      1219)
+LAYER via2 ................................. Total Original Geometry:          1 (       105)
+LAYER met3 ................................. Total Original Geometry:        112 (       231)
+LAYER via3 ................................. Total Original Geometry:          1 (        16)
+LAYER met4 ................................. Total Original Geometry:         15 (        35)
 LAYER via4 ................................. Total Original Geometry:          1 (         6)
 LAYER met5 ................................. Total Original Geometry:          4 (         9)
 LAYER pad .................................. Total Original Geometry:          0 (         0)
@@ -81,6 +81,6 @@ RULECHECK R9_met3_X1 ................................... Total Result          0
 ---
 Total CPU Time                    : 1(s)
 Total Real Time                   : 2(s)
-Total Original Geometry           : 2810 (14001)
+Total Original Geometry           : 2826 (13919)
 Total DRC RuleChecks              : 26
 Total DRC Results                 : 0 (0)
