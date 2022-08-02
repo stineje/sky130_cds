@@ -1,5 +1,7 @@
 # sky130_cds
-Repository for SKY130 Process Design Kit and Cadence Design System tools
+Repository for SKY130 Process Design Kit and Cadence Design System tools. 
+
+Following are the steps to run synthesis and place-and-route
 
 1. git clone git@github.com:stineje/sky130_cds.git
 
@@ -17,7 +19,7 @@ Repository for SKY130 Process Design Kit and Cadence Design System tools
    
    c.Edit genus script.tcl to load in correct SV files
    
-   d.Also modify genus script.tcl to add the timing needed any loading or input/output delays. There are also options for loading that can be changed. Right now, a FF is assumed to be at the beginning and end of the timing to constrain the tim     ing properly.Constraint settings are found within the constraints top.sdc file
+   d.Also modify genus script.tcl to add the timing needed any loading or input/output delays. There are also options for loading that can be changed. Right now, a FF is assumed to be at the beginning and end of the timing to constrain the timing properly.Constraint settings are found within the constraints top.sdc file
    
    e.make synth
    
