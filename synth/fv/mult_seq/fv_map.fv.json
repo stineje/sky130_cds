@@ -264,14 +264,14 @@
 "type":"instance"},
 
 {"index": "1", 
- "date": "Wed Aug 03 12:08:34 CDT 2022",
- "seconds": 1659546514.964545,
+ "date": "Wed Aug 03 12:41:59 CDT 2022",
+ "seconds": 1659548519.540902,
  "netlist": "fv/mult_seq/fv_map.v.gz", 
  "design_name": "mult_seq", 
  "synth_workdir": "/home/jstine/Desktop/sky130_cds/synth", 
  "synthesis_command":"",
  "current_label": "fv_map", 
  "previous_label": "rtl", 
- "write_verif_file_runtime": 1.378104 
+ "write_verif_file_runtime": 1.120124 
  }
 ]
