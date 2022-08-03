@@ -1,25 +1,25 @@
 ********************************************************************************
 *** Pegasus DRC SUMMARY
 ***
-Execute on Date/Time    : Tue Aug  2 14:59:21 2022
+Execute on Date/Time    : Wed Aug  3 11:44:13 2022
 Pegasus VERSION         : 20.40-p018 Fri Mar 12 21:11:23 PST 2021
-Rule Deck Path          : /home/rerra/sky130_cds/pnr/sky130_drcRules.pvl
+Rule Deck Path          : /home/jstine/Desktop/sky130_cds/pnr/sky130_drcRules.pvl
 Rule Deck Title         :
 Layout System           : GDSII
-Layout Path             : /home/rerra/sky130_cds/pnr/.pegasus_62245/mult_seq.gds.gz
-Current Directory       : /home/rerra/sky130_cds/pnr/.pegasus_62245
-User Name               : rerra
+Layout Path             : /home/jstine/Desktop/sky130_cds/pnr/.pegasus_82054/mult_seq.gds.gz
+Current Directory       : /home/jstine/Desktop/sky130_cds/pnr/.pegasus_82054
+User Name               : jstine
 Maximum Results         : 1000
 Maximum Result Vertices : 4096
 Layout Depth            : ALL
 Text Depth              : 0
-Summary File            : /home/rerra/sky130_cds/pnr/mult_seq.pegasus.sum
+Summary File            : /home/jstine/Desktop/sky130_cds/pnr/mult_seq.pegasus.sum
 Geometry Flagging       : ACUTE = NO  ANGLED = NO  SKEW = NO  OFFGRID = NO
                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
 Keep Empty Checks       : YES
 Excluded Cells          : 
 Layout Primary Cell     : mult_seq
-ASCII DRC Error Report  : /home/rerra/sky130_cds/pnr/mult_seq.pegasus.ascii
+ASCII DRC Error Report  : /home/jstine/Desktop/sky130_cds/pnr/mult_seq.pegasus.ascii
 DRC Results Database    :
 --------------------------------------------------------------------------------
 --- RUNNING TIME WARNINGS
