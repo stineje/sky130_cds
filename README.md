@@ -1,28 +1,16 @@
 # sky130_cds
 <pre>
-James E. Stine, Jr.
+James E. Stine, Jr. and Rachana Erra
 james.stine@okstate.edu 
-Oklahoma State University
-School of Electrical and Computer Engineering
-VLSI Computer Architecture Research Group
-
-Rachana Erra
-rachana.erra@okstate.edu
 Oklahoma State University
 School of Electrical and Computer Engineering
 VLSI Computer Architecture Research Group
 </pre>
 
-
-
-
-
 Repository for SKY130 Process Design Kit and Cadence Design System tools. 
 
 **Sample Designs:**<br/>
 Right now there are two sample designs in the repository. One is a purely combinational design (mult.sv) and the other is a combination of combinational and sequential (mult_seq.sv). Right now, the mult_seq design is set up but can be easily modified and changed, if needed.
-
-![mult_seq](Images/mult_seq.png)
 
 **Instructions to run synthesis and pnr:**
 
@@ -49,6 +37,6 @@ Right now there are two sample designs in the repository. One is a purely combin
  
  **Generating a qrcTechfile for PEX using Quantus:**<br/>
 qrcTechfile is a technology file specific to a PDK that is generated from an ict file. An ict file contains information about conductors, dielectrics, diffusion, substrate, via and so forth. It is created using the specified syntax for each of the commands.<br/>
-Techgen -si sky130.ict--> this command simulates  the ict file using Techgen to generate a qrcTechfile.
+<PRE>Techgen -si sky130.ict</PRE>
 
  
