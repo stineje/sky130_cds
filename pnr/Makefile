@@ -118,7 +118,14 @@ clean:
 	/bin/mv *.rpt RPT ;\
 	/bin/rm -fr extLogDir* __qrc.log *cts_trace *.rpt.old *delete* placementReports* *.rguide *_mmmc \
 	*_constr.pt .constr* .FE* .routing* .timing_file* .tdrlog*
-	rm make/*
+	rm -rf make/*
+	rm -rf LOG DBS RPT
+	rm -rf innovus.cmd*
+	rm -rf innovus.log*
+	rm -rf checkDesign
+	rm -rf timingReports
+	rm -f final.gds
+	rm -f final.v
 
 do_cleanup: signoff
 	$(MAKE) clean

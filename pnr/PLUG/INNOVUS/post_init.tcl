@@ -58,7 +58,7 @@ globalNetConnect VDD -type pgpin -pin vdd -inst *
 
 # Add Ring
 setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer met2 -stacked_via_bottom_layer met1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
-addRing -nets {VDD VSS} -type core_rings -follow core -layer {top met1 bottom met1 left met2 right met2} -width {top 14.4 bottom 14.4 left 14.4 right 14.4} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -extend_corner {} -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+addRing -nets {VDD VSS} -type core_rings -follow core -layer {top met1 bottom met1 left met2 right met2} -width {top 7.2 bottom 7.2 left 7.2 right 7.2} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -extend_corner {} -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
 
 ####Some settings for power grid:
 set vars(layers) "0 1"

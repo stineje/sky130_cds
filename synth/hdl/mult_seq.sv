@@ -1,4 +1,4 @@
-module mult_seq #(parameter WIDTH=4)
+module mult_seq #(parameter WIDTH=16)
    (a, b, clk, reset, en, sum_q);
 
    output logic [2*WIDTH-1:0] sum_q;
