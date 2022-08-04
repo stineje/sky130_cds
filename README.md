@@ -49,6 +49,6 @@ Right now there are two sample designs in the repository. One is a purely combin
  
  **Generating a qrcTechfile for PEX using Quantus:**<br/>
 qrcTechfile is a technology file specific to a PDK that is generated from an ict file. An ict file contains information about conductors, dielectrics, diffusion, substrate, via and so forth. It is created using the specified syntax for each of the commands.<br/>
-Techgen -si sky130.ict--> this command simulates  the ict files using Techgen to generate a qrcTechfile.
+Techgen -si sky130.ict--> this command simulates  the ict file using Techgen to generate a qrcTechfile.
 
  
