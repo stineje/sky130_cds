@@ -47,8 +47,8 @@ Right now there are two sample designs in the repository. One is a purely combin
    d.Any commands run through the pnr are in the LOG subdirectory. There is one file that lists the commands (i.e., cmd) and the other that lists output from the command or the log files (i.e., .log). Reports are found in the RPT subdirectory.<br/>
    e.To pull up a placed-and-routed design from the route stage , start innovus and type: restoreDesign DBS/route.enc.dat/ mult_seq. It is important that the last argument be the top-level design indicated during the synthesis stage.<br/>
  
- **Generating a qrcTechfile for PEX using Quantus:**
-qrcTechfile is a technology file specific to a PDK that is generated from an ict file. An ict file contains information about conductors, dielectrics, diffusion, substrate, via and so forth. It is created using the specified syntax for each of the commands.
-Techgen -si sky130.ict--> this command simulates simulates the ict files using Techgen to generate a qrcTechfile.
+ **Generating a qrcTechfile for PEX using Quantus:**<br/>
+qrcTechfile is a technology file specific to a PDK that is generated from an ict file. An ict file contains information about conductors, dielectrics, diffusion, substrate, via and so forth. It is created using the specified syntax for each of the commands.<br/>
+Techgen -si sky130.ict--> this command simulates  the ict files using Techgen to generate a qrcTechfile.
 
  
