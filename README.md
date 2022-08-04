@@ -7,6 +7,8 @@ School of Electrical and Computer Engineering
 VLSI Computer Architecture Research Group
 </pre>
 
+Many thanks to Cadence Design Systems and David Junkin for all his amazing help and guidance.  
+
 Repository for SKY130 Process Design Kit and Cadence Design System tools. 
 
 **Sample Designs:**<br/>
