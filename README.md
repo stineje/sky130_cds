@@ -11,7 +11,7 @@ Many thanks to Cadence Design Systems and David Junkin for all his amazing help 
 
 Repository for SKY130 Process Design Kit and Cadence Design System tools.
 
-**Submodules
+**Submodules**</br>
 
 This repository contains the Oklahoma State University standard cells for Skywater Technology 130nm (SKY130).  They are integrated as submodules to get all of the standard-cells after cloning, type:
 
