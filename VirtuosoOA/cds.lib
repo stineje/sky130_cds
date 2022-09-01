@@ -1,0 +1,6 @@
+# Cadence libraries
+INCLUDE $CDSHOME/ICADVM/current/share/cdssetup/cds.lib
+DEFINE bmslib $CDSHOME/ICADVM/current/tools/dfII/samples/artist/bmslib
+
+
+DEFINE sky130 /home/rerra/sky130_cds/VirtuosoOA/sky130

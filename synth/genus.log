@@ -1,0 +1,52 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 20.11-s111_1, built Mon Apr 26 12:57:38 PDT 2021
+Options: -files genus_script.tcl 
+Date:    Sat Aug 06 12:29:30 2022
+Host:    sakuya.ecen.okstate.edu (x86_64 w/Linux 3.10.0-1160.71.1.el7.x86_64) (16cores*32cpus*1physical cpu*AMD Ryzen 9 3950X 16-Core Processor 512KB) (131831340KB)
+PID:     8861
+OS:      Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+Checking out license: Genus_Synthesis
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...
+Finished loading tool scripts (7 seconds elapsed).
+
+#@ Processing -files option
+@genus 1> source genus_script.tcl
+#@ Begin verbose source ./genus_script.tcl
+@file(genus_script.tcl) 1: set s8lib ../sky130_osu_sc_t18/18T_ms/lib
+@file(genus_script.tcl) 3: set_db init_lib_search_path $s8lib
+  Setting attribute of root '/': 'init_lib_search_path' = ../sky130_osu_sc_t18/18T_ms/lib
+@file(genus_script.tcl) 4: set search_path [list "./" ]
+@file(genus_script.tcl) 5: lappend search_path $s8lib
+@file(genus_script.tcl) 6: lappend search_path "./hdl"
+@file(genus_script.tcl) 8: set_db init_hdl_search_path $search_path
+  Setting attribute of root '/': 'init_hdl_search_path' = ./ ../sky130_osu_sc_t18/18T_ms/lib ./hdl
+@file(genus_script.tcl) 9: read_libs sky130_osu_sc_18T_ms_TT_1P8_25C.ccs.lib 
+Error   : File error. [FILE-100] [::legacy::set_attribute]
+        : Cannot open file 'sky130_osu_sc_18T_ms_TT_1P8_25C.ccs.lib'
+        : Make sure that the file is a readable regular file and has the specified name.
+Error   : A library file does not exist. [LBR-68] [::legacy::set_attribute]
+        : File 'sky130_osu_sc_18T_ms_TT_1P8_25C.ccs.lib' could not be found. File '<none>' was the last file that was successfully read in.
+        : Make sure that the library file exists or check for a typo in the file name.
+Error   : The data value for this attribute is invalid. [TUI-24] [::legacy::set_attribute]
+        : The value '  { sky130_osu_sc_18T_ms_TT_1P8_25C.ccs.lib } ' cannot be set for attribute 'library'.
+        : To see the usage/description for this attribute, type '::legacy::set_attribute -h <attr_name> *' (in legacy UI mode) or 'help * <attr_name> -detail' (in CUI mode).
+#@ End verbose source ./genus_script.tcl
+1
+Encountered problems processing file: genus_script.tcl
+WARNING: This version of the tool is 466 days old.
+@genus:root: 2> rxit
+invalid command name "rxit"
+@genus:root: 3> exit
+Normal exit.
