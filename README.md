@@ -9,7 +9,28 @@ VLSI Computer Architecture Research Group
 
 Many thanks to Cadence Design Systems and David Junkin for all his amazing help and guidance.  
 
-Repository for SKY130 Process Design Kit and Cadence Design System tools. 
+Repository for SKY130 Process Design Kit and Cadence Design System tools.
+
+**Submodules**</br>
+
+This repository contains the Oklahoma State University standard cells for Skywater Technology 130nm (SKY130).  They are integrated as submodules to get all of the standard-cells after cloning, type:
+
+<pre>
+git submodule update --init --recursive
+</pre>
+
+You can also get each submodule individually by typing:
+
+<pre>
+git submodule update --init sky130_osu_sc_t18
+</pre>
+
+If you wish to download them individually, you can do that at these links:
+<pre>
+https://foss-eda-tools.googlesource.com/skywater-pdk/libs/sky130_osu_sc_t18/+/refs/heads/main
+https://foss-eda-tools.googlesource.com/skywater-pdk/libs/sky130_osu_sc_t15/+/refs/heads/main
+https://foss-eda-tools.googlesource.com/skywater-pdk/libs/sky130_osu_sc_t12/+/refs/heads/main
+</pre>
 
 **Sample Designs:**<br/>
 Right now there are two sample designs in the repository. One is a purely combinational design (mult.sv) and the other is a combination of combinational and sequential (mult_seq.sv). Right now, the mult_seq design is set up but can be easily modified and changed, if needed.
