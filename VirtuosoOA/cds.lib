@@ -1,6 +1,9 @@
 # Cadence libraries
 INCLUDE $CDSHOME/ICADVM/current/share/cdssetup/cds.lib
 DEFINE bmslib $CDSHOME/ICADVM/current/tools/dfII/samples/artist/bmslib
+DEFINE sky130 ./sky130
 
-
-DEFINE sky130 /home/rerra/sky130_cds/VirtuosoOA/sky130
+# OSU Standard-Cell Libraries
+DEFINE sky130_osu_sc_t18 /home/jstine/Desktop/sky130_cds/VirtuosoOA/sky130_osu_sc_t18
+DEFINE sky130_osu_sc_t12 /home/jstine/Desktop/sky130_cds/VirtuosoOA/sky130_osu_sc_t12
+DEFINE sky130_osu_sc_t15 /home/jstine/Desktop/sky130_cds/VirtuosoOA/sky130_osu_sc_t15
