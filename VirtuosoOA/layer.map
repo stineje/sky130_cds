@@ -141,7 +141,7 @@ crpm           drawing        53                   44
 crpm           mask           96                   0              
 crpm           maskAdd        53                   43             
 crpm           maskDrop       53                   42             
-crrpm          mask           102                   0              
+#crrpm          mask           102                   0              
 ctunm          drawing        96                   20             
 ctunm          mask           20                   0              
 ctunm          maskAdd        96                   21             
@@ -306,7 +306,7 @@ rdl            pin            74                   16
 rdl            res            74                   13             
 rdl            short          74                   15             
 rpm            drawing        86                   20             
-rrpm           drawing        102                  20             
+#rrpm           drawing        102                  20             
 tap            boundary       65                   60             
 tap            drawing        65                   44             
 tap            label          65                   5              
