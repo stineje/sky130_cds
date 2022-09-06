@@ -1,0 +1,118 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream In
+Program   : @(#)$CDS: strmin version 6.1.8-64b 06/22/2022 16:16 (sjfhw316) $
+          : sub-version  IC6.1.8-64b.500.26 
+Started at: 05-Sep-2022  11:03:23
+User Name : jstine
+Host Name : sakuya.ecen.okstate.edu
+Directory : /home/jstine/Desktop/sky130_cds/VirtuosoOA
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-75): Target library 'sky130_osu_sc_t15' is attached to the technology library 'sky130'. Therefore, the technology file is opened in read-only mode. All the undefined layer-purpose pairs will be dropped.
+WARNING (XSTRM-107): Existing cells in the target library will be overwritten if the cell names in the Stream file and the target library are the same. To prevent this, set the '-writeMode' option to 'noOverwrite'.
+INFO (XSTRM-217): Reading the layer map file, /home/jstine/Desktop/sky130_cds/VirtuosoOA/layer.map
+WARNING (XSTRM-364): Ignoring the layer-datatype pair 'crrpm:mask' in the layer map file '/home/jstine/Desktop/sky130_cds/VirtuosoOA/layer.map' at line number '144' because the technology library is read-only and the layer-datatype pair is not defined in the technology file.
+WARNING (XSTRM-364): Ignoring the layer-datatype pair 'rrpm:drawing' in the layer map file '/home/jstine/Desktop/sky130_cds/VirtuosoOA/layer.map' at line number '309' because the technology library is read-only and the layer-datatype pair is not defined in the technology file.
+INFO (XSTRM-163): You have not used the '-viaMap' option. If a viaMap file, corresponding technology file or technology library exist, then use the '-viaMap' option for creating oaVia instances in the Streamed-In library. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options:
+	library				sky130_osu_sc_t15
+	strmFile			/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__addf_1.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__addf_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__addh_1.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__addh_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__and2_1.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__and2_2.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__and2_4.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__and2_6.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__and2_8.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__and2_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__ant.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__antfill.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__aoi21_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__aoi22_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__buf_1.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__buf_2.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__buf_4.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__buf_6.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__buf_8.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__buf_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__decap_1.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__decap_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__dff_1.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__dff_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__dffr_1.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__dffr_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__dffs_1.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__dffs_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__dffsr_1.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__dffsr_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__dlat_1.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__dlat_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__fill_1.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__fill_16.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__fill_2.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__fill_32.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__fill_4.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__fill_8.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__inv_1.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__inv_10.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__inv_2.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__inv_3.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__inv_4.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__inv_6.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__inv_8.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__inv_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__mux2_1.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__nand2_1.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__nand2_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__ncgateCKa_new.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__ncgate_1.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__ndlat_1.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__ndlat_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__nor2_1.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__nor2_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__oai21_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__oai22_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__or2_1.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__or2_2.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__or2_4.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__or2_8.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__or2_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__pcgateCKa_new.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__pcgate_1.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__tbufi_1.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__tbufi_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__tiehi.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__tielo.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__tnbufi_1.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__tnbufi_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__xnor2_l.gds,/home/jstine/Desktop/sky130_cds/sky130_osu_sc_t15/15T_ls/gds/sky130_osu_sc_15T_ls__xor2_l.gds
+	logFile				strmIn_15t_ls.log
+	view				layout
+	case				Preserve
+	layerMap			/home/jstine/Desktop/sky130_cds/VirtuosoOA/layer.map
+	propSeparator			,
+
+INFO (XSTRM-220): 1. Translating STRUCTURE sky130_osu_sc_15T_ls__addf_1 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__addf_1/layout.
+INFO (XSTRM-220): 2. Translating STRUCTURE sky130_osu_sc_15T_ls__addf_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__addf_l/layout.
+INFO (XSTRM-220): 3. Translating STRUCTURE sky130_osu_sc_15T_ls__addh_1 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__addh_1/layout.
+INFO (XSTRM-220): 4. Translating STRUCTURE sky130_osu_sc_15T_ls__addh_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__addh_l/layout.
+INFO (XSTRM-220): 5. Translating STRUCTURE sky130_osu_sc_15T_ls__and2_1 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__and2_1/layout.
+INFO (XSTRM-220): 6. Translating STRUCTURE sky130_osu_sc_15T_ls__and2_2 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__and2_2/layout.
+INFO (XSTRM-220): 7. Translating STRUCTURE sky130_osu_sc_15T_ls__and2_4 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__and2_4/layout.
+INFO (XSTRM-220): 8. Translating STRUCTURE sky130_osu_sc_15T_ls__and2_6 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__and2_6/layout.
+INFO (XSTRM-220): 9. Translating STRUCTURE sky130_osu_sc_15T_ls__and2_8 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__and2_8/layout.
+INFO (XSTRM-220): 10. Translating STRUCTURE sky130_osu_sc_15T_ls__and2_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__and2_l/layout.
+INFO (XSTRM-220): 11. Translating STRUCTURE sky130_osu_sc_15T_ls__ant as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__ant/layout.
+INFO (XSTRM-220): 12. Translating STRUCTURE sky130_osu_sc_15T_ls__antfill as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__antfill/layout.
+INFO (XSTRM-220): 13. Translating STRUCTURE sky130_osu_sc_15T_ls__aoi21_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__aoi21_l/layout.
+INFO (XSTRM-220): 14. Translating STRUCTURE sky130_osu_sc_15T_ls__aoi22_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__aoi22_l/layout.
+INFO (XSTRM-220): 15. Translating STRUCTURE sky130_osu_sc_15T_ls__buf_1 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__buf_1/layout.
+INFO (XSTRM-220): 16. Translating STRUCTURE sky130_osu_sc_15T_ls__buf_2 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__buf_2/layout.
+INFO (XSTRM-220): 17. Translating STRUCTURE sky130_osu_sc_15T_ls__buf_4 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__buf_4/layout.
+INFO (XSTRM-220): 18. Translating STRUCTURE sky130_osu_sc_15T_ls__buf_6 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__buf_6/layout.
+INFO (XSTRM-220): 19. Translating STRUCTURE sky130_osu_sc_15T_ls__buf_8 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__buf_8/layout.
+INFO (XSTRM-220): 20. Translating STRUCTURE sky130_osu_sc_15T_ls__buf_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__buf_l/layout.
+INFO (XSTRM-220): 21. Translating STRUCTURE sky130_osu_sc_15T_ls__decap_1 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__decap_1/layout.
+INFO (XSTRM-220): 22. Translating STRUCTURE sky130_osu_sc_15T_ls__decap_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__decap_l/layout.
+INFO (XSTRM-220): 23. Translating STRUCTURE sky130_osu_sc_15T_ls__dff_1 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__dff_1/layout.
+INFO (XSTRM-220): 24. Translating STRUCTURE sky130_osu_sc_15T_ls__dff_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__dff_l/layout.
+INFO (XSTRM-220): 25. Translating STRUCTURE sky130_osu_sc_15T_ls__dffr_1 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__dffr_1/layout.
+INFO (XSTRM-220): 26. Translating STRUCTURE sky130_osu_sc_15T_ls__dffr_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__dffr_l/layout.
+INFO (XSTRM-220): 27. Translating STRUCTURE sky130_osu_sc_15T_ls__dffs_1 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__dffs_1/layout.
+INFO (XSTRM-220): 28. Translating STRUCTURE sky130_osu_sc_15T_ls__dffs_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__dffs_l/layout.
+INFO (XSTRM-220): 29. Translating STRUCTURE sky130_osu_sc_15T_ls__dffsr_1 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__dffsr_1/layout.
+INFO (XSTRM-220): 30. Translating STRUCTURE sky130_osu_sc_15T_ls__dffsr_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__dffsr_l/layout.
+INFO (XSTRM-220): 31. Translating STRUCTURE sky130_osu_sc_15T_ls__dlat_1 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__dlat_1/layout.
+INFO (XSTRM-220): 32. Translating STRUCTURE sky130_osu_sc_15T_ls__dlat_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__dlat_l/layout.
+INFO (XSTRM-220): 33. Translating STRUCTURE sky130_osu_sc_15T_ls__fill_1 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__fill_1/layout.
+INFO (XSTRM-220): 34. Translating STRUCTURE sky130_osu_sc_15T_ls__fill_16 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__fill_16/layout.
+INFO (XSTRM-220): 35. Translating STRUCTURE sky130_osu_sc_15T_ls__fill_2 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__fill_2/layout.
+INFO (XSTRM-220): 36. Translating STRUCTURE sky130_osu_sc_15T_ls__fill_32 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__fill_32/layout.
+INFO (XSTRM-220): 37. Translating STRUCTURE sky130_osu_sc_15T_ls__fill_4 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__fill_4/layout.
+INFO (XSTRM-220): 38. Translating STRUCTURE sky130_osu_sc_15T_ls__fill_8 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__fill_8/layout.
+INFO (XSTRM-220): 39. Translating STRUCTURE sky130_osu_sc_15T_ls__inv_1 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__inv_1/layout.
+INFO (XSTRM-220): 40. Translating STRUCTURE sky130_osu_sc_15T_ls__inv_10 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__inv_10/layout.
+INFO (XSTRM-220): 41. Translating STRUCTURE sky130_osu_sc_15T_ls__inv_2 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__inv_2/layout.
+INFO (XSTRM-220): 42. Translating STRUCTURE sky130_osu_sc_15T_ls__inv_3 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__inv_3/layout.
+INFO (XSTRM-220): 43. Translating STRUCTURE sky130_osu_sc_15T_ls__inv_4 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__inv_4/layout.
+INFO (XSTRM-220): 44. Translating STRUCTURE sky130_osu_sc_15T_ls__inv_6 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__inv_6/layout.
+INFO (XSTRM-220): 45. Translating STRUCTURE sky130_osu_sc_15T_ls__inv_8 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__inv_8/layout.
+INFO (XSTRM-220): 46. Translating STRUCTURE sky130_osu_sc_15T_ls__inv_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__inv_l/layout.
+INFO (XSTRM-220): 47. Translating STRUCTURE sky130_osu_sc_15T_ls__mux2_1 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__mux2_1/layout.
+INFO (XSTRM-220): 48. Translating STRUCTURE sky130_osu_sc_15T_ls__nand2_1 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__nand2_1/layout.
+INFO (XSTRM-220): 49. Translating STRUCTURE sky130_osu_sc_15T_ls__nand2_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__nand2_l/layout.
+INFO (XSTRM-220): 50. Translating STRUCTURE sky130_osu_sc_15T_ls__ncgateCKa_new as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__ncgateCKa_new/layout.
+INFO (XSTRM-220): 51. Translating STRUCTURE sky130_osu_sc_15T_ls__ncgate_1 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__ncgate_1/layout.
+INFO (XSTRM-220): 52. Translating STRUCTURE sky130_osu_sc_15T_ls__ndlat_1 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__ndlat_1/layout.
+INFO (XSTRM-220): 53. Translating STRUCTURE sky130_osu_sc_15T_ls__ndlat_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__ndlat_l/layout.
+INFO (XSTRM-220): 54. Translating STRUCTURE sky130_osu_sc_15T_ls__nor2_1 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__nor2_1/layout.
+INFO (XSTRM-220): 55. Translating STRUCTURE sky130_osu_sc_15T_ls__nor2_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__nor2_l/layout.
+INFO (XSTRM-220): 56. Translating STRUCTURE sky130_osu_sc_15T_ls__oai21_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__oai21_l/layout.
+INFO (XSTRM-220): 57. Translating STRUCTURE sky130_osu_sc_15T_ls__oai22_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__oai22_l/layout.
+INFO (XSTRM-220): 58. Translating STRUCTURE sky130_osu_sc_15T_ls__or2_1 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__or2_1/layout.
+INFO (XSTRM-220): 59. Translating STRUCTURE sky130_osu_sc_15T_ls__or2_2 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__or2_2/layout.
+INFO (XSTRM-220): 60. Translating STRUCTURE sky130_osu_sc_15T_ls__or2_4 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__or2_4/layout.
+INFO (XSTRM-220): 61. Translating STRUCTURE sky130_osu_sc_15T_ls__or2_8 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__or2_8/layout.
+INFO (XSTRM-220): 62. Translating STRUCTURE sky130_osu_sc_15T_ls__or2_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__or2_l/layout.
+INFO (XSTRM-220): 63. Translating STRUCTURE sky130_osu_sc_15T_ls__pcgateCKa_new as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__pcgateCKa_new/layout.
+INFO (XSTRM-220): 64. Translating STRUCTURE sky130_osu_sc_15T_ls__pcgate_1 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__pcgate_1/layout.
+INFO (XSTRM-220): 65. Translating STRUCTURE sky130_osu_sc_15T_ls__tbufi_1 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__tbufi_1/layout.
+INFO (XSTRM-220): 66. Translating STRUCTURE sky130_osu_sc_15T_ls__tbufi_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__tbufi_l/layout.
+INFO (XSTRM-220): 67. Translating STRUCTURE sky130_osu_sc_15T_ls__tiehi as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__tiehi/layout.
+INFO (XSTRM-220): 68. Translating STRUCTURE sky130_osu_sc_15T_ls__tielo as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__tielo/layout.
+INFO (XSTRM-220): 69. Translating STRUCTURE sky130_osu_sc_15T_ls__tnbufi_1 as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__tnbufi_1/layout.
+INFO (XSTRM-220): 70. Translating STRUCTURE sky130_osu_sc_15T_ls__tnbufi_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__tnbufi_l/layout.
+INFO (XSTRM-220): 71. Translating STRUCTURE sky130_osu_sc_15T_ls__xnor2_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__xnor2_l/layout.
+INFO (XSTRM-220): 72. Translating STRUCTURE sky130_osu_sc_15T_ls__xor2_l as cellView sky130_osu_sc_t15/sky130_osu_sc_15T_ls__xor2_l/layout.
+
+Summary of Objects Translated:
+	Instances:                              0
+	CustomVias:                             0
+	StandardVias:                           0
+	CdsGenVias:                             0
+	Arrays:                                 0
+	Polygons:                               0
+	Paths:                                  0
+	PathSegs:                               0
+	Rectangles:                             11560
+	Text:                                   447
+	Node:                                   0
+	Line:                                   0
+	Cells:                                  72
+
+Elapsed Time: 0.8s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 7140KB  CPUs Used: 1
+INFO (XSTRM-234): Translation completed. '0' error(s) and '4' warning(s) found.
