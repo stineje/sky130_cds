@@ -1,0 +1,43 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream In
+Program   : @(#)$CDS: strmin version 6.1.8-64b 06/22/2022 16:16 (sjfhw316) $
+          : sub-version  IC6.1.8-64b.500.26 
+Started at: 01-Sep-2022  18:51:14
+User Name : rerra
+Host Name : sakuya.ecen.okstate.edu
+Directory : /home/rerra/sky130_cds/VirtuosoOA
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+INFO (XSTRM-289): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the '-layerMap' option.
+WARNING (XSTRM-107): Existing cells in the target library will be overwritten if the cell names in the Stream file and the target library are the same. To prevent this, set the '-writeMode' option to 'noOverwrite'.
+INFO (XSTRM-163): You have not used the '-viaMap' option. If a viaMap file, corresponding technology file or technology library exist, then use the '-viaMap' option for creating oaVia instances in the Streamed-In library. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options:
+	library				sky130
+	strmFile			/home/rerra/sky130_cds/sky130_osu_sc_t18/18T_ms/gds/sky130_osu_sc_18T_ms__dffsr_l.gds
+	logFile				strmIn.log
+	view				layout
+	case				Preserve
+	propSeparator			,
+
+INFO (XSTRM-220): 1. Translating STRUCTURE sky130_osu_sc_18T_ms__dffsr_l as cellView sky130/sky130_osu_sc_18T_ms__dffsr_l/layout.
+
+Summary of Objects Translated:
+	Instances:                              0
+	CustomVias:                             0
+	StandardVias:                           0
+	CdsGenVias:                             0
+	Arrays:                                 0
+	Polygons:                               0
+	Paths:                                  0
+	PathSegs:                               0
+	Rectangles:                             552
+	Text:                                   8
+	Node:                                   0
+	Line:                                   0
+	Cells:                                  1
+
+Elapsed Time: 0.2s   User Time: 0.0s   CPU Time: 0.0s   Peak VM: 3592KB  CPUs Used: 1
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

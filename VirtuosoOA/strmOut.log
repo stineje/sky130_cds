@@ -1,0 +1,55 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 06/22/2022 16:16 (sjfhw317) $
+          : sub-version  IC6.1.8-64b.500.26 
+Started at: 01-Sep-2022  17:53:39
+User Name : rerra
+Host Name : sakuya.ecen.okstate.edu
+Directory : /home/rerra/sky130_cds/VirtuosoOA
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/rerra/sky130_cds/pnr/mult_seq.gds' already exists. It will be overwritten.
+INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the '-layerMap' option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+WARNING (XSTRM-202): The '-topCell' option is used without any view name. During XStream Out, the translator will translate all the views of maskLayout type for each of the specified topCell(s). Specify the view name that needs to be translated.
+INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options :
+library                                 sky130
+strmFile                                /home/rerra/sky130_cds/pnr/mult_seq.gds
+topCell                                 mult_seq
+logFile                                 strmOut.log
+techLib                                 sky130
+case                                    Preserve
+convertDot                              node
+
+WARNING (XSTRM-80076): The specified cell "mult_seq" was not found in OpenAccess library. The gds data was not created for this cell.
+
+Summary of Objects Translated:
+	Scalar Instances:                       0
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             0
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           0
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               0
+	Text:                                   0
+	TextDisplay:                            0
+	Cells:                                  0
+
+Elapsed Time: 0.2s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 0KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '3' warning(s) found.
