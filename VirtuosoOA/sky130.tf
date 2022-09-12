@@ -1,6 +1,6 @@
-; Technology File technology_library
-; Generated on Feb 12 16:50:28 2018
-;     with @(#)$CDS: virtuoso version 6.1.7-64b 10/06/2017 20:26 (sjfhw305) $
+; Technology File sky130_cds
+; Generated on Sep 12 15:43:36 2022
+;     with @(#)$CDS: virtuoso version 6.1.8-64b 06/22/2022 16:25 (sjfhw316) $
 
 
 ;********************************
@@ -12,15 +12,7 @@ controls(
  techParams(
  ;( parameter           value             )
  ;( ----------          -----             )
-  ( TECHtechnology 	"sky130"   )
-  ( TECHtdrSpecNum 	"001-01905"     )
-  ( TECHtdrSpecRev 	"EQ"            )
-  ( TECHbondPadStressSpecNum	"01-70004"      )
-  ( TECHbondPadStressSpecRev	"BC"            )
-  ( TECHmiscTdrSpecNum	"001-69087"     )
-  ( TECHmiscTdrSpecRev	"AA"            )
-  ( TECHcompileTime	"Nov 10 22:04:23 2017" )
-  ( TECHcompileTimeUTC	1510322663      )
+  ( TECHtechnology 	"sky130"        )
   ( iccLayers      	((("nwell" "drawing") "n_well" "off" 0.84 1.27 nil nil) (("diff" "drawing") "n_diffusion" "off" 0.15 0.27 nil nil) (("tap" "drawing") "n_diffusion" "off" 0.15 0.27 nil nil) (("poly" "drawing") "polysilicon" "orthogonal" 0.15 0.21 nil t) (("licon1" "drawing") "cut" "off" 0.17 0.17 nil t) (("li1" "drawing") "metal" "orthogonal" 0.17 0.17 nil t) (("mcon" "drawing") "cut" "off" 0.17 0.19 nil t) (("met1" "drawing") "metal" "orthogonal" 0.14 0.14 nil t) (("via" "drawing") "cut" "off" 0.15 0.17 nil t) (("met2" "drawing") "metal" "orthogonal" 0.14 0.14 nil t) (("via2" "drawing") "cut" "off" 0.2 0.2 nil t) (("met3" "drawing") "metal" "orthogonal" 0.3 0.3 nil t) (("via3" "drawing") "cut" "off" 0.2 0.2 nil t) (("met4" "drawing") "metal" "orthogonal" 0.3 0.3 nil t) (("via4" "drawing") "cut" "off" 0.8 0.8 nil t) (("met5" "drawing") "metal" "orthogonal" 1.6 1.6 nil t))	 )
   ( iccVias        	((("technology_library" "L1M1_C" "symbolic") t) (("technology_library" "M1M2_C" "symbolic") t) (("technology_library" "PYL1_C" "symbolic") t) (("technology_library" "M2M3_C" "symbolic") t) (("technology_library" "M3M4_C" "symbolic") t) (("technology_library" "M4M5_C" "symbolic") t))	 )
   ( iccEquivalentLayers	((("diff" "drawing") ("diff" "pin")) (("poly" "drawing") ("poly" "pin")) (("li1" "drawing") ("li1" "pin")) (("met1" "drawing") ("met1" "pin") ("met1" "net")) (("met2" "drawing") ("met2" "pin") ("met2" "net")) (("met3" "drawing") ("met3" "pin") ("met3" "net")) (("met4" "drawing") ("met4" "pin") ("met4" "net")) (("met5" "drawing") ("met5" "pin") ("met5" "net")))	 )
@@ -28,27 +20,9 @@ controls(
   ( iccKeepouts    	((nil (("size" (("target" "drawing") nil) "fuseRegion" "routing" t) ("or" (("diff" "drawing") ("tap" "drawing")) "tempfom" "routing" t) ("size" ("tempfom" -0.135) ("poly" "drawing") "routing" t) ("c-not" (("poly" "drawing") "tempfom") ("poly" "drawing") "routing" t) ("c-not" (("poly" "drawing") ("poly" "res")) ("poly" "drawing") "routing" t) ("=>" ("fuseRegion") ("poly" "drawing") "routing" t) ("c-not" (("li1" "drawing") ("li1" "res")) ("li1" "drawing") "routing" t) ("=>" ("fuseRegion") ("li1" "drawing") "routing" t) ("c-not" (("met1" "drawing") ("met1" "res")) ("met1" "drawing") "routing" t) ("c-not" (("met1" "drawing") ("met1" "short")) ("met1" "drawing") "routing" t) ("=>" (("met1" "option1")) ("met1" "drawing") "routing" t) ("=>" (("met1" "option2")) ("met1" "drawing") "routing" t) ("=>" (("met1" "option3")) ("met1" "drawing") "routing" t) ("=>" (("met1" "option4")) ("met1" "drawing") "routing" t) ("=>" (("met1" "option5")) ("met1" "drawing") "routing" t) ("=>" (("met1" "option6")) ("met1" "drawing") "routing" t) ("=>" (("met1" "option7")) ("met1" "drawing") "routing" t) ("=>" (("met1" "option8")) ("met1" "drawing") "routing" t) ("=>" ("fuseRegion") ("met1" "drawing") "routing" t) ("c-not" (("met2" "drawing") ("met2" "res")) ("met2" "drawing") "routing" t) ("c-not" (("met2" "drawing") ("met2" "short")) ("met2" "drawing") "routing" t) ("c-not" (("met2" "drawing") ("met2" "fuse")) ("met2" "drawing") "routing" t) ("=>" (("met2" "option1")) ("met2" "drawing") "routing" t) ("=>" (("met2" "option2")) ("met2" "drawing") "routing" t) ("=>" (("met2" "option3")) ("met2" "drawing") "routing" t) ("=>" (("met2" "option4")) ("met2" "drawing") "routing" t) ("=>" (("met2" "option5")) ("met2" "drawing") "routing" t) ("=>" (("met2" "option6")) ("met2" "drawing") "routing" t) ("=>" (("met2" "option7")) ("met2" "drawing") "routing" t) ("=>" (("met2" "option8")) ("met2" "drawing") "routing" t) ("=>" ("fuseRegion") ("met2" "drawing") "routing" t) ("c-not" (("met3" "drawing") ("met3" "res")) ("met3" "drawing") "routing" t) ("c-not" (("met3" "drawing") ("met3" "short")) ("met3" "drawing") "routing" t) ("c-not" (("met3" "drawing") ("met3" "fuse")) ("met3" "drawing") "routing" t) ("=>" (("met3" "option1")) ("met3" "drawing") "routing" t) ("=>" (("met3" "option2")) ("met3" "drawing") "routing" t) ("=>" (("met3" "option3")) ("met3" "drawing") "routing" t) ("=>" (("met3" "option4")) ("met3" "drawing") "routing" t) ("=>" (("met3" "option5")) ("met3" "drawing") "routing" t) ("=>" (("met3" "option6")) ("met3" "drawing") "routing" t) ("=>" (("met3" "option7")) ("met3" "drawing") "routing" t) ("=>" (("met3" "option8")) ("met3" "drawing") "routing" t) ("=>" ("fuseRegion") ("met3" "drawing") "routing" t) ("c-not" (("met4" "drawing") ("met4" "res")) ("met4" "drawing") "routing" t) ("c-not" (("met4" "drawing") ("met4" "short")) ("met4" "drawing") "routing" t) ("c-not" (("met4" "drawing") ("met4" "fuse")) ("met4" "drawing") "routing" t) ("=>" (("met4" "option1")) ("met4" "drawing") "routing" t) ("=>" (("met4" "option2")) ("met4" "drawing") "routing" t) ("=>" (("met4" "option3")) ("met4" "drawing") "routing" t) ("=>" (("met4" "option4")) ("met4" "drawing") "routing" t) ("=>" (("met4" "option5")) ("met4" "drawing") "routing" t) ("=>" (("met4" "option6")) ("met4" "drawing") "routing" t) ("=>" (("met4" "option7")) ("met4" "drawing") "routing" t) ("=>" (("met4" "option8")) ("met4" "drawing") "routing" t) ("=>" ("fuseRegion") ("met4" "drawing") "routing" t) ("c-not" (("met5" "drawing") ("met5" "res")) ("met5" "drawing") "routing" t) ("c-not" (("met5" "drawing") ("met5" "short")) ("met5" "drawing") "routing" t) ("c-not" (("met5" "drawing") ("met5" "fuse")) ("met5" "drawing") "routing" t) ("=>" (("met5" "option1")) ("met5" "drawing") "routing" t) ("=>" (("met5" "option2")) ("met5" "drawing") "routing" t) ("=>" (("met5" "option3")) ("met5" "drawing") "routing" t) ("=>" (("met5" "option4")) ("met5" "drawing") "routing" t) ("=>" (("met5" "option5")) ("met5" "drawing") "routing" t) ("=>" (("met5" "option6")) ("met5" "drawing") "routing" t) ("=>" (("met5" "option7")) ("met5" "drawing") "routing" t) ("=>" (("met5" "option8")) ("met5" "drawing") "routing" t) ("=>" ("fuseRegion") ("met5" "drawing") "routing" t))))	 )
  ) ;techParams
 
- viewTypeUnits(
- ;( viewType            userUnit       dbuperuu           )
- ;( --------            --------       --------           )
- ) ;viewTypeUnits
-
  mfgGridResolution(
       ( 0.005000 )
  ) ;mfgGridResolution
-
- refTechLibs(
-; techLibName            
-; -----------            
- ) ;refTechLibs
-
- processFamily(
- ) ;processFamily
-
- distanceMeasure(
- ) ;distanceMeasure
-
- processNode()
 
 ) ;controls
 
@@ -186,7 +160,8 @@ layerDefinitions(
   ( rfdiode                   125                     )
   ( lowTapDensity             126                     )
   ( notCritSide               127                     )
- ;System-Reserved Purposes:
+  ( fabBlock                  128                     )
+  ( contres                   257                     )
  ) ;techPurposes
 
  techLayers(
@@ -218,11 +193,14 @@ layerDefinitions(
   ( psdm                      31         psdm         )
   ( hvntm                     36         hvntm        )
   ( cnsm                      37         cnsm         )
+  ( r1v                       39         r1v          )
+  ( r1c                       40         r1c          )
   ( tunm                      41         tunm         )
   ( hvi                       42         hvi          )
   ( licon1                    43         licon1       )
   ( padCenter                 45         padCent      )
   ( nsm                       47         nsm          )
+  ( cpwbm                     51         cpwbm        )
   ( cfom                      52         cfom         )
   ( ldntm                     53         ldntm        )
   ( cp1m                      55         cp1m         )
@@ -244,7 +222,10 @@ layerDefinitions(
   ( pmm                       76         pmm          )
   ( fom                       77         fom          )
   ( cdnm                      79         cdnm         )
+  ( urpm                      81         urpm         )
+  ( crrpm                     82         ccrpm        )
   ( cli1m                     83         cli1m        )
+  ( curpm                     84         curpm        )
   ( chvtpm                    85         chvtpm       )
   ( cap2m                     86         cap2m        )
   ( crpm                      87         crpm         )
@@ -258,6 +239,7 @@ layerDefinitions(
   ( ncm                       96         ncm          )
   ( cpmm                      97         cpmm         )
   ( overlap                   99         overlap      )
+  ( rrpm                      100        rrpm         )
   ( pnp                       101        pnp          )
   ( chvntm                    102        chvntm       )
   ( capacitor                 103        capacit      )
@@ -283,7 +265,12 @@ layerDefinitions(
   ( ccu1m                     142        ccu1m        )
   ( cubm                      143        cubm         )
   ( cbump                     144        cbump        )
- ;System-Reserved Layers:
+  ( ccapmm3                   145        ccapmm3      )
+  ( ccapmm4                   146        ccapmm4      )
+  ( cpwdem                    169        cpwdem       )
+  ( pwde                      170        pwde         )
+  ( pwbm                      173        pwbm         )
+  ( uhvi                      174        uhvi         )
  ) ;techLayers
 
  techLayerPurposePriorities(
@@ -304,6 +291,11 @@ layerDefinitions(
   ( nwell                     label      )
   ( dnwell                    drawing    )
   ( vhvi                      drawing    )
+  ( uhvi                      drawing    )
+  ( pwbm                      drawing    )
+  ( cpwbm                     mask       )
+  ( pwde                      drawing    )
+  ( cpwdem                    mask       )
   ( diff                      drawing    )
   ( diff                      res        )
   ( diff                      cut        )
@@ -492,6 +484,8 @@ layerDefinitions(
   ( npn                       drawing    )
   ( npn                       label      )
   ( rpm                       drawing    )
+  ( rrpm                      drawing    )
+  ( urpm                      drawing    )
   ( hvi                       drawing    )
   ( capacitor                 drawing    )
   ( ncm                       drawing    )
@@ -647,10 +641,13 @@ layerDefinitions(
   ( cctm1                     maskDrop   )
   ( capm                      drawing    )
   ( cap2m                     drawing    )
+  ( crrpm                     mask       )
   ( crpm                      drawing    )
   ( crpm                      mask       )
   ( crpm                      maskAdd    )
   ( crpm                      maskDrop   )
+  ( curpm                     drawing    )
+  ( curpm                     mask       )
   ( ccu1m                     mask       )
   ( cpmm2                     mask       )
   ( cubm                      mask       )
@@ -677,6 +674,7 @@ layerDefinitions(
   ( areaid                    opcDrop    )
   ( areaid                    waffleWindow )
   ( areaid                    extendedDrain )
+  ( areaid                    extDrain20 )
   ( areaid                    lvNative   )
   ( areaid                    photo      )
   ( areaid                    etest      )
@@ -686,6 +684,23 @@ layerDefinitions(
   ( areaid                    sigPadWell )
   ( areaid                    sigPadMetNtr )
   ( areaid                    analog     )
+  ( areaid                    low_vt     )
+  ( areaid                    fabBlock   )
+  ( areaid                    contres    )
+  ( r1c                       drawing    )
+  ( r1c                       grid       )
+  ( r1c                       blockage   )
+  ( r1c                       boundary   )
+  ( r1c                       mask       )
+  ( r1c                       net        )
+  ( r1c                       pin        )
+  ( r1v                       drawing    )
+  ( r1v                       grid       )
+  ( r1v                       blockage   )
+  ( r1v                       boundary   )
+  ( r1v                       mask       )
+  ( r1v                       net        )
+  ( r1v                       pin        )
   ( prune                     drawing    )
   ( padCenter                 drawing    )
   ( met1                      psa1       )
@@ -725,28 +740,36 @@ layerDefinitions(
   ( rdl                       psa5       )
   ( rdl                       psa6       )
   ( blanking                  drawing    )
+  ( text                      drawing    )
+  ( ccapmm3                   mask       )
+  ( ccapmm4                   mask       )
  ) ;techLayerPurposePriorities
 
  techDisplays(
  ;( LayerName    Purpose      Packet          Vis Sel Con2ChgLy DrgEnbl Valid )
  ;( ---------    -------      ------          --- --- --------- ------- ----- )
   ( prBoundary   boundary     prbdg            t t t t t )
-  ( pwell        drawing      pwell            t t t t t )
-  ( pwell        pin          rpolyPin         t t t t t )
-  ( pwell        label        rpolyLabel       t t t t t )
-  ( pwell        res          rpolyRes         t t t t t )
-  ( pwell        cut          rpolyCut         t t t t t )
-  ( pwelliso     pin          elm              t t t t t )
-  ( pwelliso     label        rpolyLabel       t t t t t )
+  ( pwell        drawing      pwell            t t t t nil )
+  ( pwell        pin          rpolyPin         t t t t nil )
+  ( pwell        label        rpolyLabel       t t t t nil )
+  ( pwell        res          rpolyRes         t t t t nil )
+  ( pwell        cut          rpolyCut         t t t t nil )
+  ( pwelliso     pin          elm              t t t t nil )
+  ( pwelliso     label        rpolyLabel       t t t t nil )
   ( nwell        drawing      nwell            t t t t t )
-  ( nwell        net          hilite1          t t t t t )
-  ( nwell        pin          nwellPin         t t t t t )
-  ( nwell        label        nwellLabel       t t t t t )
+  ( nwell        net          hilite1          t t t t nil )
+  ( nwell        pin          nwellPin         t t t t nil )
+  ( nwell        label        nwellLabel       t t t t nil )
   ( dnwell       drawing      dnwell           t t t t t )
   ( vhvi         drawing      VhviId           t t t t t )
+  ( uhvi         drawing      uhviId           t t t t t )
+  ( pwbm         drawing      pwbm             t t t t t )
+  ( cpwbm        mask         cpwbmmask        t t t nil nil )
+  ( pwde         drawing      redfil           t t t t t )
+  ( cpwdem       mask         cmm8             t t t t nil )
   ( diff         drawing      diff             t t t t t )
-  ( diff         res          diffRes          t t t t t )
-  ( diff         cut          diffCut          t t t t t )
+  ( diff         res          diffRes          t t t t nil )
+  ( diff         cut          diffCut          t t t t nil )
   ( diff         pin          diffPin          t t t t nil )
   ( diff         label        diffLabel        t t t t nil )
   ( diff         net          diffNet          t t t t nil )
@@ -760,15 +783,15 @@ layerDefinitions(
   ( psdm         drawing      psdm             t t t t t )
   ( nsdm         drawing      nsdm             t t t t t )
   ( poly         drawing      poly             t t t t t )
-  ( poly         pin          polyPin          t t t t t )
-  ( poly         res          polyRes          t t t t t )
-  ( poly         cut          polyCut          t t t t t )
-  ( poly         gate         polyGate         t t t t t )
-  ( poly         label        polyLabel        t t t t t )
-  ( poly         boundary     polyBnd          t t t t t )
-  ( poly         probe        polyProbe        t t t t t )
-  ( poly         short        polyShort        t t t t t )
-  ( poly         net          polyNet          t t t t t )
+  ( poly         pin          polyPin          t t t t nil )
+  ( poly         res          polyRes          t t t t nil )
+  ( poly         cut          polyCut          t t t t nil )
+  ( poly         gate         polyGate         t t t t nil )
+  ( poly         label        polyLabel        t t t t nil )
+  ( poly         boundary     polyBnd          t t t t nil )
+  ( poly         probe        polyProbe        t t t t nil )
+  ( poly         short        polyShort        t t t t nil )
+  ( poly         net          polyNet          t t t t nil )
   ( poly         model        polyModel        t t t t t )
   ( ldntm        drawing      met8             t t t t t )
   ( lvtn         drawing      lvtn             t t t t t )
@@ -778,9 +801,9 @@ layerDefinitions(
   ( licon1       drawing      licon1           t t t t t )
   ( licon1       grid         licon1           t nil nil nil nil )
   ( licon1       blockage     licon1           t nil t t nil )
-  ( licon1       boundary     licon1Bnd        t t t t t )
+  ( licon1       boundary     licon1Bnd        t t t t nil )
   ( licon1       pin          licon1Pin        t t t t nil )
-  ( licon1       net          licon1Net        t t t t t )
+  ( licon1       net          licon1Net        t t t t nil )
   ( npc          drawing      silm             t t t t t )
   ( li1          drawing      li1              t t t t t )
   ( li1          grid         li1              t nil nil nil nil )
@@ -788,17 +811,17 @@ layerDefinitions(
   ( li1          res          li1Res           t t t t nil )
   ( li1          cut          li1Cut           t t t t nil )
   ( li1          label        li1Label         t t t t t )
-  ( li1          net          li1Net           t t t t t )
-  ( li1          boundary     li1Bnd           t t t t t )
-  ( li1          blockage     li1Blkg          t t t t t )
-  ( li1          short        li1Short         t t t t t )
-  ( li1          probe        li1Probe         t t t t t )
+  ( li1          net          li1Net           t t t t nil )
+  ( li1          boundary     li1Bnd           t t t t nil )
+  ( li1          blockage     li1Blkg          t t t t nil )
+  ( li1          short        li1Short         t t t t nil )
+  ( li1          probe        li1Probe         t t t t nil )
   ( mcon         drawing      mcon             t t t t t )
   ( mcon         grid         mcon             t nil nil nil nil )
   ( mcon         blockage     mcon             t nil t t nil )
   ( mcon         boundary     mconBnd          t t t t t )
   ( mcon         pin          mconPin          t t t t nil )
-  ( mcon         net          mconNet          t t t t t )
+  ( mcon         net          mconNet          t t t t nil )
   ( met1         drawing      met1             t t t t t )
   ( met1         grid         met1             t nil nil nil nil )
   ( met1         res          met1Res          t t t t nil )
@@ -806,10 +829,10 @@ layerDefinitions(
   ( met1         pin          met1Pin          t t t t t )
   ( met1         label        met1Label        t t t t t )
   ( met1         net          met1Net          t t t t t )
-  ( met1         boundary     met1Bnd          t t t t t )
-  ( met1         blockage     met1Blkg         t t t t t )
-  ( met1         short        met1Short        t t t t t )
-  ( met1         probe        met1Probe        t t t t t )
+  ( met1         boundary     met1Bnd          t t t t nil )
+  ( met1         blockage     met1Blkg         t t t t nil )
+  ( met1         short        met1Short        t t t t nil )
+  ( met1         probe        met1Probe        t t t t nil )
   ( met1         option1      met1Metop1       t t t t nil )
   ( met1         option2      met1Metop2       t t t t nil )
   ( met1         option3      met1Metop3       t t t t nil )
@@ -821,8 +844,8 @@ layerDefinitions(
   ( via          drawing      via              t t t t t )
   ( via          grid         via              t nil nil nil nil )
   ( via          blockage     via              t nil t t nil )
-  ( via          boundary     viaBnd           t t t t t )
-  ( via          net          viaNet           t t t t t )
+  ( via          boundary     viaBnd           t t t t nil )
+  ( via          net          viaNet           t t t t nil )
   ( via          pin          viaPin           t t t t nil )
   ( met2         drawing      met2             t t t t t )
   ( met2         grid         met2             t nil nil nil nil )
@@ -830,11 +853,11 @@ layerDefinitions(
   ( met2         cut          met2Cut          t t t t nil )
   ( met2         pin          met2Pin          t t t t t )
   ( met2         label        met2Label        t t t t t )
-  ( met2         net          met2Net          t t t t t )
-  ( met2         boundary     met2Bnd          t t t t t )
-  ( met2         blockage     met2Blkg         t t t t t )
-  ( met2         short        met2Short        t t t t t )
-  ( met2         probe        met2Probe        t t t t t )
+  ( met2         net          met2Net          t t t t nil )
+  ( met2         boundary     met2Bnd          t t t t nil )
+  ( met2         blockage     met2Blkg         t t t t nil )
+  ( met2         short        met2Short        t t t t nil )
+  ( met2         probe        met2Probe        t t t t nil )
   ( met2         option1      met2Metop1       t t t t nil )
   ( met2         option2      met2Metop2       t t t t nil )
   ( met2         option3      met2Metop3       t t t t nil )
@@ -846,21 +869,21 @@ layerDefinitions(
   ( via2         drawing      via2             t t t t t )
   ( via2         grid         via2             t nil nil nil nil )
   ( via2         blockage     via2             t nil t t nil )
-  ( via2         boundary     via2Bnd          t t t t t )
+  ( via2         boundary     via2Bnd          t t t t nil )
   ( via2         pin          via2Pin          t t t t nil )
-  ( via2         net          via2Net          t t t t t )
+  ( via2         net          via2Net          t t t t nil )
   ( met3         drawing      met3             t t t t t )
   ( met3         grid         met3             t nil nil nil nil )
   ( met3         res          met3Res          t t t t nil )
   ( met3         cut          met3Cut          t t t t nil )
   ( met3         pin          met3Pin          t t t t t )
   ( met3         label        met3Label        t t t t t )
-  ( met3         net          met3Net          t t t t t )
-  ( met3         boundary     met3Bnd          t t t t t )
-  ( met3         blockage     met3Blkg         t t t t t )
-  ( met3         short        met3Short        t t t t t )
+  ( met3         net          met3Net          t t t t nil )
+  ( met3         boundary     met3Bnd          t t t t nil )
+  ( met3         blockage     met3Blkg         t t t t nil )
+  ( met3         short        met3Short        t t t t nil )
   ( met3         fuse         met3Fuse         t t t t nil )
-  ( met3         probe        met3Probe        t t t t t )
+  ( met3         probe        met3Probe        t t t t nil )
   ( met3         option1      met3Metop1       t t t t nil )
   ( met3         option2      met3Metop2       t t t t nil )
   ( met3         option3      met3Metop3       t t t t nil )
@@ -872,21 +895,21 @@ layerDefinitions(
   ( via3         drawing      via3             t t t t t )
   ( via3         grid         via3             t nil nil nil nil )
   ( via3         blockage     via3             t nil t t nil )
-  ( via3         boundary     via3Bnd          t t t t t )
+  ( via3         boundary     via3Bnd          t t t t nil )
   ( via3         pin          via3Pin          t t t t nil )
-  ( via3         net          via3Net          t t t t t )
+  ( via3         net          via3Net          t t t t nil )
   ( met4         drawing      met4             t t t t t )
   ( met4         grid         met4             t nil nil nil nil )
   ( met4         res          met4Res          t t t t nil )
   ( met4         cut          met4Cut          t t t t nil )
   ( met4         pin          met4Pin          t t t t t )
   ( met4         label        met4Label        t t t t t )
-  ( met4         net          met4Net          t t t t t )
-  ( met4         boundary     met4Bnd          t t t t t )
-  ( met4         blockage     met4Blkg         t t t t t )
-  ( met4         short        met4Short        t t t t t )
+  ( met4         net          met4Net          t t t t nil )
+  ( met4         boundary     met4Bnd          t t t t nil )
+  ( met4         blockage     met4Blkg         t t t t nil )
+  ( met4         short        met4Short        t t t t nil )
   ( met4         fuse         met4Fuse         t t t t nil )
-  ( met4         probe        met4Probe        t t t t t )
+  ( met4         probe        met4Probe        t t t t nil )
   ( met4         option1      met4Metop1       t t t t nil )
   ( met4         option2      met4Metop2       t t t t nil )
   ( met4         option3      met4Metop3       t t t t nil )
@@ -898,21 +921,21 @@ layerDefinitions(
   ( via4         drawing      via4             t t t t t )
   ( via4         grid         via4             t nil nil nil nil )
   ( via4         blockage     via4             t nil t t nil )
-  ( via4         boundary     via4Bnd          t t t t t )
+  ( via4         boundary     via4Bnd          t t t t nil )
   ( via4         pin          via4Pin          t t t t nil )
-  ( via4         net          via4Net          t t t t t )
+  ( via4         net          via4Net          t t t t nil )
   ( met5         drawing      met5             t t t t t )
   ( met5         grid         met5             t nil nil nil nil )
   ( met5         res          met5Res          t t t t nil )
   ( met5         cut          met5Cut          t t t t nil )
   ( met5         pin          met5Pin          t t t t t )
   ( met5         label        met5Label        t t t t t )
-  ( met5         net          met5Net          t t t t t )
-  ( met5         boundary     met5Bnd          t t t t t )
-  ( met5         blockage     met5Blkg         t t t t t )
-  ( met5         short        met5Short        t t t t t )
+  ( met5         net          met5Net          t t t t nil )
+  ( met5         boundary     met5Bnd          t t t t nil )
+  ( met5         blockage     met5Blkg         t t t t nil )
+  ( met5         short        met5Short        t t t t nil )
   ( met5         fuse         met5Fuse         t t t t nil )
-  ( met5         probe        met5Probe        t t t t t )
+  ( met5         probe        met5Probe        t t t t nil )
   ( met5         option1      met5Metop1       t t t t nil )
   ( met5         option2      met5Metop2       t t t t nil )
   ( met5         option3      met5Metop3       t t t t nil )
@@ -932,11 +955,13 @@ layerDefinitions(
   ( npn          drawing      npn              t t t t t )
   ( npn          label        npnlabel         t t t t t )
   ( rpm          drawing      elm              t t t t t )
+  ( rrpm         drawing      bpm              t t t t t )
+  ( urpm         drawing      rpolyRes         t t t t t )
   ( hvi          drawing      hvi              t t t t t )
   ( capacitor    drawing      capacitor        t t t t t )
   ( ncm          drawing      ncm              t t t t t )
   ( cncm         drawing      cncm             t nil t t t )
-  ( cncm         mask         cncmmask         t nil t t t )
+  ( cncm         mask         cncmmask         t nil t t nil )
   ( pmm          drawing      post2            t t t t t )
   ( pmm2         drawing      cesdmask         t t t t t )
   ( rdl          drawing      met7             t t t t t )
@@ -944,8 +969,8 @@ layerDefinitions(
   ( rdl          blockage     met7             t nil t t nil )
   ( rdl          pin          met7Pin          t t t t t )
   ( rdl          label        met7Label        t t t t t )
-  ( rdl          res          rpolyRes         t t t t t )
-  ( rdl          cut          rpolyCut         t t t t t )
+  ( rdl          res          rpolyRes         t t t t nil )
+  ( rdl          cut          rpolyCut         t t t t nil )
   ( rdl          short        met7Short        t t t t nil )
   ( rdl          option1      met7Metop1       t t t t nil )
   ( rdl          option2      met7Metop2       t t t t nil )
@@ -962,10 +987,10 @@ layerDefinitions(
   ( inductor     term1        inductorTerm1    t t t t t )
   ( inductor     term2        inductorTerm2    t t t t t )
   ( inductor     term3        inductorTerm3    t t t t t )
-  ( cfom         drawing      cfom             t t t t t )
+  ( cfom         drawing      cfom             t t t t nil )
   ( cfom         mask         cfommask         t t t t t )
-  ( cfom         maskAdd      cfommaskAdd      t t t t t )
-  ( cfom         maskDrop     cfommaskDrop     t t t t t )
+  ( cfom         maskAdd      cfommaskAdd      t t t t nil )
+  ( cfom         maskDrop     cfommaskDrop     t t t t nil )
   ( cfom         waffleDrop   cfomwaffleDrop   t t t t t )
   ( fom          dummy        cfom             t t t t nil )
   ( cnwm         drawing      cnwm             t t t t nil )
@@ -974,8 +999,8 @@ layerDefinitions(
   ( cnwm         maskDrop     cnwmmaskDrop     t t t t nil )
   ( cdnm         drawing      cdnm             t t t t t )
   ( cdnm         mask         cdnmmask         t t t t t )
-  ( cdnm         maskAdd      cdnmmaskAdd      t t t t t )
-  ( cdnm         maskDrop     cdnmmaskDrop     t t t t t )
+  ( cdnm         maskAdd      cdnmmaskAdd      t t t t nil )
+  ( cdnm         maskDrop     cdnmmaskDrop     t t t t nil )
   ( clvtnm       drawing      clvtnm           t t t t nil )
   ( clvtnm       mask         clvtnmmask       t t t t t )
   ( clvtnm       maskAdd      clvtnmmaskAdd    t t t t nil )
@@ -985,26 +1010,26 @@ layerDefinitions(
   ( chvtpm       maskAdd      chvtpmmaskAdd    t t t t nil )
   ( chvtpm       maskDrop     chvtpmmaskDrop   t t t t nil )
   ( chvtrm       drawing      chvtrm           t t t t nil )
-  ( chvtrm       mask         chvtrmmask       t t t t nil )
+  ( chvtrm       mask         chvtrmmask       t t t t t )
   ( chvtrm       maskAdd      chvtrmmaskAdd    t t t t nil )
   ( chvtrm       maskDrop     chvtrmmaskDrop   t t t t nil )
-  ( ctunm        drawing      ctunm            t t t t t )
+  ( ctunm        drawing      ctunm            t t t t nil )
   ( ctunm        mask         ctunmmask        t t t t t )
-  ( ctunm        maskAdd      ctunmmaskAdd     t t t t t )
-  ( ctunm        maskDrop     ctunmmaskDrop    t t t t t )
-  ( conom        drawing      conom            t t t t t )
+  ( ctunm        maskAdd      ctunmmaskAdd     t t t t nil )
+  ( ctunm        maskDrop     ctunmmaskDrop    t t t t nil )
+  ( conom        drawing      conom            t t t t nil )
   ( conom        mask         conommask        t t t t t )
-  ( conom        maskAdd      conommaskAdd     t t t t t )
-  ( conom        maskDrop     conommaskDrop    t t t t t )
-  ( cnsdm        drawing      cnsdm            t t t t t )
+  ( conom        maskAdd      conommaskAdd     t t t t nil )
+  ( conom        maskDrop     conommaskDrop    t t t t nil )
+  ( cnsdm        drawing      cnsdm            t t t t nil )
   ( cnsdm        mask         cnsdmmask        t t t t t )
-  ( cnsdm        maskAdd      cnsdmmaskAdd     t t t t t )
-  ( cnsdm        maskDrop     cnsdmmaskDrop    t t t t t )
-  ( cpsdm        drawing      cpsdm            t t t t t )
+  ( cnsdm        maskAdd      cnsdmmaskAdd     t t t t nil )
+  ( cnsdm        maskDrop     cnsdmmaskDrop    t t t t nil )
+  ( cpsdm        drawing      cpsdm            t t t t nil )
   ( cpsdm        mask         cpsdmmask        t t t t t )
-  ( cpsdm        maskAdd      cpsdmmaskAdd     t t t t t )
-  ( cpsdm        maskDrop     cpsdmmaskDrop    t t t t t )
-  ( cntm         drawing      cntm             t t t t t )
+  ( cpsdm        maskAdd      cpsdmmaskAdd     t t t t nil )
+  ( cpsdm        maskDrop     cpsdmmaskDrop    t t t t nil )
+  ( cntm         drawing      cntm             t t t t nil )
   ( cntm         mask         cntmmask         t t t t t )
   ( cntm         maskAdd      cntmmaskAdd      t t t t nil )
   ( cntm         maskDrop     cntmmaskDrop     t t t t nil )
@@ -1015,23 +1040,23 @@ layerDefinitions(
   ( chvntm       maskDrop     chvntmmaskDrop   t t t t nil )
   ( cldntm       drawing      cmm8             t t t t nil )
   ( cldntm       mask         cmm8mask         t t t t t )
-  ( clvom        drawing      clvom            t t t t t )
+  ( clvom        drawing      clvom            t t t t nil )
   ( clvom        mask         clvommask        t t t t t )
   ( clvom        maskAdd      clvommaskAdd     t t t t nil )
   ( clvom        maskDrop     clvommaskDrop    t t t t nil )
   ( cp1m         drawing      cp1m             t t t t nil )
   ( cp1m         mask         cp1mmask         t t t t t )
-  ( cp1m         maskAdd      cp1mmaskAdd      t t t t t )
+  ( cp1m         maskAdd      cp1mmaskAdd      t t t t nil )
   ( cp1m         waffleDrop   cp1mwaffleDrop   t t t t t )
-  ( cp1m         maskDrop     cp1mmaskDrop     t t t t t )
+  ( cp1m         maskDrop     cp1mmaskDrop     t t t t nil )
   ( cli1m        drawing      cli1m            t t t t nil )
   ( cli1m        mask         cli1mmask        t t t t t )
-  ( cli1m        maskAdd      cli1mmaskAdd     t t t t t )
-  ( cli1m        maskDrop     cli1mmaskDrop    t t t t t )
+  ( cli1m        maskAdd      cli1mmaskAdd     t t t t nil )
+  ( cli1m        maskDrop     cli1mmaskDrop    t t t t nil )
   ( clicm1       drawing      clicm1           t t t t nil )
   ( clicm1       mask         clicm1mask       t t t t t )
-  ( clicm1       maskAdd      clicm1maskAdd    t t t t t )
-  ( clicm1       maskDrop     clicm1maskDrop   t t t t t )
+  ( clicm1       maskAdd      clicm1maskAdd    t t t t nil )
+  ( clicm1       maskDrop     clicm1maskDrop   t t t t nil )
   ( cmm1         drawing      cmm1             t t t t nil )
   ( cmm1         mask         cmm1mask         t t t t t )
   ( cmm1         maskAdd      cmm1maskAdd      t t t t nil )
@@ -1055,7 +1080,7 @@ layerDefinitions(
   ( cmm3         maskAdd      cmm3maskAdd      t t t t nil )
   ( cmm3         maskDrop     cmm3maskDrop     t t t t nil )
   ( cmm3         waffleDrop   cmm3waffleDrop   t t t t t )
-  ( cnpc         drawing      csilm            t t t t t )
+  ( cnpc         drawing      csilm            t t t t nil )
   ( cnpc         mask         csilmmask        t t t t t )
   ( cnpc         maskAdd      csilmmaskAdd     t t t t nil )
   ( cnpc         maskDrop     csilmmaskDrop    t t t t nil )
@@ -1063,18 +1088,16 @@ layerDefinitions(
   ( cviam3       mask         cviam3mask       t t t t t )
   ( cviam3       maskAdd      cviam3maskAdd    t t t t nil )
   ( cviam3       maskDrop     cviam3maskDrop   t t t t nil )
-  ( capm         drawing      b55capm          t t t t t )
-  ( cap2m        drawing      cmm8mask         t t t t t )
   ( cnsm         mask         cmm8             t t t t t )
   ( cpdm         drawing      cpdm             t t t t nil )
   ( cpdm         mask         cpdmmask         t t t t t )
   ( cpdm         maskAdd      cpdmmaskAdd      t t t t nil )
   ( cpdm         maskDrop     cpdmmaskDrop     t t t t nil )
-  ( cpmm         drawing      ccim             t t t t t )
+  ( cpmm         drawing      ccim             t t t t nil )
   ( cpbo         mask         ccimmask         t t t t t )
   ( cmm4         mask         cmm4mask         t t t t t )
-  ( cmm4         maskAdd      cmm4maskAdd      t t t t t )
-  ( cmm4         maskDrop     cmm4maskDrop     t t t t t )
+  ( cmm4         maskAdd      cmm4maskAdd      t t t t nil )
+  ( cmm4         maskDrop     cmm4maskDrop     t t t t nil )
   ( cmm4         waffleDrop   cmm4waffleDrop   t t t t t )
   ( cviam4       drawing      cviam4           t t t t nil )
   ( cviam4       mask         cviam4mask       t t t t t )
@@ -1087,20 +1110,25 @@ layerDefinitions(
   ( cctm1        mask         cctm1mask        t t t t t )
   ( cctm1        maskAdd      cctm1maskAdd     t t t t nil )
   ( cctm1        maskDrop     cctm1maskDrop    t t t t nil )
-  ( crpm         drawing      crpm             t t t t t )
+  ( capm         drawing      b55capm          t t t t t )
+  ( cap2m        drawing      cmm8mask         t t t t t )
+  ( crrpm        mask         crrpmmask        t t t t t )
+  ( crpm         drawing      crpm             t t t t nil )
   ( crpm         mask         crpmmask         t t t t t )
-  ( crpm         maskAdd      crpmmaskAdd      t t t t t )
-  ( crpm         maskDrop     crpmmaskDrop     t t t t t )
+  ( crpm         maskAdd      crpmmaskAdd      t t t t nil )
+  ( crpm         maskDrop     crpmmaskDrop     t t t t nil )
+  ( curpm        drawing      cesdmask         t t t t nil )
+  ( curpm        mask         rpolyRes         t t t t t )
   ( ccu1m        mask         met7             t t nil nil nil )
   ( cpmm2        mask         cesdmask         t t nil nil nil )
   ( cubm         mask         bpm              t t nil nil nil )
   ( cbump        mask         npm              t t nil nil nil )
-  ( overlap      drawing      overlap          t t t t t )
-  ( overlap      boundary     overlapBnd       t t t t t )
-  ( areaid       lowTapDensity areaidDualMemory t t t t t )
+  ( overlap      drawing      overlap          t t t t nil )
+  ( overlap      boundary     overlapBnd       t t t t nil )
+  ( areaid       lowTapDensity areaidDualMemory t t t t nil )
   ( areaid       notCritSide  areaidTcamMemory t t t t t )
-  ( areaid       injection    per              t t t t t )
-  ( areaid       rfdiode      fix              t t t t t )
+  ( areaid       injection    per              t t t t nil )
+  ( areaid       rfdiode      fix              t t t t nil )
   ( areaid       seal         areaidseal       t t t t t )
   ( areaid       core         areaidcore       t t t t t )
   ( areaid       frame        areaidframe      t t t t t )
@@ -1117,54 +1145,75 @@ layerDefinitions(
   ( areaid       opcDrop      areaidopcDrop    t t t t t )
   ( areaid       waffleWindow areaidWaffleWindow t t t t t )
   ( areaid       extendedDrain areaidextendedDrain t t t t t )
+  ( areaid       extDrain20   areaidextDrain20 t t t t t )
   ( areaid       lvNative     areaidTcamMemory t t t t t )
   ( areaid       photo        areaidprobe      t t t t t )
   ( areaid       etest        cmsm             t t t t t )
   ( areaid       hvnwell      msm              t t t t t )
   ( areaid       rdlprobepad  areaidprobe      t t t t t )
-  ( areaid       sigPadDiff   overlap          t t t t t )
-  ( areaid       sigPadWell   feedthru         t t t t t )
-  ( areaid       sigPadMetNtr overlapBnd       t t t t t )
-  ( areaid       analog       areaidanalog     t t t t t )
-  ( prune        drawing      prunedg          t t t t t )
+  ( areaid       sigPadDiff   overlap          t t t t nil )
+  ( areaid       sigPadWell   feedthru         t t t t nil )
+  ( areaid       sigPadMetNtr overlapBnd       t t t t nil )
+  ( areaid       analog       areaidanalog     t t t t nil )
+  ( areaid       low_vt       low_vt           t t t t t )
+  ( areaid       fabBlock     areaidTcamMemory t t t t nil )
+  ( areaid       contres      areaidTcamMemory t t t t t )
+  ( r1c          drawing      cmm1             t t t t nil )
+  ( r1c          grid         cmm1             nil nil nil nil nil )
+  ( r1c          blockage     cmm1             nil t t t nil )
+  ( r1c          boundary     cmm1             nil t t t nil )
+  ( r1c          mask         met3Short        nil t t t nil )
+  ( r1c          net          cmm1             nil t t t nil )
+  ( r1c          pin          cmm1             nil t t t nil )
+  ( r1v          drawing      ncm              t t t t nil )
+  ( r1v          grid         ncm              nil nil nil nil nil )
+  ( r1v          blockage     ncm              nil t t t nil )
+  ( r1v          boundary     ncm              nil t t t nil )
+  ( r1v          mask         met4Fuse         nil t t t nil )
+  ( r1v          net          ncm              nil t t t nil )
+  ( r1v          pin          ncm              nil t t t nil )
+  ( prune        drawing      prunedg          t t t t nil )
   ( padCenter    drawing      target           t t t t t )
-  ( met1         psa1         met1Psa1         t t t t t )
-  ( met2         psa1         met2Psa1         t t t t t )
-  ( met3         psa1         met3Psa1         t t t t t )
-  ( met4         psa1         met4Psa1         t t t t t )
-  ( met5         psa1         met5Psa1         t t t t t )
-  ( met1         psa2         met1Psa2         t t t t t )
-  ( met2         psa2         met2Psa2         t t t t t )
-  ( met3         psa2         met3Psa2         t t t t t )
-  ( met4         psa2         met4Psa2         t t t t t )
-  ( met5         psa2         met5Psa2         t t t t t )
-  ( met1         psa3         met1Psa3         t t t t t )
-  ( met2         psa3         met2Psa3         t t t t t )
-  ( met3         psa3         met3Psa3         t t t t t )
-  ( met4         psa3         met4Psa3         t t t t t )
-  ( met5         psa3         met5Psa3         t t t t t )
-  ( met1         psa4         met1Psa4         t t t t t )
-  ( met2         psa4         met2Psa4         t t t t t )
-  ( met3         psa4         met3Psa4         t t t t t )
-  ( met4         psa4         met4Psa4         t t t t t )
-  ( met5         psa4         met5Psa4         t t t t t )
-  ( met1         psa5         met1Psa5         t t t t t )
-  ( met2         psa5         met2Psa5         t t t t t )
-  ( met3         psa5         met3Psa5         t t t t t )
-  ( met4         psa5         met4Psa5         t t t t t )
-  ( met5         psa5         met5Psa5         t t t t t )
-  ( met1         psa6         met1Psa6         t t t t t )
-  ( met2         psa6         met2Psa6         t t t t t )
-  ( met3         psa6         met3Psa6         t t t t t )
-  ( met4         psa6         met4Psa6         t t t t t )
-  ( met5         psa6         met5Psa6         t t t t t )
-  ( rdl          psa1         met7Psa1         t t t t t )
-  ( rdl          psa2         met7Psa2         t t t t t )
-  ( rdl          psa3         met7Psa3         t t t t t )
-  ( rdl          psa4         met7Psa4         t t t t t )
-  ( rdl          psa5         met7Psa5         t t t t t )
-  ( rdl          psa6         met7Psa6         t t t t t )
+  ( met1         psa1         met1Psa1         t t t t nil )
+  ( met2         psa1         met2Psa1         t t t t nil )
+  ( met3         psa1         met3Psa1         t t t t nil )
+  ( met4         psa1         met4Psa1         t t t t nil )
+  ( met5         psa1         met5Psa1         t t t t nil )
+  ( met1         psa2         met1Psa2         t t t t nil )
+  ( met2         psa2         met2Psa2         t t t t nil )
+  ( met3         psa2         met3Psa2         t t t t nil )
+  ( met4         psa2         met4Psa2         t t t t nil )
+  ( met5         psa2         met5Psa2         t t t t nil )
+  ( met1         psa3         met1Psa3         t t t t nil )
+  ( met2         psa3         met2Psa3         t t t t nil )
+  ( met3         psa3         met3Psa3         t t t t nil )
+  ( met4         psa3         met4Psa3         t t t t nil )
+  ( met5         psa3         met5Psa3         t t t t nil )
+  ( met1         psa4         met1Psa4         t t t t nil )
+  ( met2         psa4         met2Psa4         t t t t nil )
+  ( met3         psa4         met3Psa4         t t t t nil )
+  ( met4         psa4         met4Psa4         t t t t nil )
+  ( met5         psa4         met5Psa4         t t t t nil )
+  ( met1         psa5         met1Psa5         t t t t nil )
+  ( met2         psa5         met2Psa5         t t t t nil )
+  ( met3         psa5         met3Psa5         t t t t nil )
+  ( met4         psa5         met4Psa5         t t t t nil )
+  ( met5         psa5         met5Psa5         t t t t nil )
+  ( met1         psa6         met1Psa6         t t t t nil )
+  ( met2         psa6         met2Psa6         t t t t nil )
+  ( met3         psa6         met3Psa6         t t t t nil )
+  ( met4         psa6         met4Psa6         t t t t nil )
+  ( met5         psa6         met5Psa6         t t t t nil )
+  ( rdl          psa1         met7Psa1         t t t t nil )
+  ( rdl          psa2         met7Psa2         t t t t nil )
+  ( rdl          psa3         met7Psa3         t t t t nil )
+  ( rdl          psa4         met7Psa4         t t t t nil )
+  ( rdl          psa5         met7Psa5         t t t t nil )
+  ( rdl          psa6         met7Psa6         t t t t nil )
   ( blanking     drawing      post2            t t t t nil )
+  ( text         drawing      text             t t t t t )
+  ( ccapmm3      mask         grnfil           t t t t t )
+  ( ccapmm4      mask         redfil           t t t t t )
  ) ;techDisplays
 
  techLayerProperties(
@@ -1206,11 +1255,6 @@ layerDefinitions(
   ( thickness              rdl                            2.0 )
  ) ;techLayerProperties
 
- techDerivedLayers(
- ;( DerivedLayerName          #          composition  )
- ;( ----------------          ------     ------------ )
- ) ;techDerivedLayers
-
 ) ;layerDefinitions
 
 
@@ -1219,83 +1263,29 @@ layerDefinitions(
 ;********************************
 layerRules(
 
- equivalentLayers(
- ;( list of layers )
- ;( -------------- )
- ) ;equivalentLayers
-
  functions(
  ;( layer                       function        [maskNumber])
  ;( -----                       --------        ------------)
-  ( pwell                    	"pwell"      )
   ( nwell                    	"nwell"      )
+  ( pwell                    	"pwell"      )
   ( diff                     	"ndiff"      )
   ( tap                      	"ndiff"      )
   ( poly                     	"poly"       )
-  ( licon1                   	"cut"        )
-  ( li1                      	"metal"      )
   ( mcon                     	"cut"        )
   ( met1                     	"metal"      )
   ( via                      	"cut"        )
   ( met2                     	"metal"      )
   ( via2                     	"cut"        )
   ( met3                     	"metal"      )
+  ( pad                      	"cut"        )
   ( via3                     	"cut"        )
   ( met4                     	"metal"      )
   ( via4                     	"cut"        )
   ( met5                     	"metal"      )
-  ( pad                      	"cut"        )
+  ( li1                      	"metal"      )
+  ( licon1                   	"cut"        )
   ( rdl                      	"metal"      )
  ) ;functions
-
- mfgResolutions(
- ;( layer                       mfgResolution )
- ;( -----                       ------------- )
- ) ;mfgResolutions
-
- routingDirections(
- ;( layer                       direction     )
- ;( -----                       ---------     )
- ) ;routingDirections
-
- incompatibleLayers(
- ;( layer                       incompatibleLayers       )
- ;( -----                       ------------------       )
- ) ;incompatibleLayers
-
- labelLayers(
- ;( textLayer   layers        )
- ;( ---------   ----------------------------------        )
- ) ;labelLayers
-
- stampLabelLayers(
- ;( textLayer   layers        )
- ;( ---------   ----------------------------------        )
- ) ;stampLabelLayers
-
- backsideLayers(
- ; layerName1 layerName2 ... 
- ; ---------------------------------------------------------------------- 
-  
- ) ;backsideLayers
-
- currentDensity(
- ;( rule                	layer1    	layer2    	value    )
- ;( ----                	------    	------    	-----    )
- ) ;currentDensity
-
- currentDensityTables(
- ;( rule                	layer1    
- ;  (( index1Definitions	[index2Definitions]) [defaultValue] )
- ;  (table))
- ;( ----------------------------------------------------------------------)
- ) ;currentDensityTables
-
- cutClasses(
- ;( layerName    )
- ;(   (cutClassName                                        (width length)) )
- ;( ---------------------------------------------------------------------- )
- ) ;cutClasses
 
 ) ;layerRules
 
@@ -1345,145 +1335,12 @@ viaDefs(
  customViaDefs(
  ;( viaDefName libName cellName viewName layer1 layer2 resistancePerCut)
  ;( ---------- ------- -------- -------- ------ ------ ----------------)
-;  ( M4M5_PR_R  technology_library M4M5_PR_R symbolic met4 met5 0.38)
-;  ( M3M4_PR_R  technology_library M3M4_PR_R symbolic met3 met4 3.41)
-;  ( M2M3_PR_R  technology_library M2M3_PR_R symbolic met2 met3 3.41)
-;  ( M4M5_PR  technology_library M4M5_PR symbolic met4 met5 0.38)
-;  ( M3M4_PR  technology_library M3M4_PR symbolic met3 met4 3.41)
-;  ( M2M3_PR  technology_library M2M3_PR symbolic met2 met3 3.41)
-;  ( M1M2_PR  technology_library M1M2_PR symbolic met1 met2 4.5)
-;  ( L1M1_PR  technology_library L1M1_PR symbolic li1 met1 9.3)
-;  ( M1M2_PR_R  technology_library M1M2_PR_R symbolic met1 met2 4.5)
-;  ( pDFL1_PR  technology_library pDFL1_PR symbolic diff li1 600.0)
-;  ( nDFL1_PR  technology_library nDFL1_PR symbolic diff li1 182.0)
-;  ( pTPL1_PR  technology_library pTPL1_PR symbolic tap li1 600.0)
-;  ( nTPL1_PR  technology_library nTPL1_PR symbolic tap li1 182.0)
-;  ( PYL1_PR  technology_library PYL1_PR symbolic poly li1 145.28)
-;  ( ruleVia4  technology_library ruleVia4 symbolic met4 met5 0.38)
-;  ( ruleVia3  technology_library ruleVia3 symbolic met3 met4 3.41)
-;  ( ruleVia2  technology_library ruleVia2 symbolic met2 met3 3.41)
-;  ( ruleVia1  technology_library ruleVia1 symbolic met1 met2 4.5)
-;  ( ruleVia  technology_library ruleVia symbolic met1 met2 4.5)
-;  ( hvDFL1sd2  technology_library hvDFL1sd2 symbolic diff licon1 600.0)
-;  ( hvDFL1sd  technology_library hvDFL1sd symbolic diff licon1 0.0)
-;  ( TPL1s  technology_library TPL1s symbolic tap licon1 600.0)
-;  ( DFL1sd2  technology_library DFL1sd2 symbolic diff licon1 600.0)
-;  ( DFL1sdf  technology_library DFL1sdf symbolic diff licon1 600.0)
-;  ( DFL1sd  technology_library DFL1sd symbolic diff licon1 600.0)
-;  ( hvDFM1sd2  technology_library hvDFM1sd2 symbolic diff licon1 0.0)
-;  ( DFM1sd2  technology_library DFM1sd2 symbolic diff licon1 0.0)
-;  ( DFM1sd  technology_library DFM1sd symbolic diff licon1 0.0)
-;  ( TPM1s  technology_library TPM1s symbolic tap licon1 0.0)
-;  ( hvDFM1sd  technology_library hvDFM1sd symbolic diff licon1 0.0)
-;  ( hvDFTPM1s2  technology_library hvDFTPM1s2 symbolic diff licon1 600.0)
-;  ( hvDFTPL1s2  technology_library hvDFTPL1s2 symbolic diff licon1 600.0)
-;  ( DFTPM1s2  technology_library DFTPM1s2 symbolic diff licon1 600.0)
-;  ( DFTPL1s2  technology_library DFTPL1s2 symbolic diff licon1 600.0)
-;  ( hvDFTPL1s  technology_library hvDFTPL1s symbolic diff licon1 600.0)
-;  ( hvDFTPM1s  technology_library hvDFTPM1s symbolic diff licon1 0.0)
-;  ( DFTPM1sw  technology_library DFTPM1sw symbolic diff licon1 0.0)
-;  ( DFTPM1s  technology_library DFTPM1s symbolic diff licon1 0.0)
-;  ( DFTPL1sw  technology_library DFTPL1sw symbolic diff licon1 600.0)
-;  ( DFTPL1s  technology_library DFTPL1s symbolic diff licon1 600.0)
-;  ( hvDFTPM1s2enh  technology_library hvDFTPM1s2enh symbolic diff licon1 0.0)
-;  ( DFTPM1s2enh  technology_library DFTPM1s2enh symbolic diff licon1 0.0)
-;  ( HRPoly_5p73_L1M1con  technology_library HRPoly_5p73_L1M1con symbolic mcon li1 0.0)
-;  ( HRPoly_5p73_RPL1con  technology_library HRPoly_5p73_RPL1con symbolic poly licon1 0.0)
-;  ( HRPoly_2p85_L1M1con  technology_library HRPoly_2p85_L1M1con symbolic mcon li1 0.0)
-;  ( HRPoly_2p85_RPL1con  technology_library HRPoly_2p85_RPL1con symbolic poly licon1 0.0)
-;  ( HRPoly_1p41_L1M1con  technology_library HRPoly_1p41_L1M1con symbolic mcon li1 0.0)
-;  ( HRPoly_1p41_RPL1con  technology_library HRPoly_1p41_RPL1con symbolic poly licon1 0.0)
-;  ( HRPoly_0p69_L1M1con  technology_library HRPoly_0p69_L1M1con symbolic mcon li1 0.0)
-;  ( HRPoly_0p69_RPL1con  technology_library HRPoly_0p69_RPL1con symbolic poly licon1 0.0)
-;  ( HRPoly_0p35_L1M1con  technology_library HRPoly_0p35_L1M1con symbolic mcon li1 0.0)
-;  ( HRPoly_0p35_RPL1con  technology_library HRPoly_0p35_RPL1con symbolic poly licon1 0.0)
-;  ( FUSE_M3M4  technology_library FUSE_M3M4 symbolic met3 met4 0.0)
-;  ( M4M5sq  technology_library M4M5sq symbolic met4 met5 0.38)
-;  ( M3M4sq  technology_library M3M4sq symbolic met3 met4 3.41)
-;  ( M2M3sq  technology_library M2M3sq symbolic met2 met3 3.41)
-;  ( M4M5  technology_library M4M5 symbolic met4 met5 0.0)
-;  ( M3M4  technology_library M3M4 symbolic met3 met4 0.38)
-;  ( M2M3  technology_library M2M3 symbolic met2 met3 3.41)
-;  ( M1M2sq  technology_library M1M2sq symbolic met1 met2 0.0)
-;  ( M1M2  technology_library M1M2 symbolic met1 met2 0.0)
-;  ( L1M1sq  technology_library L1M1sq symbolic mcon li1 0.0)
-;  ( L1M1  technology_library L1M1 symbolic mcon li1 0.0)
-;  ( PYL1sq  technology_library PYL1sq symbolic poly npc 0.0)
-;  ( PYL1  technology_library PYL1 symbolic poly npc 0.0)
-;  ( DFL1sq  technology_library DFL1sq symbolic diff licon1 0.0)
-;  ( DFL1  technology_library DFL1 symbolic diff licon1 0.0)
-;  ( TPL1_fence  technology_library TPL1_fence symbolic tap licon1 0.0)
-;  ( TPL1sq  technology_library TPL1sq symbolic tap licon1 0.0)
-;  ( TPL1  technology_library TPL1 symbolic tap licon1 0.0)
-;  ( TPL1a  technology_library TPL1a symbolic tap licon1 0.0)
-;  ( TPL1cen  technology_library TPL1cen symbolic tap licon1 0.0)
-;  ( L1M2  technology_library L1M2 symbolic mcon li1 0.0)
-;  ( PYM1  technology_library PYM1 symbolic poly npc 0.0)
-;  ( M5RDLlg_atlas  technology_library M5RDLlg_atlas symbolic pad rdl 0.0)
-;  ( M5RDL  technology_library M5RDL symbolic pad rdl 0.0)
-;  ( TPM1  technology_library TPM1 symbolic tap licon1 0.0)
-;  ( DFM1  technology_library DFM1 symbolic diff licon1 0.0)
-;  ( PYM2butt_varactor  technology_library PYM2butt_varactor symbolic poly npc 0.0)
-;  ( PYM1butt_varactor  technology_library PYM1butt_varactor symbolic poly npc 0.0)
-;  ( PYM2_varactor  technology_library PYM2_varactor symbolic poly npc 0.0)
-;  ( PYM1_varactor  technology_library PYM1_varactor symbolic poly npc 0.0)
-;  ( TPM2sd_varactor  technology_library TPM2sd_varactor symbolic nwell licon1 0.0)
-;  ( TPM1sd_varactor  technology_library TPM1sd_varactor symbolic nwell licon1 0.0)
+;  ( ruleVia4   sky130_cds ruleVia4   symbolic   met4       met5       0.38)
+;  ( ruleVia3   sky130_cds ruleVia3   symbolic   met3       met4       3.41)
+;  ( ruleVia2   sky130_cds ruleVia2   symbolic   met2       met3       3.41)
+;  ( ruleVia1   sky130_cds ruleVia1   symbolic   met1       met2       4.5)
+;  ( ruleVia    sky130_cds ruleVia    symbolic   met1       met2       4.5)
  ) ;customViaDefs
-
- cdsGenViaDefs(
-; (t_viaDefName
-;   (layers
-;    ** Base Layers **
-;     (layer1 tx_layer1)
-;     (layer2 tx_layer2)
-;     (cutLayer tx_cutLayer)
-;   )
-;   [(extraLayers
-;    ** Extra Layers ** 
-;     [(layer1ExtraLayers l_extraLayers)]
-;     [(layer2ExtraLayers l_extraLayers)]
-;     [(cutExtraLayers l_extraLayers)]
-;   )]
-;   [(parameters
-;    ** Other Default Parameters **
-;     [(layer1Purpose tx_purpose)]
-;     [(layer1Enc l_enc)]
-;     [(layer2Purpose tx_purpose)]
-;     [(layer2Enc l_enc)]
-;     [(cutPurpose tx_purpose)]
-;     [(cutWidth x_width)]
-;     [(cutHeight x_width)]
-;     [(cutSpacing x_spacingX x_spacingY)]
-;     [(cutRow x_cutRows)]
-;     [(cutColumns x_cutColumns)]
-;     [(cutPattern t_pattern)]
-;     [(alignment t_alignment)]
-;     [(originOffset l_originOffset)]
-;     [(layer1ExtraParams l_extraLayerParams)]
-;     [(layer2ExtraParams l_extraLayerParams)]
-;     [(cutLayerExtraParams l_extraLayerParams)]
-;     [(cutArraySpacing x_dX x_dY)]
-;     [(cutArrayPatternX l_cutArrayPattern)]
-;     [(cutArrayPatternY l_cutArrayPattern)]
-;     [(version x_version)]
-;   )]
-; )
-; ( -------------------------------------------------------------------------- )
- ) ;cdsGenViaDefs
-
- standardViaVariants(
- ;( viaVariantName viaDefName (cutLayer cutWidth cutHeight) 
- ;   (cutRows	cutCol	(cutSpace)) 
- ;   (layer1Enc) (layer2Enc)	(layer1Offset)	(layer2Offset)	(origOffset) 
- ;   (implant1Enc) (implant2Enc) (cut_pattern) ) 
- ;( -------------------------------------------------------------------------- ) 
- ) ;standardViaVariants
-
- customViaVariants(
- ;(viaVariantName viaDefName (paramName paramValue) ...)
- ;( -------------------------------------------------------------------------- )
- ) ;customViaVariants
 
 ) ;viaDefs
 
@@ -1496,17 +1353,11 @@ constraintGroups(
 
  ;( group	[override]	[definition]	[operator] )
  ;( -----	----------	------------	---------- )
-  ( "default"	nil
-  ) ;default
-
- ; Adding for VirtuosoXL (bdj 20180324)
- ;( group	[override]	[definition]	[operator] )
- ;( -----	----------	------------	---------- )
   ( "virtuosoDefaultSetup"	nil
 
     interconnect(
      ( validLayers   (poly  li1  met1  met2  met3  met4  met5  ) )
-     ( validVias     (TPL1_C PYL1_C L1M1_C M1M2_C  M2M3_C  M3M4_C  M4M5_C  ) )
+     ( validVias     (TPL1_C  PYL1_C  L1M1_C  M1M2_C  M2M3_C  M3M4_C  M4M5_C  ) )
     ) ;interconnect
 
     spacings(
@@ -1531,10 +1382,9 @@ constraintGroups(
  ;( -----	----------	------------	---------- )
   ( "foundry"	nil
 
-    ; adding for LayoutXL (bdj 20180324)
     interconnect(
      ( validLayers   (poly  li1  met1  met2  met3  met4  met5  ) )
-     ( validVias     (TPL1_C PYL1_C L1M1_C M1M2_C  M2M3_C  M3M4_C  M4M5_C  ) )
+     ( validVias     (TPL1_C  PYL1_C  L1M1_C  M1M2_C  M2M3_C  M3M4_C  M4M5_C  ) )
     ) ;interconnect
 
     orderedSpacings(
@@ -1550,8 +1400,8 @@ constraintGroups(
      ( minExtensionDistance       "met2"	"via"		0.085 )
      ( minExtensionDistance       "met1"	"via"		0.085 )
      ( minExtensionDistance       "met1"	"mcon"		0.06 )
-     ( minExtensionDistance       ("cap2m" "drawing")   ("via4" "drawing")      0.2 )
-     ( minExtensionDistance       ("capm" "drawing")    ("via3" "drawing")      0.14 )
+     ( minExtensionDistance       ("cap2m" "drawing")	("via4" "drawing")		0.2 )
+     ( minExtensionDistance       ("capm" "drawing")	("via3" "drawing")		0.14 )
      ( minExtensionDistance       "nwell"	"capacitor"		1.5 )
      ( minExtensionDistance       "li1"	"mcon"		0.0 )
      ( minExtensionDistance       "npc"	"licon1"		0.1 )
@@ -1596,8 +1446,8 @@ constraintGroups(
      ( minWidth                   "diff"	0.15 )
      ( minWidth                   "nwell"	0.84 )
      ( minWidth                   "dnwell"	3.0 )
-     ( minWidth                   ("cap2m" "drawing")   2.0 )
-     ( minWidth                   ("capm" "drawing")    2.0 )
+     ( minWidth                   ("cap2m" "drawing")	2.0 )
+     ( minWidth                   ("capm" "drawing")	2.0 )
      ( minArea                    "met4"	0.24 )
      ( minArea                    "met3"	0.24 )
      ( minArea                    "met2"	0.0676 )
@@ -1617,8 +1467,8 @@ constraintGroups(
      ( minSpacing                 "hvtp"	0.38 )
      ( minSpacing                 "ncm"	0.38 )
      ( minSpacing                 "pad"	1.27 )
-     ( minSpacing                 ("cap2m" "drawing")   0.84 )
-     ( minSpacing                 ("capm" "drawing")    0.84 )
+     ( minSpacing                 ("cap2m" "drawing")	0.84 )
+     ( minSpacing                 ("capm" "drawing")	0.84 )
      ( minSpacing                 "nsm"	4.0 )
      ( minSpacing                 "via"	0.17 )
      ( minSpacing                 "mcon"	0.19 )
@@ -1688,10 +1538,10 @@ constraintGroups(
          )
      )
      ( minStubInfluenceSpacing   "met1"	
-	(( "width"   nil  nil 	 "distance"   nil   nil  )	 )
-	(
-	   (3.005     	0.28      )	0.28      
-	)
+	(( "width" nil nil "distance" nil nil )	 )
+         (
+            (3.005      0.28      )	0.28      
+         )
      )
      ( minSpacing                "met2"	
 	(( "width" nil nil )	0.14 )
@@ -1701,10 +1551,10 @@ constraintGroups(
          )
      )
      ( minStubInfluenceSpacing   "met2"	
-	(( "width"   nil  nil 	 "distance"   nil   nil  )	 )
-	(
-	   (3.005     	0.28      )	0.28      
-	)
+	(( "width" nil nil "distance" nil nil )	 )
+         (
+            (3.005      0.28      )	0.28      
+         )
      )
      ( minSpacing                "met3"	
 	(( "width" nil nil )	0.3 )
@@ -1714,10 +1564,10 @@ constraintGroups(
          )
      )
      ( minStubInfluenceSpacing   "met3"	
-	(( "width"   nil  nil 	 "distance"   nil   nil  )	 )
-	(
-	   (3.005     	0.4       )	0.4       
-	)
+	(( "width" nil nil "distance" nil nil )	 )
+         (
+            (3.005      0.4       )	0.4       
+         )
      )
      ( minSpacing                "met4"	
 	(( "width" nil nil )	0.3 )
@@ -1727,10 +1577,10 @@ constraintGroups(
          )
      )
      ( minStubInfluenceSpacing   "met4"	
-	(( "width"   nil  nil 	 "distance"   nil   nil  )	 )
-	(
-	   (3.005     	0.4       )	0.4       
-	)
+	(( "width" nil nil "distance" nil nil )	 )
+         (
+            (3.005      0.4       )	0.4       
+         )
      )
     ) ;spacingTables
 
@@ -1914,9 +1764,9 @@ constraintGroups(
 ;********************************
 ; DEVICES
 ;********************************
-
 devices(
 tcCreateCDSDeviceClass()
+
 
 
 ruleContactDevice(
@@ -1981,72 +1831,15 @@ ruleContactDevice(
   )
 )
 
-;
-; no syEnhancement devices
-;
-
-;
-; no syDepletion devices
-;
-
-symContactDevice(
-; (name viaLayer viaPurpose layer1 purpose1 layer2 purpose2
-;  w l (row column xPitch yPitch xBias yBias) encByLayer1 encByLayer2 legalRegion)
-  (TPL1_C licon1 drawing li1 drawing tap drawing
-  0.17 0.17 (1 1 0.34 0.34 center center) 0.08 0.12 _NA_)
-
-  (PYL1_C licon1 drawing poly drawing li1 drawing (npc drawing 0.02)
-  0.17 0.17 (1 1 0.34 0.34 center center) 0.08 0.08 _NA_)
-
-  (L1M1_C mcon drawing met1 drawing li1 drawing
-  0.17 0.17 (1 1 0.36 0.36 center center) 0.06 0 _NA_)
-
-  (M1M2_C via drawing met2 drawing met1 drawing
-  0.15 0.15 (1 1 0.32 0.32 center center) 0.085 0.085 _NA_)
-
-  (M2M3_C via2 drawing met3 drawing met2 drawing
-  0.2 0.2 (1 1 0.4 0.4 center center) 0.065 0.085 _NA_)
-
-  (M3M4_C via3 drawing met4 drawing met3 drawing
-  0.2 0.2 (1 1 0.4 0.4 center center) 0.065 0.09 _NA_)
-
-  (M4M5_C via4 drawing met5 drawing met4 drawing
-  0.8 0.8 (1 1 1.6 1.6 center center) 0.31 0.19 _NA_)
-)
-
 tfcDefineDeviceProp(
 ; (viewName        deviceName        propName          propValue)
-  (symbolic        TPL1_C            res               600.000000)
-  (symbolic        PYL1_C            res               145.280000)
-  (symbolic        L1M1_C            res               9.300000)
-  (symbolic        M1M2_C            res               4.500000)
-  (symbolic        M2M3_C            res               3.410000)
-  (symbolic        M3M4_C            res               3.410000)
-  (symbolic        M4M5_C            res               0.380000)
+  (symbolic        ruleVia           res               4.500000)
+  (symbolic        ruleVia1          res               4.500000)
+  (symbolic        ruleVia2          res               3.410000)
+  (symbolic        ruleVia3          res               3.410000)
+  (symbolic        ruleVia4          res               0.380000)
 )
 
-;
-; no cdsVia devices
-;
-
-;
-; no cdsMos devices
-;
-
-symPinDevice(
-; (name maskable layer1 purpose1 w1 layer2 purpose2 w2 legalRegion)
-  (PY_T t poly drawing 0.15 _NA_ _NA_ _NA_ _NA_)
-  (L1_T t li1 drawing 0.17 _NA_ _NA_ _NA_ _NA_)
-  (M1_T t met1 drawing 0.14 _NA_ _NA_ _NA_ _NA_)
-  (M2_T t met2 drawing 0.14 _NA_ _NA_ _NA_ _NA_)
-  (M1M2_T t met1 drawing 0.14 met2 drawing 0.14 _NA_)
-  (M3_T t met3 drawing 0.3 _NA_ _NA_ _NA_ _NA_)
-  (M2M3_T t met2 drawing 0.14 met3 drawing 0.3 _NA_)
-  (M4_T t met4 drawing 0.3 _NA_ _NA_ _NA_ _NA_)
-  (M3M4_T t met3 drawing 0.3 met4 drawing 0.3 _NA_)
-  (M5_T t met5 drawing 1.6 _NA_ _NA_ _NA_ _NA_)
-  (M4M5_T t met4 drawing 0.3 met5 drawing 1.6 _NA_)
-)
 
 multipartPathTemplates(
 ; ( name [masterPath] [offsetSubpaths] [encSubPaths] [subRects] )
@@ -2170,66 +1963,8 @@ multipartPathTemplates(
     )
   )
 )  ;multipartPathTemplates
-;
-; no syRectPin devices
-;
 
-;
-; Opus Symbolic Device Class Definitions removed
-;
 
-;
-; Opus Symbolic Device Declarations removed
-;
 
 
 ) ;devices
-
-
-
-;********************************
-; LE RULES
-;********************************
-leRules(
-
- leLswLayers(
- ;( layer               purpose         )
- ;( -----               -------         )
- ) ;leLswLayers
-
-) ;leRules
-
-
-;********************************
-; SITEDEFS
-;********************************
-siteDefs(
-
- scalarSiteDefs(
- ;( siteDefName          type width  height  symInX symInY symInR90)
- ;( -----------          ---- -----  ------  ------ ------ -------)
- ) ;scalarSiteDefs
-
- arraySiteDefs(
- ; ( name	type
- ;  ((siteDefName     dx      dy      orientation) ...)
- ;   [symX] [symY] [symR90] )
-
- ) ;arraySiteDefs
-
-) ;siteDefs
-
-
-;********************************
-; VIASPECS
-;********************************
-
-viaSpecs(
- ;(layer1  layer2  (viaDefName ...) 
- ;   [(        
- ;	(layer1MinWidth layer1MaxWidth layer2MinWidth layer2MaxWidth 
- ;            (viaDefName ...)) 
- ;	...         
- ;   )])       
- ;( ------------------------------------------------------------------------ ) 
-) ;viaSpecs
