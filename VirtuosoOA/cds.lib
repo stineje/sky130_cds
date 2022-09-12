@@ -7,3 +7,4 @@ DEFINE sky130 ./sky130
 DEFINE sky130_osu_sc_t18 /home/jstine/Desktop/sky130_cds/VirtuosoOA/sky130_osu_sc_t18
 DEFINE sky130_osu_sc_t12 /home/jstine/Desktop/sky130_cds/VirtuosoOA/sky130_osu_sc_t12
 DEFINE sky130_osu_sc_t15 /home/jstine/Desktop/sky130_cds/VirtuosoOA/sky130_osu_sc_t15
+DEFINE sample /home/jstine/Desktop/sky130_cds/VirtuosoOA/sample

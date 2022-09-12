@@ -1,0 +1,23 @@
+===================
+Spice In Log File
+===================
+Parameter file: /tmp/spiceInPo90791
+Import Parameters:
+	Netlist file name: /home/jstine/Desktop/inv.sp
+	Output library name: sample
+	Output View Type: schematic
+	Schematic view name: schematic
+	Netlist view name: netlist_tmp
+	Reference Library List: sky130 sample 
+	Device-mapping not enabled.
+	Master Cell for Ground: gnd
+	Schematic Generation parameter file: /tmp/schOpts_spiceInPo90791
+	Simulator: auCdl
+	Output Simulator: spectre
+	paramCaseValue: default
+	Parser: ASSURA
+	Language: CDL
+WARNING (SPICEIN-99): 'Import Subcircuit List' is not found in the specification, hence setting it to
+default empty value and importing all sub-circuits in the netlist.
+ERROR (SPICEIN-102): Spice In failed to parse the cdl netlist file '/home/jstine/Desktop/inv.sp'. You may read log file 'lvsrpt.wrn'
+for details.
