@@ -1,6 +1,6 @@
-; Technology File technology_library
-; Generated on Feb 12 16:50:28 2018
-;     with @(#)$CDS: virtuoso version 6.1.7-64b 10/06/2017 20:26 (sjfhw305) $
+; Technology File sky130
+
+
 
 
 ;********************************
