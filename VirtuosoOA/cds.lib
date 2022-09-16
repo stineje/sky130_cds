@@ -9,3 +9,4 @@ DEFINE sky130_osu_sc_t12 ./sky130_osu_sc_t12
 DEFINE sky130_osu_sc_t15 ./sky130_osu_sc_t15
 
 
+DEFINE test_sky130 /home/rerra/sky130_cds/VirtuosoOA/test_sky130
