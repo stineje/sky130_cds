@@ -1236,7 +1236,6 @@ layerRules(
   ( met4                     	"metal"      15)
   ( via4                     	"cut"        16)
   ( met5                     	"metal"      17)
-;  ( pad                      	"cut"        )
   ( rdl                      	"metal"      18)
  ) ;functions
 
