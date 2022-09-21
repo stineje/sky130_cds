@@ -5,7 +5,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 setShellEnvVar("PDK_HOME=$HOME/sky130_cds")
-setShellEnvVar("CDS_DISABLE_USER_DEFINED_CST_REPORT=1")
 envSetVal("layout" "xSnapSpacing" 'float 0.005)
 envSetVal("layout" "ySnapSpacing" 'float 0.005)
 setShellEnvVar("CDS_Netlisting_Mode=Analog")
