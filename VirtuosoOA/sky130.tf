@@ -1946,41 +1946,6 @@ ruleContactDevice(
 ; no syDepletion devices
 ;
 
-symContactDevice(
-; (name viaLayer viaPurpose layer1 purpose1 layer2 purpose2
-;  w l (row column xPitch yPitch xBias yBias) encByLayer1 encByLayer2 legalRegion)
-  (TPL1_C licon1 drawing li1 drawing tap drawing
-  0.17 0.17 (1 1 0.34 0.34 center center) 0.08 0.12 _NA_)
-
-  (PYL1_C licon1 drawing poly drawing li1 drawing (npc drawing 0.02)
-  0.17 0.17 (1 1 0.34 0.34 center center) 0.08 0.08 _NA_)
-
-  (L1M1_C mcon drawing met1 drawing li1 drawing
-  0.17 0.17 (1 1 0.36 0.36 center center) 0.06 0 _NA_)
-
-  (M1M2_C via drawing met2 drawing met1 drawing
-  0.15 0.15 (1 1 0.32 0.32 center center) 0.085 0.085 _NA_)
-
-  (M2M3_C via2 drawing met3 drawing met2 drawing
-  0.2 0.2 (1 1 0.4 0.4 center center) 0.065 0.085 _NA_)
-
-  (M3M4_C via3 drawing met4 drawing met3 drawing
-  0.2 0.2 (1 1 0.4 0.4 center center) 0.065 0.09 _NA_)
-
-  (M4M5_C via4 drawing met5 drawing met4 drawing
-  0.8 0.8 (1 1 1.6 1.6 center center) 0.31 0.19 _NA_)
-)
-
-tfcDefineDeviceProp(
-; (viewName        deviceName        propName          propValue)
-  (symbolic        TPL1_C            res               600.000000)
-  (symbolic        PYL1_C            res               145.280000)
-  (symbolic        L1M1_C            res               9.300000)
-  (symbolic        M1M2_C            res               4.500000)
-  (symbolic        M2M3_C            res               3.410000)
-  (symbolic        M3M4_C            res               3.410000)
-  (symbolic        M4M5_C            res               0.380000)
-)
 
 ;
 ; no cdsVia devices
@@ -1990,20 +1955,6 @@ tfcDefineDeviceProp(
 ; no cdsMos devices
 ;
 
-symPinDevice(
-; (name maskable layer1 purpose1 w1 layer2 purpose2 w2 legalRegion)
-  (PY_T t poly drawing 0.15 _NA_ _NA_ _NA_ _NA_)
-  (L1_T t li1 drawing 0.17 _NA_ _NA_ _NA_ _NA_)
-  (M1_T t met1 drawing 0.14 _NA_ _NA_ _NA_ _NA_)
-  (M2_T t met2 drawing 0.14 _NA_ _NA_ _NA_ _NA_)
-  (M1M2_T t met1 drawing 0.14 met2 drawing 0.14 _NA_)
-  (M3_T t met3 drawing 0.3 _NA_ _NA_ _NA_ _NA_)
-  (M2M3_T t met2 drawing 0.14 met3 drawing 0.3 _NA_)
-  (M4_T t met4 drawing 0.3 _NA_ _NA_ _NA_ _NA_)
-  (M3M4_T t met3 drawing 0.3 met4 drawing 0.3 _NA_)
-  (M5_T t met5 drawing 1.6 _NA_ _NA_ _NA_ _NA_)
-  (M4M5_T t met4 drawing 0.3 met5 drawing 1.6 _NA_)
-)
 
 multipartPathTemplates(
 ; ( name [masterPath] [offsetSubpaths] [encSubPaths] [subRects] )
