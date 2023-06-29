@@ -1,0 +1,73 @@
+* File: sky130_osu_sc_15T_hs__tielo.pex.spice
+* Created: Fri Nov 12 14:33:38 2021
+* Program "Calibre xRC"
+* Version "v2021.2_28.15"
+* Nominal Temperature: 27C
+* Circuit Temperature: 27C
+* 
+.subckt PM_SKY130_OSU_SC_15T_HS__TIELO%GND 1 11 15 24 27
+r10 24 27 0.0066304 $w=9.9e-07 $l=5e-08 $layer=MET1_cond $X=0.495 $Y=0.19
++ $X2=0.495 $Y2=0.24
+r11 13 15 36.5348 $w=1.68e-07 $l=5.6e-07 $layer=LI1_cond $X=0.26 $Y=0.305
++ $X2=0.26 $Y2=0.865
+r12 11 24 9.3 $w=1.7e-07 $l=1.7e-07 $layer=mcon $count=1 $X=0.34 $Y=0.19
++ $X2=0.34 $Y2=0.19
+r13 11 13 4.39984 $w=1.7e-07 $l=1.92023e-07 $layer=LI1_cond $X=0.172 $Y=0.152
++ $X2=0.26 $Y2=0.305
+r14 1 15 182 $w=1.7e-07 $l=3.46915e-07 $layer=licon1_NDIFF $count=1 $X=0.135
++ $Y=0.575 $X2=0.26 $Y2=0.865
+.ends
+
+.subckt PM_SKY130_OSU_SC_15T_HS__TIELO%VDD 1 9 13 20 23
+r7 23 26 0.0066304 $w=9.9e-07 $l=5e-08 $layer=MET1_cond $X=0.495 $Y=5.31
++ $X2=0.495 $Y2=5.36
+r8 20 26 9.3 $w=1.7e-07 $l=1.7e-07 $layer=mcon $count=1 $X=0.34 $Y=5.36 $X2=0.34
++ $Y2=5.36
+r9 13 16 88.7273 $w=1.68e-07 $l=1.36e-06 $layer=LI1_cond $X=0.26 $Y=3.205
++ $X2=0.26 $Y2=4.565
+r10 11 20 4.3922 $w=1.7e-07 $l=1.90997e-07 $layer=LI1_cond $X=0.26 $Y=5.245
++ $X2=0.172 $Y2=5.397
+r11 11 16 44.3636 $w=1.68e-07 $l=6.8e-07 $layer=LI1_cond $X=0.26 $Y=5.245
++ $X2=0.26 $Y2=4.565
+r12 9 20 182 $w=1.7e-07 $l=2.43824e-07 $layer=licon1_NTAP_notbjt $count=1
++ $X=0.135 $Y=5.245 $X2=0.34 $Y2=5.33
+r13 1 16 240 $w=1.7e-07 $l=1.80142e-06 $layer=licon1_PDIFF $count=2 $X=0.135
++ $Y=2.825 $X2=0.26 $Y2=4.565
+r14 1 13 240 $w=1.7e-07 $l=4.38064e-07 $layer=licon1_PDIFF $count=2 $X=0.135
++ $Y=2.825 $X2=0.26 $Y2=3.205
+.ends
+
+.subckt PM_SKY130_OSU_SC_15T_HS__TIELO%A_80_89# 1 7 11 14 19 26
+r20 24 26 10.1123 $w=1.68e-07 $l=1.55e-07 $layer=LI1_cond $X=0.535 $Y=2.4
++ $X2=0.69 $Y2=2.4
+r21 19 21 88.7273 $w=1.68e-07 $l=1.36e-06 $layer=LI1_cond $X=0.69 $Y=3.205
++ $X2=0.69 $Y2=4.565
+r22 17 26 0.716491 $w=1.7e-07 $l=8.5e-08 $layer=LI1_cond $X=0.69 $Y=2.485
++ $X2=0.69 $Y2=2.4
+r23 17 19 46.9733 $w=1.68e-07 $l=7.2e-07 $layer=LI1_cond $X=0.69 $Y=2.485
++ $X2=0.69 $Y2=3.205
+r24 14 24 145.28 $w=1.7e-07 $l=1.7e-07 $layer=licon1_POLY $count=1 $X=0.535
++ $Y=2.4 $X2=0.535 $Y2=2.4
+r25 14 16 48.4159 $w=2.7e-07 $l=1.65e-07 $layer=POLY_cond $X=0.535 $Y=2.4
++ $X2=0.535 $Y2=2.565
+r26 14 15 48.4159 $w=2.7e-07 $l=1.65e-07 $layer=POLY_cond $X=0.535 $Y=2.4
++ $X2=0.535 $Y2=2.235
+r27 11 16 646.085 $w=1.5e-07 $l=1.26e-06 $layer=POLY_cond $X=0.475 $Y=3.825
++ $X2=0.475 $Y2=2.565
+r28 7 15 687.106 $w=1.5e-07 $l=1.34e-06 $layer=POLY_cond $X=0.475 $Y=0.895
++ $X2=0.475 $Y2=2.235
+r29 1 21 240 $w=1.7e-07 $l=1.80865e-06 $layer=licon1_PDIFF $count=2 $X=0.55
++ $Y=2.825 $X2=0.69 $Y2=4.565
+r30 1 19 240 $w=1.7e-07 $l=4.44522e-07 $layer=licon1_PDIFF $count=2 $X=0.55
++ $Y=2.825 $X2=0.69 $Y2=3.205
+.ends
+
+.subckt PM_SKY130_OSU_SC_15T_HS__TIELO%Y 1 6 12
+r9 9 12 9.3 $w=1.7e-07 $l=1.7e-07 $layer=mcon $count=1 $X=0.69 $Y=1.59 $X2=0.69
++ $Y2=1.59
+r10 6 9 47.2995 $w=1.68e-07 $l=7.25e-07 $layer=LI1_cond $X=0.69 $Y=0.865
++ $X2=0.69 $Y2=1.59
+r11 1 6 182 $w=1.7e-07 $l=3.53129e-07 $layer=licon1_NDIFF $count=1 $X=0.55
++ $Y=0.575 $X2=0.69 $Y2=0.865
+.ends
+
