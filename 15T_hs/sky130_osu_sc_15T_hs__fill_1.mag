@@ -1,0 +1,24 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1604007753
+<< checkpaint >>
+rect -1274 2461 1301 2601
+rect -1760 -1129 6260 2461
+rect -1274 -1260 1301 -1129
+<< error_p >>
+rect 0 1271 34 1332
+rect 41 581 154 1341
+rect 0 0 34 61
+<< nwell >>
+rect -14 529 41 1119
+<< locali >>
+rect 0 1049 22 1110
+rect 0 0 22 61
+<< metal1 >>
+rect 0 1049 22 1110
+rect 0 0 22 61
+<< labels >>
+rlabel metal1 11 28 11 28 1 gnd
+rlabel metal1 11 1077 11 1077 1 vdd
+<< end >>
