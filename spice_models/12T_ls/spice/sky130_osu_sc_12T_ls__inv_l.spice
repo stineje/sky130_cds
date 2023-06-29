@@ -1,0 +1,27 @@
+* File: sky130_osu_sc_12T_ls__inv_l.spice
+* Created: Fri Nov 12 15:38:22 2021
+* Program "Calibre xRC"
+* Version "v2021.2_28.15"
+* 
+.include "sky130_osu_sc_12T_ls__inv_l.pex.spice"
+.subckt sky130_osu_sc_12T_ls__inv_l  GND VDD A Y
+* 
+* Y	Y
+* A	A
+* VDD	VDD
+* GND	GND
+MM1000 N_Y_M1000_d N_A_M1000_g N_GND_M1000_s N_GND_M1000_b NSHORT L=0.15 W=0.36
++ AD=0.0954 AS=0.0954 PD=1.25 PS=1.25 NRD=0 NRS=0 M=1 R=2.4 SA=75000.2
++ SB=75000.2 A=0.054 P=1.02 MULT=1
+MM1001 N_Y_M1001_d N_A_M1001_g N_VDD_M1001_s N_VDD_M1001_b PHIGHVT L=0.15 W=0.84
++ AD=0.2226 AS=0.2226 PD=2.21 PS=2.21 NRD=0 NRS=0 M=1 R=5.6 SA=75000.2
++ SB=75000.2 A=0.126 P=1.98 MULT=1
+DX2_noxref N_GND_M1000_b N_VDD_M1001_b NWDIODE A=2.132 P=6.18
+pX3_noxref noxref_5 A A PROBETYPE=1
+pX4_noxref noxref_6 Y Y PROBETYPE=1
+*
+.include "sky130_osu_sc_12T_ls__inv_l.pxi.spice"
+*
+.ends
+*
+*
