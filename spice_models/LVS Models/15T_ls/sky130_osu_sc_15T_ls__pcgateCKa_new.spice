@@ -1,0 +1,223 @@
+* SPICE NETLIST
+***************************************
+
+.SUBCKT drainOnly g s d b
+.ENDS
+***************************************
+.SUBCKT condiode pin0 pin1
+.ENDS
+***************************************
+.SUBCKT nvhv pin0 pin1 pin2 pin3
+.ENDS
+***************************************
+.SUBCKT pvhv pin0 pin1 pin2 pin3
+.ENDS
+***************************************
+.SUBCKT xcnwvc pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcnwvc2 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xchvnwc pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT Dpar d0 d1
+.ENDS
+***************************************
+.SUBCKT xcmvpp pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp_2 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp2_nhvnative10x4 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp2_phv5x4 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp_hd5_atlas_fingercap2_l5 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp_hd5_atlas_wafflecap2 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp_hd5_atlas_wafflecap1 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp_hd5_atlas_fingercap_l40 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp_hd5_atlas_fingercap_l20 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp_hd5_atlas_fingercap_l10 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp_hd5_atlas_fingercap_l5 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp_hd5_5x2_met5pullin pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp_hd5_5x2 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp_hd5_5x1_met5pullin pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp_hd5_5x1 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp_hd5_4x2 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp_hd5_4x1 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp_hd5_3x2 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp_hd5_3x1 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp_hd5_2x2 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp_hd5_2x1 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp_hd5_1x2 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp_hd5_1x1 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvppx4_2xnhvnative10x4 pin0 pin1 pin2 pin3
+.ENDS
+***************************************
+.SUBCKT xcmvpp11p5x11p7_polym50p4shield pin0 pin1 pin2 pin3
+.ENDS
+***************************************
+.SUBCKT xcmvpp4p4x4p6_m3_lim5shield pin0 pin1 pin2 pin3
+.ENDS
+***************************************
+.SUBCKT xcmvpp11p5x11p7_m3_lim5shield pin0 pin1 pin2 pin3
+.ENDS
+***************************************
+.SUBCKT xcmvpp8p6x7p9_m3_lim5shield pin0 pin1 pin2 pin3
+.ENDS
+***************************************
+.SUBCKT xcmvpp11p5x11p7_lim5shield pin0 pin1 pin2 pin3
+.ENDS
+***************************************
+.SUBCKT xcmvpp11p5x11p7_polym5shield pin0 pin1 pin2 pin3
+.ENDS
+***************************************
+.SUBCKT xcmvpp11p5x11p7_m5shield pin0 pin1 pin2 pin3
+.ENDS
+***************************************
+.SUBCKT xcmvpp6p8x6p1_lim4shield pin0 pin1 pin2 pin3
+.ENDS
+***************************************
+.SUBCKT xcmvpp6p8x6p1_polym4shield pin0 pin1 pin2 pin3
+.ENDS
+***************************************
+.SUBCKT xcmvpp11p5x11p7_polym4shield pin0 pin1 pin2 pin3
+.ENDS
+***************************************
+.SUBCKT xcmvpp11p5x11p7_m4shield pin0 pin1 pin2 pin3
+.ENDS
+***************************************
+.SUBCKT xcmvpp1p8x1p8 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp4p4x4p6_m3_lishield pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp8p6x7p9_m3_lishield pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp11p5x11p7_m3_lishield pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp11p5x11p7_m3shield c0 c1 b term4
+.ENDS
+***************************************
+.SUBCKT xcmvpp8p6x7p9_m3shield c0 c1 b term4
+.ENDS
+***************************************
+.SUBCKT xcmvpp4p4x4p6_m3shield c0 c1 b term4
+.ENDS
+***************************************
+.SUBCKT xcmvpp1p8x1p8_m3shield c0 c1 b term4
+.ENDS
+***************************************
+.SUBCKT xcmvpp11p5x11p7_m1m4m5shield pin0 pin1 pin2 pin3
+.ENDS
+***************************************
+.SUBCKT xcmvpp11p5x11p7_m1m4 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp11p5x11p7_m1m2 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp4p4x4p6_m1m2 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp5 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp4 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT xcmvpp3 pin0 pin1 pin2
+.ENDS
+***************************************
+.SUBCKT balun pin0 pin1 pin2 pin3 pin4 pin5
+.ENDS
+***************************************
+.SUBCKT ind4 pin0 pin1 pin2 pin3
+.ENDS
+***************************************
+.SUBCKT Probe probe conductor
+.ENDS
+***************************************
+.SUBCKT sky130_osu_sc_15T_ls__pcgateCKa_new
+** N=26 EP=0 IP=0 FDC=33
+M0 6 SE gnd gnd nshort L=0.15 W=0.74 m=1 r=4.93333 a=0.111 p=1.78 mult=1 $X=-900 $Y=575 $D=9
+M1 gnd E 6 gnd nshort L=0.15 W=0.74 m=1 r=4.93333 a=0.111 p=1.78 mult=1 $X=-470 $Y=575 $D=9
+M2 gnd 5 9 gnd nshort L=0.15 W=0.74 m=1 r=4.93333 a=0.111 p=1.78 mult=1 $X=480 $Y=575 $D=9
+M3 18 6 gnd gnd nshort L=0.15 W=0.74 m=1 r=4.93333 a=0.111 p=1.78 mult=1 $X=910 $Y=575 $D=9
+M4 5 8 18 gnd nshort L=0.15 W=0.74 m=1 r=4.93333 a=0.111 p=1.78 mult=1 $X=1270 $Y=575 $D=9
+M5 19 CK 5 gnd nshort L=0.15 W=0.74 m=1 r=4.93333 a=0.111 p=1.78 mult=1 $X=1870 $Y=575 $D=9
+M6 gnd 9 19 gnd nshort L=0.15 W=0.74 m=1 r=4.93333 a=0.111 p=1.78 mult=1 $X=2230 $Y=575 $D=9
+M7 8 CK gnd gnd nshort L=0.15 W=0.74 m=1 r=4.93333 a=0.111 p=1.78 mult=1 $X=2660 $Y=575 $D=9
+M8 gnd 9 10 gnd nshort L=0.15 W=0.74 m=1 r=4.93333 a=0.111 p=1.78 mult=1 $X=3700 $Y=575 $D=9
+M9 Q 10 gnd gnd nshort L=0.15 W=0.74 m=1 r=4.93333 a=0.111 p=1.78 mult=1 $X=4130 $Y=575 $D=9
+M10 20 10 12 gnd nshort L=0.15 W=0.74 m=1 r=4.93333 a=0.111 p=1.78 mult=1 $X=5080 $Y=575 $D=9
+M11 gnd CKa 20 gnd nshort L=0.15 W=0.74 m=1 r=4.93333 a=0.111 p=1.78 mult=1 $X=5440 $Y=575 $D=9
+M12 ECK 12 gnd gnd nshort L=0.15 W=0.74 m=1 r=4.93333 a=0.111 p=1.78 mult=1 $X=5940 $Y=575 $D=9
+M13 13 SE 6 vdd phighvt L=0.15 W=2 m=1 r=13.3333 a=0.3 p=4.3 mult=1 $X=-900 $Y=2825 $D=89
+M14 vdd E 13 vdd phighvt L=0.15 W=2 m=1 r=13.3333 a=0.3 p=4.3 mult=1 $X=-540 $Y=2825 $D=89
+M15 vdd 5 9 vdd phighvt L=0.15 W=2 m=1 r=13.3333 a=0.3 p=4.3 mult=1 $X=480 $Y=2825 $D=89
+M16 14 6 vdd vdd phighvt L=0.15 W=2 m=1 r=13.3333 a=0.3 p=4.3 mult=1 $X=910 $Y=2825 $D=89
+M17 5 CK 14 vdd phighvt L=0.15 W=2 m=1 r=13.3333 a=0.3 p=4.3 mult=1 $X=1270 $Y=2825 $D=89
+M18 15 8 5 vdd phighvt L=0.15 W=2 m=1 r=13.3333 a=0.3 p=4.3 mult=1 $X=1870 $Y=2825 $D=89
+M19 vdd 9 15 vdd phighvt L=0.15 W=2 m=1 r=13.3333 a=0.3 p=4.3 mult=1 $X=2230 $Y=2825 $D=89
+M20 8 CK vdd vdd phighvt L=0.15 W=2 m=1 r=13.3333 a=0.3 p=4.3 mult=1 $X=2660 $Y=2825 $D=89
+M21 vdd 9 10 vdd phighvt L=0.15 W=2 m=1 r=13.3333 a=0.3 p=4.3 mult=1 $X=3700 $Y=2825 $D=89
+M22 Q 10 vdd vdd phighvt L=0.15 W=2 m=1 r=13.3333 a=0.3 p=4.3 mult=1 $X=4130 $Y=2825 $D=89
+M23 12 10 vdd vdd phighvt L=0.15 W=2 m=1 r=13.3333 a=0.3 p=4.3 mult=1 $X=5080 $Y=2825 $D=89
+M24 vdd CKa 12 vdd phighvt L=0.15 W=2 m=1 r=13.3333 a=0.3 p=4.3 mult=1 $X=5510 $Y=2825 $D=89
+M25 ECK 12 vdd vdd phighvt L=0.15 W=2 m=1 r=13.3333 a=0.3 p=4.3 mult=1 $X=5940 $Y=2825 $D=89
+X26 gnd vdd Dpar a=22.2104 p=21.47 m=1 $[nwdiode] $X=-1345 $Y=2645 $D=185
+X27 21 SE Probe probetype=1 $[SE] $X=-657 $Y=2698 $D=289
+X28 22 E Probe probetype=1 $[E] $X=-312 $Y=3073 $D=289
+X29 23 CK Probe probetype=1 $[CK] $X=2868 $Y=1588 $D=289
+X30 24 Q Probe probetype=1 $[Q] $X=4473 $Y=1578 $D=289
+X31 25 CKa Probe probetype=1 $[CKa] $X=5628 $Y=2703 $D=289
+X32 26 ECK Probe probetype=1 $[ECK] $X=6223 $Y=1953 $D=289
+.ENDS
+***************************************
